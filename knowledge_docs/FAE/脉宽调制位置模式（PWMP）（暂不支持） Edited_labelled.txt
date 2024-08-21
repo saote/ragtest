@@ -1,0 +1,151 @@
+脉宽调制位置模式（PWMP）（暂不支持） Edited
+功能简介
+通过脉冲输入接口接收 PWM 信号，驱动器会捕获接收到的 PWM 信号的频率，计算出需要达到的目标位置运行。
+| 用户目标速度（rps）整数 | 基础频率（HZ）用户可以设置 | 用户输入的PWM脉冲频率（HZ） | 转化为内部目标速度（RPM） | 用户设定的编码器分辨率（pulse/n） | 转化为内部目标速度（p/s） |
+| ----------------------------------- | ---------------------------------- | ------------------------------------------- | ----------------------------------------- | --------------------------------------------- | ------------------------------------- |
+| 15                                  | 16                                 | =15*16=240                                  | 900                                       | 4096                                          | 61440                                 |
+
+以上媒体的描述: 这是一张显示ServoStudio软件界面的截图。界面主要分为几个部分：
+
+左侧菜单栏：
+使用向导
+波形展示
+设备控制（当前选中）
+高级分析
+参数设置
+应用功能
+系统设置
+系统复位
+参数保存
+精简模式
+
+恢复出厂
+
+
+顶部标签栏：
+
+航迹规划器
+控制器
+输出功能
+补足功能
+脉冲输出
+指令电流滤波设置
+倍程图
+
+位置误差补偿
+
+
+主要显示区域：
+
+当前模式：PWM控制速度
+图表显示PWM信号的频率和时间关系
+
+PWM相关参数设置（PWM控制基准频率、PWM捕获周期滤波时间等）
+
+
+右侧状态显示：
+
+各种状态指示灯（看尔连接、电机状态、内环位置控制状态、外环位置状态、母线电压、设备温度、设备连接状态、状态字）
+基本模式设置（当前模式、发送、暂停、使能）
+
+模型展示
+
+
+底部控制按钮：
+
+发送、暂停、使能
+
+当前模式、位置当前值、速度当前值、电流当前值等信息显示
+
+
+左下角红色的STOP按钮。
+
+
+界面整体以深色为主，主要用于控制和监测伺服系统的运行状态。
+功能设置
+字典说明
+| 参数名称               | 字典名称                      | 主索引 | 子索引 | 数据类型 | 参数范围 | 读写权限 | 单位                             | 字典指令值含义 |
+| ---------------------- | ----------------------------- | ------ | ------ | -------- | -------- | -------- | -------------------------------- | -------------- |
+| 基础频率               | PWM control speed basic frq   | 0X35A6 | 0      | UNS32    | -        |          | Hz                               |                |
+| PWM 捕获周期滤波时间   | PWM control speed filter time | 0X35A1 | 2      | UNS8     | -        |          | ms                               |                |
+| PWM 捕获周期降低分辨率 | PWM control speed resolution  | 0X35A1 | 3      | UNS8     | -        |          | 二进制位数 2 表示降低 2 位分辨率 |                |
+状态字解析
+通用定义（各个模式都通用）：
+| bit15 | bit14 | bit13 | bit12 | bit11 | bit10 | bit9 | bit8 | bit7 | bit6 | bit5 | bit4 | bit3 | bit2 | bit1 | bit0 |
+| ----- | ----- | ----- | ----- | ----- | ----- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| 0     | 0     | 0     | 0     | 0     | 0     | 1    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    |
+| ms    | ms    | oms   | oms   | ila   | tr    | rm   | ms   | w    | sod  | qs   | ve   | f    | oe   | so   | rtso |
+ms = manufacturer-specific（厂家自定义）
+oms = operation mode specific（模式定义）
+ila = internal limit active（如果 bit11 置 1，则表明触发内部位置限制）
+tr = target reached（如果 bit10 置 1，则表明目标到达）
+rm = remote （远程控制。如果 bit9 置 1，则表示 CANopen 远程控制模式）
+w = warning（如果 bit7 置 1，则表明警告）
+sod = switch on disabled（如果 bit6 置 1，则表明伺服未接通 PWM）
+qs = quick stop（如果 bit5 置 0，则表明急停）
+ve = voltage enabled（如果 bit4 置 1，则表明驱动器已接通电源）
+f = fault（如果 bit3 置 1，则表明处于错误状态）
+oe = operation enabled（如果 bit2 置 1，则表明伺服运行）
+so = switched on（如果 bit1 置 1，则表明伺服已接通 PWM）
+rtso = ready to switch on（如果 bit0 置 1，则表明伺服未准备好）
+状态字 bit0-bit3，bit5，bit6 定义
+| Value(binary)       | State                  |
+| ------------------- | ---------------------- |
+| xxxx xxxx x0xx 0000 | Not ready to switch on |
+| xxxx xxxx x1xx 0000 | Switch on disabled     |
+| xxxx xxxx x01x 0001 | Ready to switch on     |
+| xxxx xxxx x01x 0011 | Switched on            |
+| xxxx xxxx x01x 0111 | Operation enabled      |
+| xxxx xxxx x00x 0111 | Quick stop active      |
+| xxxx xxxx x0xx 1111 | Fault reaction active  |
+| xxxx xxxx x0xx 1000 | Fault                  |
+状态字 Bit10、Bit12、Bit13 定义：
+| Bit | Value | Definition                                                                                      |
+| ------- | --------- | --------------------------------------------------------------------------------------------------- |
+| 10      | 0         | Halt (Bit 8 in controlword) = 0: Target  not reached 控制字 bit8 = 0 时，表示目标位置或者速度未到达 |
+|         |           | Halt (Bit 8 in controlword) = 1: Axis decelerates 控制字 bit8 = 1 时，表示轴减速中                  |
+|         | 1         | Halt (Bit 8 in controlword) = 0: Target  reached 控制字 bit8 = 0 时，表示目标位置或速度已到达       |
+|         |           | Halt (Bit 8 in controlword) = 1: Velocity of axis is 0 控制字 bit8 = 1 时，表示轴速度为 0           |
+| 12      | 0         | Previous setpoint already processed, waiting for new setpoint                                       |
+|         | 1         | Previous setpoint still in process, setpoint overwriting shall be accepted                          |
+| 13      | 0         | No following error                                                                                  |
+|         | 1         | Following error                                                                                     |
+模式下控制字使用（待修改）
+模式动作对应的控制字：
+| 动作    | 驱动器状态                         | 对应控制字 |
+| ----------- | -------------------------------------- | -------------- |
+| 失能        | Switch on disabled->Ready to switch on | 0x06           |
+| 失能-> 使能 | Switch on disabled->Operation  enabled | 0x0F           |
+|             | Ready to switch on->Operation  enabled |                |
+| 使能-> 启动 | Operation enabled->Operation enabled   | 绝对位置：0x3F |
+|             |                                        | 相对位置：0x7F |
+| 使能-> 暂停 | Operation enabled->Operation enabled   | 0x010F         |
+| 使能-> 失能 | Operation enabled->Ready to switch on  | 0x06           |
+|             | Operation enabled->Switch on disabled  | 0x05           |
+| 暂停-> 继续 | Operation enabled->Operation enabled   | 绝对位置：0x3F |
+|             |                                        | 相对位置：0x7F |
+| 暂停-> 失能 | Operation enabled->Ready to switch on  | 0x06           |
+|             | Operation enabled->Switch on disabled  | 0x05           |
+| 故障-> 失能 | Fault->Switch on diabled               | 0x86           |
+模式设置流程（雪燕改）
+
+以上媒体的描述: 这是一张流程图，描述了一个系统的操作流程。流程图中包含多个步骤和决策点，具体内容如下：
+
+检测驱动器当前状态
+查询状态字（"Statusword": "None"）
+准备好启动吗？
+否：发送控制字0x06（{"Controlword": 0x06}）
+是：使能电机
+电机使能已完成？
+否：查询电机状态（{"MotorShowState": "None"}）
+是：绝对位置相对位置
+相对位置
+发送控制字启动（{"Controlword": 0x7F}）
+绝对位置
+发送控制字启动（{"Controlword": 0x3F}）
+过行程保护是否动作？
+是：读取控制字，将控制字第8位清0，并发送
+否：继续运行目标位置
+发送新的目标位置
+
+流程图通过箭头连接各个步骤和决策点，展示了系统在不同条件下的操作路径。

@@ -1,0 +1,45 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d4" for="edge" attr.name="description" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="CLEAR WATER BAY">
+      <data key="d0">LOCATION, TOWN</data>
+      <data key="d1">Clear Water Bay is a quiet little town where Li Ming, Zhang Li, and Wang Hao live</data>
+      <data key="d2">7c8dc1a40d072f7c374c43daf145cdc9</data>
+    </node>
+    <node id="LI MING">
+      <data key="d0">PERSON, TEACHER</data>
+      <data key="d1">Li Ming is a compassionate high school teacher at OneTwoThree Elementary, known for his patience and understanding, and often serves as a confidante for his friends' troubles</data>
+      <data key="d2">7c8dc1a40d072f7c374c43daf145cdc9</data>
+    </node>
+    <node id="ZHANG LI">
+      <data key="d0">PERSON, EVENT ORGANIZER</data>
+      <data key="d1">Zhang Li is a lively community event organizer, always brimming with energy; her enthusiasm and creativity often inspire those around her</data>
+      <data key="d2">7c8dc1a40d072f7c374c43daf145cdc9</data>
+    </node>
+    <node id="WANG HAO">
+      <data key="d0">PERSON, LIBRARIAN</data>
+      <data key="d1">Wang Hao is a reserved librarian, whose extensive knowledge and wisdom earn him great respect among his peers</data>
+      <data key="d2">7c8dc1a40d072f7c374c43daf145cdc9</data>
+    </node>
+    <edge source="LI MING" target="ZHANG LI">
+      <data key="d3">1.0</data>
+      <data key="d4">Li Ming and Zhang Li are friends living in Clear Water Bay</data>
+      <data key="d5">7c8dc1a40d072f7c374c43daf145cdc9</data>
+    </edge>
+    <edge source="LI MING" target="WANG HAO">
+      <data key="d3">1.0</data>
+      <data key="d4">Li Ming and Wang Hao are friends living in Clear Water Bay</data>
+      <data key="d5">7c8dc1a40d072f7c374c43daf145cdc9</data>
+    </edge>
+    <edge source="ZHANG LI" target="WANG HAO">
+      <data key="d3">1.0</data>
+      <data key="d4">Zhang Li and Wang Hao are friends living in Clear Water Bay</data>
+      <data key="d5">7c8dc1a40d072f7c374c43daf145cdc9</data>
+    </edge>
+  </graph>
+</graphml>

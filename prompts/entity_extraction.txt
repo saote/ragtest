@@ -1,0 +1,60 @@
+
+-Goal-
+Given a text document that is potentially relevant to this activity, first identify all entities needed from the text in order to capture the information and ideas in the text.
+Next, report all relationships among the identified entities.
+
+-Steps-
+1. Identify all entities. For each identified entity, extract the following information:
+- entity_name: Name of the entity, capitalized
+- entity_type: Suggest several labels or categories for the entity. The categories should not be specific, but should be as general as possible.
+- entity_description: Comprehensive description of the entity's attributes and activities
+Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>
+
+2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other.
+For each pair of related entities, extract the following information:
+- source_entity: name of the source entity, as identified in step 1
+- target_entity: name of the target entity, as identified in step 1
+- relationship_description: explanation as to why you think the source entity and the target entity are related to each other
+- relationship_strength: a numeric score indicating strength of the relationship between the source entity and target entity
+ Format each relationship as ("relationship"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_description>{tuple_delimiter}<relationship_strength>)
+
+3. Return output in English as a single list of all the entities and relationships identified in steps 1 and 2. Use **{record_delimiter}** as the list delimiter.
+
+4. When finished, output {completion_delimiter}
+
+-Examples-
+######################
+
+Example 1:
+
+text:
+ the app over the last five years. In 2021, Uber introduced a feature that allows riders and drivers to record audio during a trip. The following year, Uber launched a pilot to provide passengers with live help from an ADT safety agent, as well as PIN verifications to ensure passengers are connected to the correct driver.  Rachel Abrams — a sexual assault attorney and partner at law firm Peiffer Wolf Carr Kane Conway & Wise, one of the law firms working on the multidistrict litigation, who filed the petition to consolidate the various actions in federal court — argues the app-based solutions are half-measures that haven’t quelled instances of sexual violence against passengers on the platform. Mandatory in-vehicle cameras in Uber cars is “essential for safety,” she says.  Uber told TechCrunch it cannot comment on pending litigation but said it remains committed to the safety of all users on its platform.  In-vehicle cameras as a deterrent  Abrams cited data from studies of taxis equipped with in
+------------------------
+output:
+("entity"{tuple_delimiter}UBER{tuple_delimiter}COMPANY{tuple_delimiter}Uber is a ride-sharing company that has introduced various safety features over the last five years, including audio recording during trips and live help from ADT safety agents)
+{record_delimiter}
+("entity"{tuple_delimiter}ADT{tuple_delimiter}COMPANY{tuple_delimiter}ADT is a company that provides safety and security services, including live help to Uber passengers)
+{record_delimiter}
+("entity"{tuple_delimiter}RACHEL ABRAMS{tuple_delimiter}PERSON{tuple_delimiter}Rachel Abrams is a sexual assault attorney and partner at Peiffer Wolf Carr Kane Conway & Wise, a law firm involved in multidistrict litigation against Uber)
+{record_delimiter}
+("entity"{tuple_delimiter}PEIFFER WOLF CARR KANE CONWAY & WISE{tuple_delimiter}ORGANIZATION, LAW FIRM{tuple_delimiter}Peiffer Wolf Carr Kane Conway & Wise is a law firm working on multidistrict litigation against Uber for instances of sexual violence on the platform)
+{record_delimiter}
+("entity"{tuple_delimiter}IN-VEHICLE CAMERAS{tuple_delimiter}TECHNOLOGY{tuple_delimiter}In-vehicle cameras are a technology proposed as a safety measure to deter instances of sexual violence in Uber cars)
+{record_delimiter}
+("relationship"{tuple_delimiter}UBER{tuple_delimiter}ADT{tuple_delimiter}Uber partnered with ADT to provide live help from safety agents to passengers{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}RACHEL ABRAMS{tuple_delimiter}PEIFFER WOLF CARR KANE CONWAY & WISE{tuple_delimiter}Rachel Abrams is a partner at Peiffer Wolf Carr Kane Conway & Wise, the law firm leading the multidistrict litigation against Uber{tuple_delimiter}10)
+{record_delimiter}
+("relationship"{tuple_delimiter}RACHEL ABRAMS{tuple_delimiter}UBER{tuple_delimiter}Rachel Abrams argues that Uber's app-based solutions are insufficient to address sexual violence on the platform and advocates for mandatory in-vehicle cameras{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}IN-VEHICLE CAMERAS{tuple_delimiter}UBER{tuple_delimiter}In-vehicle cameras are proposed by Rachel Abrams as an essential safety measure for Uber cars to deter sexual violence{tuple_delimiter}7)
+{completion_delimiter}
+#############################
+
+
+
+-Real Data-
+######################
+text: {input_text}
+######################
+output:

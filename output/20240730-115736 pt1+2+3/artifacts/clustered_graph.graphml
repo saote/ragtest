@@ -1,0 +1,126 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="level" attr.type="long" />
+  <key id="d12" for="edge" attr.name="human_readable_id" attr.type="long" />
+  <key id="d11" for="edge" attr.name="id" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="description" attr.type="string" />
+  <key id="d8" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d7" for="node" attr.name="id" attr.type="string" />
+  <key id="d6" for="node" attr.name="human_readable_id" attr.type="long" />
+  <key id="d5" for="node" attr.name="degree" attr.type="long" />
+  <key id="d4" for="node" attr.name="level" attr.type="long" />
+  <key id="d3" for="node" attr.name="cluster" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="LI MING">
+      <data key="d0">PERSON</data>
+      <data key="d1">Li Ming, a compassionate high school teacher, is renowned for his patience and understanding. He is not just a pillar of support for his students but also a confidante for his friends, often lending a listening ear to their troubles. As part of a close-knit trio that includes Zhang Li and Wang Hao, Li Ming actively participates in community service, demonstrating his commitment to the welfare of his community. His empathetic nature and involvement in various social activities make him a respected figure in his local environment.</data>
+      <data key="d2">6597c8877829e98d1420c12e70d18387,7191793a1f8156acb88ec3ab2e6a3937,e8b60a2b88b563643b299ff590328684</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">3</data>
+      <data key="d6">0</data>
+      <data key="d7">b45241d70f0e43fca764df95b2b81f77</data>
+    </node>
+    <node id="ZHANG LI">
+      <data key="d0">PERSON</data>
+      <data key="d1">Zhang Li is a vibrant and energetic community event organizer, renowned for her infectious enthusiasm and creative flair that often uplifts and motivates her community. As a member of a close-knit trio, she shares a strong bond with Li Ming and Wang Hao. Beyond her role as an event organizer, Zhang Li is deeply committed to community service. She leverages her extensive resources and network to support her friends and community members, particularly Wang Hao, demonstrating her selflessness and dedication to the welfare of others.</data>
+      <data key="d2">6597c8877829e98d1420c12e70d18387,7191793a1f8156acb88ec3ab2e6a3937,e8b60a2b88b563643b299ff590328684</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+      <data key="d5">3</data>
+      <data key="d6">1</data>
+      <data key="d7">4119fd06010c494caa07f439b333f4c5</data>
+    </node>
+    <node id="WANG HAO">
+      <data key="d0">PERSON</data>
+      <data key="d1">Wang Hao, a reserved librarian, is renowned for his extensive knowledge and wisdom, which have earned him significant respect among his peers. He is one of the trio, alongside Li Ming and Zhang Li, with whom he shares a close friendship. Wang Hao plays a pivotal role in their intellectual growth by recommending enlightening books to both Li Ming and Zhang Li, drawing from his wide reading. His contributions to their collective learning highlight his deep understanding of literature and his commitment to fostering a community of knowledge seekers.</data>
+      <data key="d2">6597c8877829e98d1420c12e70d18387,7191793a1f8156acb88ec3ab2e6a3937,e8b60a2b88b563643b299ff590328684</data>
+      <data key="d3">2</data>
+      <data key="d4">0</data>
+      <data key="d5">3</data>
+      <data key="d6">2</data>
+      <data key="d7">d3835bf3dda84ead99deadbeac5d0d7d</data>
+    </node>
+    <node id="SUSAN CHEN">
+      <data key="d0">PERSON</data>
+      <data key="d1">Susan Chen is a retired elementary school principal known for her passion for education and community service. She previously served as the principal of Elmwood Elementary and was Li Ming's former boss and mentor. Despite retirement, Susan remains actively involved in local educational reform projects</data>
+      <data key="d2">e8b60a2b88b563643b299ff590328684</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">3</data>
+      <data key="d7">077d2820ae1845bcbb1803379a3d1eae</data>
+    </node>
+    <node id="JERRY ZHOU">
+      <data key="d0">PERSON</data>
+      <data key="d1">Jerry Zhou is a young IT engineer focused on developing sustainable technologies. He works in the Elmwood Tech Park, where he met Zhang Li while both were participating in a community environmental project</data>
+      <data key="d2">e8b60a2b88b563643b299ff590328684</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">4</data>
+      <data key="d7">3671ea0dd4e84c1a9b02c5ab2c8f4bac</data>
+    </node>
+    <node id="TINA LIN">
+      <data key="d0">PERSON</data>
+      <data key="d1">Tina Lin is an emerging artist renowned for her modern paintings. She teaches art classes at the Elmwood Arts Center and has found a staunch supporter in Wang Hao, who frequently recommends her exhibitions to visitors of the library</data>
+      <data key="d2">e8b60a2b88b563643b299ff590328684</data>
+      <data key="d3">2</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">5</data>
+      <data key="d7">19a7f254a5d64566ab5cc15472df02de</data>
+    </node>
+    <edge source="LI MING" target="ZHANG LI">
+      <data key="d8">2.0</data>
+      <data key="d9">Li Ming and Zhang Li are close friends residing in a tranquil small town. Their friendship blossomed from a shared commitment to community service, where they found common ground and a sense of purpose. As part of a supportive trio, they engage in various activities together, reinforcing their bond and contributing positively to their community. Their involvement in community service not only reflects their altruistic nature but also highlights the importance of social connections and collective action in fostering a vibrant and supportive local environment.</data>
+      <data key="d10">6597c8877829e98d1420c12e70d18387,7191793a1f8156acb88ec3ab2e6a3937</data>
+      <data key="d11">e7ffaee9d31d4d3c96e04f911d0a8f9e</data>
+      <data key="d12">0</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="LI MING" target="WANG HAO">
+      <data key="d8">2.0</data>
+      <data key="d9">Li Ming and Wang Hao, two close friends residing in a tranquil small town, have shared a bond since their college days when they were roommates. They are integral members of a supportive trio, where they assist each other in diverse aspects of life, showcasing the strength of their camaraderie and the interconnectedness within their community.</data>
+      <data key="d10">6597c8877829e98d1420c12e70d18387,7191793a1f8156acb88ec3ab2e6a3937</data>
+      <data key="d11">f7e11b0e297a44a896dc67928368f600</data>
+      <data key="d12">1</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="LI MING" target="SUSAN CHEN">
+      <data key="d8">1.0</data>
+      <data key="d9">Li Ming and Susan Chen have a professional relationship as she was his former boss and mentor</data>
+      <data key="d10">e8b60a2b88b563643b299ff590328684</data>
+      <data key="d11">1fd3fa8bb5a2408790042ab9573779ee</data>
+      <data key="d12">2</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="ZHANG LI" target="WANG HAO">
+      <data key="d8">2.0</data>
+      <data key="d9">In the serene ambiance of a quaint little town, Zhang Li and Wang Hao share a bond of friendship that extends beyond the ordinary. Zhang Li, known for her resourcefulness and extensive network, often steps in to assist Wang Hao in orchestrating cultural events that enrich the community's cultural tapestry. Together with another close friend, they form a supportive trio, each contributing to the others' endeavors in diverse ways, fostering a vibrant and interconnected social fabric in their shared environment.</data>
+      <data key="d10">6597c8877829e98d1420c12e70d18387,7191793a1f8156acb88ec3ab2e6a3937</data>
+      <data key="d11">27f9fbe6ad8c4a8b9acee0d3596ed57c</data>
+      <data key="d12">3</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="ZHANG LI" target="JERRY ZHOU">
+      <data key="d8">1.0</data>
+      <data key="d9">Zhang Li and Jerry Zhou met while participating in a community environmental project</data>
+      <data key="d10">e8b60a2b88b563643b299ff590328684</data>
+      <data key="d11">e1fd0e904a53409aada44442f23a51cb</data>
+      <data key="d12">4</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="WANG HAO" target="TINA LIN">
+      <data key="d8">1.0</data>
+      <data key="d9">Wang Hao supports Tina Lin's art by recommending her exhibitions to library visitors</data>
+      <data key="d10">e8b60a2b88b563643b299ff590328684</data>
+      <data key="d11">de988724cfdf45cebfba3b13c43ceede</data>
+      <data key="d12">5</data>
+      <data key="d13">0</data>
+    </edge>
+  </graph>
+</graphml>

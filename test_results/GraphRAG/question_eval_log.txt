@@ -1,0 +1,1291 @@
+C:\Users\YantingZhoufromMotio\anaconda3\python.exe C:\Users\YantingZhoufromMotio\Desktop\ragtest\test\cate_questions.py
+
+ ### 0/56
+{
+  "question": "How does Graph RAG enhance the capabilities of Large Language Models (LLMs) in reasoning about complex information?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires an understanding of the interactions between Graph RAG and LLMs, as well as their roles in handling complex information."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Answering the question effectively involves logical deduction about how Graph RAG contributes to LLMs' reasoning capabilities."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A deep contextual understanding of both Graph RAG’s mechanisms and the reasoning processes of LLMs is essential."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question demands an analysis of how one system (Graph RAG) influences the performance and capabilities of another system (LLMs), requiring reasoning rather than a simple factual or explanatory response."
+  }
+}
+
+ ### 1/56
+{
+  "question": "What are the unique capabilities of Graph RAG in handling global sensemaking questions compared to a naive RAG baseline?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires understanding how Graph RAG operates within a global context and its advantages over a naive RAG baseline in sensemaking tasks."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "To answer this question, one must compare and contrast the two systems, deducing the unique strengths of Graph RAG in a broad, interconnected sensemaking scenario."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A detailed grasp of both Graph RAG and naive RAG systems, their functionalities, and the specific contexts in which they are most effective is crucial for answering."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question involves assessing the relationships between different components (Graph RAG and naive RAG) and their effectiveness in global sensemaking, requiring reasoning and comparative analysis rather than a simple recall of facts."
+  }
+}
+
+ ### 2/56
+{
+  "question": "In what ways does Graph RAG use a self-generated graph index to improve retrieval and analysis of information?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question demands an understanding of how various components of Graph RAG interact in a system-wide context."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Answering this question requires the ability to logically connect the concept of a self-generated graph index to the benefits it provides."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "The answer to this question is contingent on detailed knowledge of how Graph RAG's graph index functions and how it impacts information retrieval and analysis."
+    }
+  },
+  "question_type": {
+    "type": "explanatory",
+    "reason": "This question is seeking an explanation that outlines the mechanisms by which Graph RAG utilizes a self-generated graph index for optimization of information handling processes."
+  }
+}
+
+ ### 3/56
+{
+  "question": "How does Graph RAG demonstrate scalability advantages over traditional source text summarization?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "Understanding the question requires knowledge of how Graph RAG fits within the broader context of summarization techniques and how it interacts with various data scales."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "The answer involves comparing Graph RAG with traditional methods, deducing why it offers scalability benefits, and possibly identifying contexts where these advantages are most apparent."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A deep understanding of Graph RAG's mechanism and design, as well as the specifics of traditional summarization approaches, is necessary to answer the question effectively."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "This question requires not only factual knowledge of Graph RAG but also the ability to reason about its benefits in terms of scalability compared to more conventional summarization techniques."
+  }
+}
+
+ ### 4/56
+{
+  "question": "What is the relationship between Graph RAG and community summaries in the context of self-memory for generation-augmented retrieval?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires understanding how different components (Graph RAG and community summaries) interact within a complex system."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Effective response necessitates logical deduction about the interconnected roles of Graph RAG and community summaries in a specific context."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Answering demands detailed insight into how self-memory and generation-augmented retrieval are integrated in the context of Graph RAG and community summaries."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question not only asks for facts but also requires an explanation of the relationship and how it functions within a specific scenario, indicating a reasoning type inquiry."
+  }
+}
+
+ ### 5/56
+{
+  "question": "How does Graph RAG's federated retrieval-generation strategy enable distributed and collaborative retrieval and generation?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question demands an understanding of how different components of the retrieval-generation strategy interact, which is a systemic understanding."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "To answer effectively, one must deduce the mechanisms and outcomes of a federated strategy in the context of Graph RAG."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Understanding the specifics of Graph RAG’s federated approach requires detailed knowledge of the system and its retrieval-generation process."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "This question requires not just an explanation of features but an analysis of how those features allow for distributed and collaborative processes, which involves higher-level reasoning."
+  }
+}
+
+ ### 6/56
+{
+  "question": "What are the similarities between Graph RAG and multi-document summarization techniques in handling multiple documents or data sources?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question demands an understanding of the systemic interactions between Graph RAG and multi-document summarization techniques in the context of document or data source management."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Answering involves not only recalling information but also comparing and contrasting two different techniques to identify their logical connections or similarities."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A detailed, context-specific insights of both Graph RAG and multi-document summarization techniques are fundamental. The response needs to reflect a deep understanding of how each method deals with multiple data sources which is particularly pertinent to the domain of information extraction and processing."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question prompts for an analytical response that explores the equivalences between Graph RAG and multi-document summarization techniques. It isn't on the lookout for simple factual details or an explanation of a process. It instead requires a critical examination of how these two techniques align in their handling of various documents or data sources."
+  }
+}
+
+ ### 7/56
+{
+  "question": "How does Graph RAG compare to multi-hop question answering techniques in addressing complex questions?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question demands understanding of how Graph RAG fits into the larger landscape of question answering techniques, implying a comparison of their effects and efficiencies in handling complex questions."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Answering the question requires logical reasoning to analyze and compare question answering techniques, including their capabilities and limitations."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A deep understanding of both Graph RAG and multi-hop question answering techniques is necessary to adequately address the comparison."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question is not asking for a simple fact or detailed explanation of one concept, but rather a comparison that necessitates the application of reasoning capabilities to assess and evaluate multiple concepts."
+  }
+}
+
+ ### 8/56
+{
+  "question": "What is the process involved in the Graph RAG indexing pipeline, and how does it facilitate data indexing tasks?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "Understanding the Graph RAG indexing pipeline involves comprehending how it fits into the broader operation of indexing data within a graph database context."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Effective response necessitates the ability to logically outline the steps of the indexing pipeline and explain how each facilitates data indexing."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Detailed knowledge of the Graph RAG indexing process and its specific applications in data indexing is essential to answer the question."
+    }
+  },
+  "question_type": {
+    "type": "explanatory",
+    "reason": "The question seeks a detailed answer on how the Graph RAG indexing process operates and how it serves the function of data indexing, requiring explanatory rather than straightforward factual information."
+  }
+}
+
+ ### 9/56
+{
+  "question": "- How does the Indexer in Graph RAG process and prepare data for efficient search and retrieval?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": false,
+      "reason": "The question pertains specifically to the operation of the Indexer within Graph RAG, which does not require a comprehensive understanding of the entire system."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Understanding how the Indexer processes and prepares data involves logical deduction about the steps and methods involved in making data searchable."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "The question necessitates a detailed knowledge of how the Indexer works in the context of Graph RAG, including its specific algorithms and techniques for data indexing."
+    }
+  },
+  "question_type": {
+    "type": "explanatory",
+    "reason": "The question is seeking a description or explanation of the processes used by the Indexer in Graph RAG, which requires more than just a factual answer."
+  }
+}
+
+ ### 10/56
+{
+  "question": "What is the role of the CLI (Command Line Interface) in executing tasks using the poetry tool in Graph RAG?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": false,
+      "reason": "The question does not require a broad understanding of systemic interactions outside the CLI and poetry tool context."
+    },
+    "reasoning_capabilities": {
+      "required": false,
+      "reason": "No logical deduction beyond the provided context is necessary to explain the role of the CLI."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Understanding the specific use of the CLI with the poetry tool in Graph RAG requires detailed context about these tools and how they operate within the environment."
+    }
+  },
+  "question_type": {
+    "type": "explanatory",
+    "reason": "The question requires an explanation of the role of the CLI in executing tasks using the poetry tool, which is a specific operational detail."
+  }
+}
+
+ ### 11/56
+{
+  "question": "How does the Language Learning Model (LLM) contribute to the functions of summarization, entity resolution, and claim extraction in Graph RAG?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires understanding how LLM integrates with different components of Graph RAG and affects its overall performance in various NLP tasks."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "To answer the question, one must deduce the mechanisms by which LLM supports summarization, entity resolution, and claim extraction."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A deep understanding of both LLM and Graph RAG, along with their roles in natural language processing tasks, is essential for providing a comprehensive answer."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question not only asks for an explanation but also requires the evaluation of how LLM contributes to multiple functions in Graph RAG, thus necessitating reasoning capabilities."
+  }
+}
+
+ ### 12/56
+{
+  "question": "What is the significance of Question Generation in enhancing data exploration and conversation flow in the Query Engine?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires understanding the role of Question Generation in the larger context of data exploration and conversation flow enhancement within a Query Engine."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Reasoning about how Question Generation contributes to these aspects necessitates logical deduction about the implications and benefits in a conversation or data search scenario."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Answering this question effectively demands knowledge about the mechanisms and effects of Question Generation in a specific context such as a Query Engine, how it interacts with data, and how it affects user interaction."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "This question requires an analysis of the impacts and contributions of Question Generation to a system, indicating a need for reasoning and understanding rather than a simple fact or explanation."
+  }
+}
+
+ ### 13/56
+{
+  "question": "How does the Graph Index play a pivotal role in the Graph RAG approach for efficient querying and analysis of relationships between entities?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "Understanding the role of Graph Index in Graph RAG requires insight into how indexing affects overall system performance and data retrieval in graph databases."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "To answer, one must logically connect the use of indexing with the benefits it provides in the context of efficient querying and analysis in Graph RAG."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Detailed knowledge of Graph RAG’s architecture and how the Graph Index specifically supports its functions is necessary for a comprehensive answer."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "This question demands an explanation that connects various components (global understanding, deep contextual understanding) and requires reasoning to understand the implications of the Graph Index in Graph RAG’s methodology."
+  }
+}
+
+ ### 14/56
+{
+  "question": "What are the limitations of the current evaluation approach for Graph RAG, and what future work is suggested to address these limitations?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires an understanding of the entire Graph RAG evaluation methodology, not just individual components."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Answering this question involves identifying and assessing the effectiveness of the current approach, reasoning about its weaknesses, and proposing improvements."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "To adequately address this question, one must be intimately familiar with the specific context of the Graph RAG model, its evaluation criteria, and the environment in which it is applied."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question necessitates critical thinking to evaluate the current method, recognize limitations, and suggest future research directions, all of which are not straightforward facts but require evaluative reasoning skills."
+  }
+}
+
+ ### 15/56
+{
+  "question": "- How does the decision to invest in building a graph index depend on the value obtained from other aspects of the graph index in Graph RAG?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires understanding various factors and how they interact to influence the decision of investing in a graph index."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Answering the question involves logical deduction about how different aspects of a graph index contribute to its overall value in the context of Graph RAG."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "The question assumes knowledge of specific features and functionalities of graph indices in Graph RAG, necessitating a deep understanding of the context."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question requires the ability to reason about the implications and dependencies of aspects related to graph indices in Graph RAG, aiming to understand the decision-making process."
+  }
+}
+
+ ### 16/56
+{
+  "question": "What is the relationship between Graph RAG and source texts in terms of summarization and question answering effectiveness?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question necessitates an understanding of how Graph RAG functions within the context of information retrieval and summarization, involving the interplay between algorithms and data sources."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "To answer effectively, one must reason about the mechanisms through which Graph RAG uses source texts to enhance or impact summarization and question answering."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A detailed knowledge of both Graph RAG's architecture and the way it interacts with source texts is crucial to address this question accurately."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question asks for an analysis of the relationship and effectiveness between Graph RAG and source texts, requiring the ability to infer the connections and evaluate outcomes based on theoretical knowledge."
+  }
+}
+
+ ### 17/56
+{
+  "question": "How are community summaries derived from source texts, and what is their purpose in providing a concise representation of the original content?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires an understanding of how information is processed and summarized across various texts, which involves the interaction of multiple concepts and elements in creating summaries."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "To effectively answer this question, one must deduce the methods of summarization and evaluate the purpose of these summaries in different contexts."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A detailed knowledge of text summarization techniques, their application to community summaries, and the role such summaries play in representing source texts is essential."
+    }
+  },
+  "question_type": {
+    "type": "explanatory",
+    "reason": "The question demands a detailed explanation of a process (deriving community summaries) and the reason behind its purpose, indicating a need for a comprehensive and insightful response, not simply a list of facts."
+  }
+}
+
+ ### 18/56
+{
+  "question": "What is the role of the .env file in storing environment variables referenced in the settings.yaml file for Graph RAG?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": false,
+      "reason": "The question focuses on a specific aspect of Graph RAG’s configuration and does not require overview understanding of complex system interactions."
+    },
+    "reasoning_capabilities": {
+      "required": false,
+      "reason": "The question can be answered by providing a straightforward description of the .env file’s purpose in the context of environment variable management within Graph RAG."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Answering requires specific knowledge about how Graph RAG processes environment variables and interacts with the .env and settings.yaml files."
+    }
+  },
+  "question_type": {
+    "type": "factual",
+    "reason": "The question solicits a fact-based response about the functionality of the .env file within Graph RAG, without requiring a detailed explanation or reasoning."
+  }
+}
+
+ ### 19/56
+{
+  "question": "How does the settings.yaml file store configuration settings necessary for the operation of Graph RAG?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": false,
+      "reason": "The question focuses on a specific file and its role in Graph RAG, not on understanding complex systemic interactions."
+    },
+    "reasoning_capabilities": {
+      "required": false,
+      "reason": "The question can be answered with a straightforward description of the function of a settings file, without needing to reason through context or complex scenarios."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A detailed understanding of Graph RAG's architecture and the specifics of how a YAML file stores configuration settings is essential to provide an accurate answer."
+    }
+  },
+  "question_type": {
+    "type": "factual",
+    "reason": "The question asks for information about how a specific file,settings.yaml, performs a task in the operation of Graph RAG. This type of question can be answered with specific, concrete details."
+  }
+}
+
+ ### 20/56
+{
+  "question": "What is the significance of Global Search in the Graph RAG process for reasoning about holistic questions concerning the entire corpus?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires understanding how Global Search contributes to answering questions that span the entire corpus, implying a need to grasp the interconnectedness of data."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "To answer the question, one must logically deduce how Global Search functionally supports the reasoning and retrieval of information in a holistic manner."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A detailed insight into not only what Global Search does but also how it interacts with the entire corpus is necessary to address the significance aspect of the question."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question is focused on the significance and functionality of Global Search in the context of holistic questions, which requires a reasoning-based response to fully explain its importance within Graph RAG."
+  }
+}
+
+ ### 21/56
+{
+  "question": "How does Graph RAG employ the global search method to process user queries using LLM-generated community reports as context data?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires understanding how different components (global search method, user queries, LLM-generated community reports) interact within the Graph RAG system."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Responding effectively involves explaining the logical link between the global search method and the incorporation of context data derived from LLM-generated reports."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Answering accurately necessitates a deep understanding of how Graph RAG operates in terms of query processing and context data usage, particularly with LLM-generated reports."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "This question requires an explanation that connects multiple concepts and details, making it a reasoning-type question as it demands understanding beyond isolated facts."
+  }
+}
+
+ ### 22/56
+{
+  "question": "What is the role of the prompts/ directory in storing default prompts that can be modified or new ones generated through the Auto Prompt Tuning command in Graph RAG?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": false,
+      "reason": "The question does not require an understanding of large-scale or systemic interactions within a broader context."
+    },
+    "reasoning_capabilities": {
+      "required": false,
+      "reason": "No logical deduction is necessary; the question asks for a straightforward explanation of a specific feature’s function."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Understanding the role of the prompts/ directory and the Auto Prompt Tuning command in Graph RAG requires knowledge specific to the system’s design and functionality."
+    }
+  },
+  "question_type": {
+    "type": "factual",
+    "reason": "The question requests information about a specific feature of Graph RAG, which can be answered by stating facts about the feature without needing to provide an explanation or reasoning."
+  }
+}
+
+ ### 23/56
+{
+  "question": "- How does Graph RAG's performance compare to Baseline RAG in managing intricate data and reasoning about private datasets?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires understanding the broader interactions between different RAG models and their performance in specific data scenarios."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Comparing the performance and reasoning capabilities of two models requires logical deduction and critical thinking."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A thorough response necessitates detailed insights into how both Graph RAG and Baseline RAG handle intricate and private data."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question is not simply seeking factual information or an explanation of a concept. Instead, it requires the comparison and analysis of two models, which is a reasoning task."
+  }
+}
+
+ ### 24/56
+{
+  "question": "What is the role of GPT-4 Turbo in generating knowledge graphs from text data in Graph RAG?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "Understanding the role of GPT-4 Turbo in Graph RAG requires a broad grasp of how language models integrate with knowledge graph generation processes."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Reasoning is needed to explain how GPT-4 Turbo contributes to the efficiency and quality of knowledge graphs derived from text data."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "The answer necessitates detailed insights into both the GPT-4 Turbo model and its specific applications within the context of Graph RAG."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "This question demands reasoning about the integration of a language model with a knowledge graph-related technology, considering both the technological components and their operational synergy."
+  }
+}
+
+ ### 25/56
+{
+  "question": "How does the Microsoft Research Blog Post provide information about Graph RAG and its applications?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires understanding the context and purpose of the Microsoft Research Blog Post in relation to broader developments in AI and graph representation."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Interpreting the information flow from the blog post to the audience about Graph RAG involves logical deduction."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Answering the question requires detailed insight into the content and focus of the Microsoft Research Blog Post specifically about Graph RAG and its applications."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question is not solely seeking facts or explanations; instead, it probes into the method of information dissemination and the reasoning behind the content choices in a specific blog post."
+  }
+}
+
+ ### 26/56
+{
+  "question": "What resources are available in the GitHub Repository for developers who want to access and contribute to the Graph RAG project?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": false,
+      "reason": "The question specifically targets resources in the GitHub repository for a particular project (Graph RAG), which doesn't require broad systemic understanding."
+    },
+    "reasoning_capabilities": {
+      "required": false,
+      "reason": "The question does not ask for any deductions or reasoning that go beyond the stated scope of available resources."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Detailed knowledge of the Graph RAG project and its corresponding GitHub repository is needed to answer the question appropriately."
+    }
+  },
+  "question_type": {
+    "type": "factual",
+    "reason": "The question seeks simple facts about what is present in a given context (GitHub resources for Graph RAG), without requesting an explanation or reasoning."
+  }
+}
+
+ ### 27/56
+{
+  "question": "What research papers and documentation related to Graph RAG can be found in the GraphRAG Arxiv repository?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": false,
+      "reason": "The question is specific to the GraphRAG Arxiv repository and does not require a broad understanding of systemic interactions."
+    },
+    "reasoning_capabilities": {
+      "required": false,
+      "reason": "No logical deduction is necessary; the answer would involve listing or referencing papers, which is straightforward."
+    },
+    "deep_contextual_understanding": {
+      "required": false,
+      "reason": "While some knowledge of what Graph RAG is would be helpful, the question does not require deep insights into any specific context."
+    }
+  },
+  "question_type": {
+    "type": "factual",
+    "reason": "The question asks for a list or reference to specific research papers and documentation, which are factual items."
+  }
+}
+
+ ### 28/56
+{
+  "question": "How does the Solution Accelerator package provide a user-friendly end-to-end experience with Azure resources for quickstarting the Graph RAG system?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "Understanding the question requires knowledge of how the Solution Accelerator package integrates with Azure resources and Graph RAG in a systemic manner to provide a user-friendly experience."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Answering the question involves reasoning about the features and benefits of the Solution Accelerator package within the context of Azure and Graph RAG."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A detailed answer requires specific insights into the Graph RAG system, Azure resources, and how the Solution Accelerator package facilitates their interaction for a seamless user experience."
+    }
+  },
+  "question_type": {
+    "type": "explanatory",
+    "reason": "The question is asking for an explanation of how the Solution Accelerator package simplifies the process of deploying Graph RAG using Azure resources, which requires not just factual knowledge but a detailed explanation of the mechanisms involved."
+  }
+}
+
+ ### 29/56
+{
+  "question": "What is the purpose of the Get Started Guide in familiarizing users with the features and functionalities of Graph RAG?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": false,
+      "reason": "The question focuses on the specific purpose of a guide within Graph RAG, without requiring broader systemic understanding."
+    },
+    "reasoning_capabilities": {
+      "required": false,
+      "reason": "No logical deduction is necessary; the answer is directly about the intent of a guide provided by Graph RAG."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Understanding the context of how Graph RAG features and functionalities are introduced to new users is essential."
+    }
+  },
+  "question_type": {
+    "type": "factual",
+    "reason": "The question asks for a straightforward fact about the purpose of a specific guide in the Graph RAG system."
+  }
+}
+
+ ### 30/56
+{
+  "question": "How does the Query package facilitate user interaction with indexed data and conducting searches within the knowledge graph in Graph RAG?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": false,
+      "reason": "The question is focused on the operations of the Query package within Graph RAG and does not require a broad understanding of external systems or interactions."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Answering the question involves explaining how the Query package functions in terms of facilitating user interaction and search, requiring a step-by-step logical deduction."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "An answer must draw upon detailed knowledge of the specifics of the Query package's role in the Graph RAG, including its features and how it operates in the context of the knowledge graph."
+    }
+  },
+  "question_type": {
+    "type": "explanatory",
+    "reason": "The question necessitates a comprehensive explanation of the mechanisms by which the Query package enables interaction and search, which is more than a simple fact or isolated reasoning task."
+  }
+}
+
+ ### 31/56
+{
+  "question": "What is the role of the Solution Accelerator package in enhancing the user experience by providing advanced RAG capabilities in Graph RAG?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires understanding how the Solution Accelerator package fits into the broader context of Graph RAG and its role in improving user experience."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Answering the question involves logical deduction about the features of the Solution Accelerator package and how they contribute to advanced RAG capabilities."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A detailed knowledge of Graph RAG's architecture and the specific functionalities of the Solution Accelerator package is essential to answer the question."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question demands an analysis of the Solution Accelerator package's role and its impact on user experience and RAG capabilities in Graph RAG, requiring reasoning beyond simple facts."
+  }
+}
+
+ ### 32/56
+{
+  "question": "- How does Graph RAG outshine Baseline RAG in question-and-answer efficiency and reasoning skills, especially in connecting disjointed information fragments?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The comparison between Graph RAG and Baseline RAG and the impact on efficiency and reasoning skills necessitate an overarching view of how these systems interact with and process data."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Answering this question requires logical deduction and comparison through analyzing the characteristics that contribute to enhanced performance in Graph RAG."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Detailed insights into the specific features of Graph RAG, how it processes information, and why it is more effective in connecting disjointed fragments than the Baseline RAG are essential to answer accurately."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question demands an analysis involving comparison, deduction, and understanding of the implications of using Graph RAG versus Baseline RAG for specific capabilities such as handling disjointed information."
+  }
+}
+
+ ### 33/56
+{
+  "question": "What is the significance of the Leiden technique in hierarchical clustering of the graph for Graph RAG's visualization and analysis of entities and their communities?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": false,
+      "reason": "The question is specific to the technique used in Graph RAG and does not require an understanding of the entire system's interactions."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Understanding the significance of the Leiden technique within Graph RAG involves logical deduction about how it affects the analysis and visualization of entities and communities."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "The question necessitates a detailed knowledge of the Leiden technique in relation to hierarchical clustering and its specific impact on Graph RAG's functionalities."
+    }
+  },
+  "question_type": {
+    "type": "explanatory",
+    "reason": "The question requires an explanation of the Leiden technique's role within Graph RAG, specifically how it contributes to the analysis of entities and their communities."
+  }
+}
+
+ ### 34/56
+{
+  "question": "How does Graph RAG slice up the input corpus into TextUnits, and what is the role of these TextUnits in the process of entity and relationship extraction?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": false,
+      "reason": "The question does not require a broad systemic understanding, focusing specifically on the mechanism of cutting the input corpus in Graph RAG."
+    },
+    "reasoning_capabilities": {
+      "required": false,
+      "reason": "While understanding the process involves some level of deduction, the question is mainly asking for straightforward information on how the system operates."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Deep understanding of how Graph RAG works, particularly related to entity and relationship extraction, is necessary to answer."
+    }
+  },
+  "question_type": {
+    "type": "explanatory",
+    "reason": "The question requires a detailed explanation of a specific process within Graph RAG, particularly about the role of TextUnits in entity and relationship extraction."
+  }
+}
+
+ ### 35/56
+{
+  "question": "- How does Graph RAG utilize the LLM-generated knowledge graph to organize data into semantic clusters and summarize themes for responding to user queries?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "Understanding the role of the knowledge graph in data organization and summarization requires an understanding of how components within Graph RAG interact with each other."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Answering the question involves explaining the logical process by which data is organized and themes are summarized, requiring reasoning about the system's logic and functions."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "To answer the question effectively, detailed insights into how Graph RAG specifically handles data through semantic clustering and theme summarization are necessary."
+    }
+  },
+  "question_type": {
+    "type": "explanatory",
+    "reason": "The question requests a detailed explanation of how Graph RAG uses a knowledge graph to perform data organization and summarization, which is an explanatory type query rather than a factual recall or reasoning about a scenario."
+  }
+}
+
+ ### 36/56
+{
+  "question": "What are the steps involved in the Graph RAG process for extracting a knowledge graph from raw text and building a community hierarchy?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires a broad understanding of how the Graph RAG process integrates text extraction, knowledge graph creation, and community hierarchy building as systemic interactions."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Logical deduction of the sequential steps and their interconnections in the Graph RAG process is necessary to answer effectively."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A detailed, context-specific insight into the technical nuances of the Graph RAG process, particularly in relation to text processing and community hierarchy algorithms, is essential for answering."
+    }
+  },
+  "question_type": {
+    "type": "explanatory",
+    "reason": "The question demands a detailed explanation of the technical process and steps within the Graph RAG system, which goes beyond simple factual recall and requires an understanding of the mechanisms involved."
+  }
+}
+
+ ### 37/56
+{
+  "question": "How does Graph RAG's global search method use community summaries to provide materials for the LLM context window when answering a question?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires understanding how different parts of the Graph RAG system interact to process information on a global scale."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Answering the question involves deducing the logical steps by which Graph RAG uses community summaries to inform its responses."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "To answer effectively, one must know not only the basics of Graph RAG and community summaries but also how they are specifically implemented and utilized in the context of LLM."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question requires the analysis of how Graph RAG operates its global search method and the reasoning behind using community summaries in the LLM context window, indicating a demand for logical deduction beyond mere factual recall."
+  }
+}
+
+ ### 38/56
+{
+  "question": "What is the importance of fine-tuning prompts in Graph RAG for achieving the best possible results with specific data sets?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": false,
+      "reason": "The question specifically addresses the importance of prompt tuning in Graph RAG, not requiring a broad understanding of unrelated systems or interactions."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "To answer effectively, one needs to understand why and how prompt tuning impacts performance and results, which involves logical deduction."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A detailed response requires knowledge about the specifics of how Graph RAG works, and how different data sets influence the effectiveness of tuning prompts."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question does not just seek a factual answer but requires the explanation of how and why certain actions (prompt tuning) are important for a specific outcome (optimal results with data sets) within a complex context (Graph RAG's operation)."
+  }
+}
+
+ ### 39/56
+{
+  "question": "How does the init command in Graph RAG create necessary configuration files and default prompts for initializing the workspace?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": false,
+      "reason": "The question is specific to the functionality of the init command in Graph RAG and does not require a broad systemic understanding."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Answering the question involves explaining the process and the logic behind how the init command operates within Graph RAG."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A deep understanding of the Graph RAG environment and the specific details of the init command's behavior is necessary."
+    }
+  },
+  "question_type": {
+    "type": "explanatory",
+    "reason": "The question requires an explanation of how the init command functions in Graph RAG, which is more than a simple statement of fact and does not involve reasoning through a problem."
+  }
+}
+
+ ### 40/56
+{
+  "question": "What are the options available when using the python -m graphrag.index command for initializing the directory with the necessary configuration files?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": false,
+      "reason": "The question is focused on a specific command and its options within Graph RAG, not requiring a broad systemic understanding."
+    },
+    "reasoning_capabilities": {
+      "required": false,
+      "reason": "The question is straightforward and does not involve logical deduction or interpretation beyond knowing the command and its options."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "To answer, one must have detailed knowledge of the specific command in Graph RAG and its associated options."
+    }
+  },
+  "question_type": {
+    "type": "factual",
+    "reason": "The question is seeking information about explicit options and commands, which is a fact-based inquiry."
+  }
+}
+
+ ### 41/56
+{
+  "question": "What are the files created by the init command in the specified directory, and what is their significance in the Graph RAG system?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires understanding how the 'init' command fits into the broader Graph RAG system and its effects on the directory structure and file system."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Interpreting the significance of the files created by the 'init' command involves logical deduction about how these files support the functionality and maintenance of the Graph RAG system."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "To answer accurately, one must have detailed knowledge of Graph RAG’s operational procedures, particularly concerning how the 'init' command operates and what roles the created files play within the system."
+    }
+  },
+  "question_type": {
+    "type": "explanatory",
+    "reason": "The question is not merely asking for a fact (such as the names of the files); it is also seeking to understand the purpose or significance of these files in the context of Graph RAG, demanding an in-depth explanation."
+  }
+}
+
+ ### 42/56
+{
+  "question": "- How does the Prompt Tuning command in Graph RAG adapt prompts to specific data for better results in executing an Index Run?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": false,
+      "reason": "This question targets a specific feature within Graph RAG and does not demand a broad understanding of interconnected systems or global contexts."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Responding to this question requires an ability to logically unfold the mechanisms and implications of prompt tuning in the context of Index Run execution."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A detailed insight into the inner workings of Graph RAG’s Prompt Tuning command, as well as its interaction with specific data and Index Run processes, is essential."
+    }
+  },
+  "question_type": {
+    "type": "explanatory",
+    "reason": "The query is primarily seeking an in-depth explanation of how a feature in Graph RAG—Prompt Tuning—affects the execution of Index Run tasks with specific data, rather than a simple fact or direct answer."
+  }
+}
+
+ ### 43/56
+{
+  "question": "What are the prerequisites for running the automatic template generation in Graph RAG, and what is the significance of this process?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": false,
+      "reason": "The question does not require a broad understanding of systemic interactions, only specific knowledge about Graph RAG's automatic template generation feature."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "To answer effectively, one must infer the importance of the automatic template generation process in the context of Graph RAG's functionality."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Answering the question demands detailed knowledge of Graph RAG, including its prerequisites and the significance of its template generation process."
+    }
+  },
+  "question_type": {
+    "type": "explanatory",
+    "reason": "The question requests information about the conditions necessary for a specific process in Graph RAG and asks for an explanation of its importance, requiring more than just a simple fact."
+  }
+}
+
+ ### 44/56
+{
+  "question": "How does the question generation function in Graph RAG work, and what is the methodology for generating the next set of candidate questions?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires an understanding of how various components of the Graph RAG system interact to generate questions, which is a complex process."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Answering this question involves not only describing the functionality but also understanding why certain methods are used over others."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Detailed knowledge of Graph RAG’s question generation algorithms, methodologies, and the specific context in which it operates is required."
+    }
+  },
+  "question_type": {
+    "type": "explanatory",
+    "reason": "The question is asking for a detailed explanation of how a specific feature operates within the Graph RAG system, which requires more than just a factual answer."
+  }
+}
+
+ ### 45/56
+{
+  "question": "What are the limitations of the current evaluation approach for Graph RAG, and what future work is suggested to address these limitations?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires knowledge of the evaluation landscape for RAG systems and how different components and objectives interact in the context of Graph RAG."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Answering the question necessitates logical deduction about the shortcomings of current methodologies and the reasoning behind suggested improvements."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Deep insight into the specific evaluation criteria, performance metrics, and use cases of Graph RAG is essential for identifying its limitations and proposing future research directions."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question demands an analysis that goes beyond mere facts and explanations, requiring a critical and thoughtful discussion on evaluation strategies and their potential enhancements."
+  }
+}
+
+ ### 46/56
+{
+  "question": "How does the trade-off of building a graph index in Graph RAG depend on factors such as compute budget, expected number of lifetime queries, and value obtained from other aspects of the graph index?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires understanding the interplay and systemic relationships between different factors impacting the trade-off of building a graph index."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Effectively answering the question involves logical deduction and analysis of how various factors influence the trade-off."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Detailed insights into the specific context of Graph RAG, its indexing process, and the implications of resource allocation and query performance are necessary."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question demands an evaluation of the impact of multiple factors on a decision-making process within the context of Graph RAG, requiring reasoning and interpretation."
+  }
+}
+
+ ### 47/56
+{
+  "question": "What are the possibilities for refinement and adaptation of the graph index, rich text annotations, and hierarchical community structure in Graph RAG?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires an understanding of the interactions between different components (graph index, rich text annotations, hierarchical community structure) in the Graph RAG system."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "To answer effectively, one must deduce and elaborate on potential improvements and customizations related to these specific features, considering their roles and limitations in the system."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A detailed and nuanced knowledge of Graph RAG’s feature set, operational contexts, and industry standards is crucial to propose meaningful refinements and adaptations."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "This question asks for an evaluation of current capabilities and potential for improvement, which requires reasoning and deep contextual knowledge beyond a simple explanation or fact."
+  }
+}
+
+ ### 48/56
+{
+  "question": "How does the use of graphs in connection with LLMs and RAG contribute to knowledge graph creation, completion, and extraction of causal graphs from source texts?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires understanding the interconnectedness of different types of models (LLMs, RAG) and the role of graphs in enhancing their functionality for knowledge graph creation and completion."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Responding to the question involves logical deduction about how graph structures can be leveraged by language models and retrieval-augmented generation models to improve the extraction of causal relationships."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A detailed insight is needed into how LLMs and RAG interact with graph data to create and complete knowledge graphs, as well as how they process source texts to extract causal graphs."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The nature of the question requires not just facts, but the interplay between concepts and how they contribute to specific outcomes, indicating a reasoning question."
+  }
+}
+
+ ### 49/56
+{
+  "question": "What are the directions already established in the use of graphs with LLMs and RAG, and how do they relate to advanced RAG approaches where the index is a knowledge graph?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires a broad understanding of the integration of graphs with Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) systems, including their evolution and how different approaches are interconnected."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "To answer effectively, one must logically deduce and compare various directions in using graphs with LLMs and RAG, especially in the context of advanced RAG models that utilize a knowledge graph as their index."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Understanding the question necessitates a detailed, context-specific insight into both the theoretical foundations and practical applications of graph-based approaches in RAG systems."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question demands not only facts but also an analytical explanation of how directions in graph usage within LLMs and RAG systems relate to each other, indicating a reasoning demand."
+  }
+}
+
+ ### 50/56
+{
+  "question": "How does Graph RAG lead to substantial improvements over a naive RAG baseline for both the comprehensiveness and diversity of generated answers for a class of global sensemaking questions?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "Understanding the improvements requires knowledge of how Graph RAG operates within the broader context of answering complex and interconnected global sensemaking questions."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Responding to the question involves logically comparing Graph RAG's capabilities to a naive RAG baseline in terms of answer comprehensiveness and diversity."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Effective answering requires detailed insights into the workings of Graph RAG and the nuances of its performance in handling global sensemaking questions."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question demands an analysis of Graph RAG's superiority over a baseline system, which requires understanding principles and reasoning through comparative advantages."
+  }
+}
+
+ ### 51/56
+{
+  "question": "What is the role of community summaries in the graph-based index used for answering global queries in Graph RAG?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "Understanding the role of community summaries in answering global queries requires a broad understanding of how data is organized and accessed in Graph RAG."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Interpreting how community summaries contribute to global query response involves deductive reasoning about the benefits and workings of summarization in a graph-based index."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "Effective answer necessitates detailed knowledge of Graph RAG’s indexing techniques, especially regarding community detection and aggregation for query optimization."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The query is not simply asking for a fact or an explanation of a static concept, but rather it asks the respondent to reason about the functionality and effectiveness of a specific component within a complex system."
+  }
+}
+
+ ### 52/56
+{
+  "question": "How are community summaries generated for leaf-level and higher-level communities in Graph RAG, and what is their significance in the process of answering global queries?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires understanding how community summaries at different levels interact within the broader context of Graph RAG and its query answering mechanism."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "To effectively answer the question, one needs to logically connect the generation of community summaries with the way they contribute to answering queries that have a global impact."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A detailed understanding of the Graph RAG system, including the specifics of community detection, community summarization, and query answering, is essential to provide an accurate response."
+    }
+  },
+  "question_type": {
+    "type": "explanatory",
+    "reason": "The question demands a comprehensive explanation of Graph RAG's internal processes and how they relate to enhancing query answering capabilities, which includes both technical details and the conceptual significance."
+  }
+}
+
+ ### 53/56
+{
+  "question": "- How does the global search method in Graph RAG use community summaries to summarize themes when responding to a user query?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires an understanding of how different components of Graph RAG interact in a global search context, particularly how community summaries contribute to the process."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "To answer effectively, one must deduce the logic behind the use of community summaries in the context of global search and how it affects the summarization of themes."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A detailed, context-specific insight into Graph RAG's operational mechanics and how community summaries are utilized is essential for an accurate response."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "The question does not merely seek facts or explanations but demands a deduced response based on the reasoning about how Graph RAG utilizes community summaries in its global search method."
+  }
+}
+
+ ### 54/56
+{
+  "question": "What are the scalability advantages of Graph RAG compared to source text summarization, and how does it offer a highly efficient method for iterative question answering?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question requires an understanding of how Graph RAG operates within the broader context of information retrieval and handling techniques."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Deduction is needed to compare Graph RAG's scalability and efficiency to traditional text summarization methods and to explain its benefits in iterative question answering."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A thorough knowledge of the mechanics of Graph RAG, including its processing and query resolution capabilities, is essential for providing a comprehensive answer."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "This question doesn't simply ask for a fact or an explanation isolated from other information. Instead, it requires the establishment of relationships between different concepts (scalability, efficiency, and different contexts' performance) and involves critical analysis."
+  }
+}
+
+ ### 55/56
+{
+  "question": "How does Graph RAG's performance compare to other global methods in terms of comprehensiveness and diversity, and what is the significance of these metrics in the context of answering global queries?",
+  "cognitive_demands": {
+    "global_understanding": {
+      "required": true,
+      "reason": "The question demands a broad understanding of the comparison of Graph RAG's performance with other global methods, involving systemic interactions and the scope of global queries."
+    },
+    "reasoning_capabilities": {
+      "required": true,
+      "reason": "Responding effectively to this question necessitates a critical analysis of performance metrics and their contexts, which requires logical deduction."
+    },
+    "deep_contextual_understanding": {
+      "required": true,
+      "reason": "A detailed insight into Graph RAG's characteristics, the significance of comprehensiveness and diversity, and how these metrics affect global query answering is essential for answering the question."
+    }
+  },
+  "question_type": {
+    "type": "reasoning",
+    "reason": "This question requires analysis and deduction beyond pure facts or simple explanations. It asks for a comparative assessment and evaluation of the importance of certain performance metrics, which falls under the reasoning category."
+  }
+}
+
+Process finished with exit code 0

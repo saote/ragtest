@@ -1,0 +1,154 @@
+多段运行模式 Edited
+功能简介
+在多段运行模式下，驱动器可以按照用户提前预设好的多组运动模式、参数运行，降低主站编程的复杂度，减少切换时间，提高运动性能。
+用户通过上位机或者通信字典将参数下载到驱动器，驱动器会根据配置参数，实时扫描运行状态，结合用户发送的指令切换运行段，读取运动参数进行运动控制。
+目前最多支持 16 个运行段。
+
+每一段的运行完成检测受到各个模式下的目标到达检测窗口、检测时间影响，需要根据需求进行设置参数设置无法实时生效，需要重新启动多段运行模式才会生效力控的相关参数需要在力控模式页面进行设置。
+
+字典说明
+| 参数名称                 | 字典名称                             | 主索引 | 子索引 | 数据类型  | 参数范围                                      | 读写权限 | 单位                              | 字典指令值含义                                                                                                                                                                                                                                                                                                                                                               |
+| ------------------------ | ------------------------------------ | ------ | ------ | --------- | --------------------------------------------- | -------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 多段运行模式运行状态     | Multi Segment  Running State         | 0x3614 | 0x00   | UNS8      | 0-255                                         | RO       | -                                 | 0：停止 1：目标未到达 2：目标到达 3：完成等待 4：等待超时 5：准备开始                                                                                                                                                                                                                                                                                                        |
+| 多段运行模式运行段       | Multi Segment Running Segment        | 0x3613 | 0x00   | UNS8      | 0-255                                         | RO       | -                                 | 读取当前的运行段数                                                                                                                                                                                                                                                                                                                                                           |
+| 多段运行模式段选指令     | Multi Segment Selection Command      | 0x3609 | 0x00   | UNS8      | 0-multi_segment_param_.head.number_of_segment | RW       |                                   | 多段运行模式的目标运行段                                                                                                                                                                                                                                                                                                                                                     |
+| 多段运行模式触发指令     | Multi Segment Trigger Command        | 0x360A | 0x00   | UNS8      | 0-255                                         | RW       |                                   | 触发运行                                                                                                                                                                                                                                                                                                                                                                     |
+| 多段运行模式设置段索引   | Multi Segment Set Segment Index      | 0x362D | 0x00   | UNS8      | 0-16                                          | RW       |                                   | 运行段索引                                                                                                                                                                                                                                                                                                                                                                   |
+| 多段运行模式设置参数索引 | Multi Segment Set Param Index        | 0x362E | 0x00   | UNS8      | 0-17                                          | RW       |                                   | 设置运行段中的运行参数。                                                                                                                                                                                                                                                                                                                                                     |
+| 多段运行模式设置值       | Multi Segment Set Value              | 0x362F | 0x00   | UNS32     | 0-4294967295                                  | RW       |                                   | 设置参数值                                                                                                                                                                                                                                                                                                                                                                   |
+| 电机端速度当前值         | Motor Velocity Actual Value          | 0x3574 | 0x00   | INTEGER32 | -2147483648~2147483647                        | RO       | VelCU（速度坐标转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 负载端速度当前值         | Load Velocity Actual Value           | 0x606C | 0x00   | INTEGER32 | -2147483648~2147483647                        | RO       | VelCU（速度坐标转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 电机端速度误差值         | Motor Velocity Error Value           | 0x3575 | 0x00   | INTEGER32 | -2147483648~2147483647                        | RO       | VelCU（速度坐标转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 负载端速度误差值         | Load Velocity Error Value            | 0x351E | 0x00   | INTEGER32 | -2147483648~2147483647                        | RO       | VelCU（速度坐标转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 电机端位置当前值         | Motor Position Actual Value          | 0x3572 | 0x00   | INTEGER32 | -2147483648 ~ 2147483647                      | RO       | PosCU（位置坐标转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 负载端位置当前值         | Load Position Actual Value           | 0x6064 | 0x00   | INTEGER32 | -2147483648 ~ 2147483647                      | RO       | PosCU（位置坐标转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 电机端位置误差           | Motor Position Error Value           | 0x3573 | 0x00   | INTEGER32 | -2147483648 ~ 2147483647                      | RO       | PosCU（位置坐标转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 负载端位置误差           | Load Position Error Value            | 0x60F4 | 0x00   | INTEGER32 | -2147483648 ~ 2147483647                      | RO       | PosCU（位置坐标转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 电流当前值               | Current Actual Value                 | 0x6078 | 0x00   | INTEGER16 | -32758~32767                                  | RO       | TqCU（转矩坐标转换，用户单位‰）  |                                                                                                                                                                                                                                                                                                                                                                              |
+| 电流误差值               | Current Error Value                  | 0x351F | 0x00   | INTEGER32 | -2147483648~2147483647                        | RO       | TqCU（转矩坐标转换，用户单位 mA） |                                                                                                                                                                                                                                                                                                                                                                              |
+| 运行模式指令             | Operation Mode Command               | 0x6060 | 0x00   | INTEGER8  | -                                             | RW       | -                                 | 0x01：位置模式 0x03：速度模式 0x04：力矩模式 0x06：回零模式 0x0B：力控模式 0x3C：往复运动模式 0x16：模拟量控速度模式 0x17：模拟量控力矩模式 0x1F：脉冲控位置模式 0x3D：参考信号模式 0x2A：PWM 控速模式 0x3E：多段运行模式 0xFF：电气辨识 0xFE：方向辨识 0xFC：极对数辨识 0xFB：Z 相辨识 0xFD：霍尔辨识 0xFA：电角度辨识 0xF9：机械辨识 0xF7：机械特性辨识 0xF8：转矩脉动辨识 |
+| 当前运行模式             | Operation Mode Actual                | 0x6061 | 0x00   | INTEGER8  | -                                             | RO       | -                                 | 0x01：位置模式 0x03：速度模式 0x04：力矩模式 0x06：回零模式 0x0B：力控模式 0x3C：往复运动模式 0x16：模拟量控速度模式 0x17：模拟量控力矩模式 0x1F：脉冲控位置模式 0x3D：参考信号模式 0x2A：PWM 控速模式 0x3E：多段运行模式 0xFF：电气辨识 0xFE：方向辨识 0xFC：极对数辨识 0xFB：Z 相辨识 0xFD：霍尔辨识 0xFA：电角度辨识 0xF9：机械辨识 0xF7：机械特性辨识 0xF8：转矩脉动辨识 |
+| 控制字                   | DS402 Controlword                    | 0x6040 | 0x00   | UNS16     | -                                             | RW       | -                                 |                                                                                                                                                                                                                                                                                                                                                                              |
+| 状态字                   | DS402 Statusword                     | 0x6041 | 0x00   | UNS16     | -                                             | RW       | -                                 |                                                                                                                                                                                                                                                                                                                                                                              |
+| 状态字                   | DS402 Statusword                     | 0x6041 | 0x00   | UNS16     | -                                             | RW       | -                                 |                                                                                                                                                                                                                                                                                                                                                                              |
+| 电机运行状态             | Motor Operation Status               | 0x3005 | 0x00   | UNS8      | 0~255                                         | RO       | -                                 | 0：电机失能 1：电机使能                                                                                                                                                                                                                                                                                                                                                      |
+| 力控模式                 | Force Control Mode                   | 0x3590 | 0x00   | UNS8      | 0~3                                           | RW       | -                                 | 1：电流控制模式 2：位置控制模式                                                                                                                                                                                                                                                                                                                                              |
+| 力传感器数据来源         | Force Sensor Type                    | 0x358F | 0x00   | INTEGER8  | 0~3                                           | RW       | -                                 | 0：当前电流 1：ADC12：ADC23：扩展通道                                                                                                                                                                                                                                                                                                                                        |
+| 力传感器采样偏移         | Force Sensor Sampling Offset         | 0x3594 | 0x00   | INTEGER32 | -2147483648~2147483647                        | RW       | -                                 |                                                                                                                                                                                                                                                                                                                                                                              |
+| 力传感器方向             | Force Sensor Direction               | 0x3595 | 0x00   | INTEGER8  | -128~127                                      | RW       | -                                 | 0x01：正方向 0xFF：负方向                                                                                                                                                                                                                                                                                                                                                    |
+| 力控目标值上升斜率       | Force Slope                          | 0x356B | 0x00   | UNS32     | 1~4294967295                                  | RW       | ForceUU（力单位转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 力目标值                 | Force Target Value                   | 0x358D | 0x00   | INTEGER32 | -2147483648~2147483647                        | RW       | ForceCU（力坐标转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 力指令值                 | Force Demand Value                   | 0x35E9 | 0x00   | INTEGER32 | -2147483648~2147483647                        | RO       | ForceCU（力坐标转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 力控搜索速度             | Force Control Search Speed           | 0x3658 | 0x00   | UNS32     | 0~4294967295                                  | RW       | VelUU（速度单位转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 力传感器当前值           | Force Sensor Actual Value            | 0x360D | 0x00   | INTEGER32 | -2147483648~2147483647                        | RO       | ForceCU（力坐标转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 力控误差                 | Force Error Value                    | 0x3612 | 0x00   | INTEGER32 | -2147483648~2147483647                        | RO       | ForceCU（力坐标转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 力-力矩控制前馈系数      | Force Torque Feedforward             | 0x35CB | 0x00   | INTEGER32 | -2147483648~2147483647                        | RW       | A/ADC                             |                                                                                                                                                                                                                                                                                                                                                                              |
+| 力-力矩控制比例系数      | Force Torque Kp                      | 0x35CC | 0x00   | INTEGER32 | -2147483648~2147483647                        | RW       | -                                 |                                                                                                                                                                                                                                                                                                                                                                              |
+| 力-力矩控制积分系数      | Force Torque Ki                      | 0x35CD | 0x00   | INTEGER32 | -2147483648~2147483647                        | RW       | -                                 |                                                                                                                                                                                                                                                                                                                                                                              |
+| 力-位置阻抗控制系数 K    | Force Position Impedance K           | 0x3588 | 0x01   | INTEGER32 | -2147483648~2147483647                        | RW       | -                                 |                                                                                                                                                                                                                                                                                                                                                                              |
+| 力-位置阻抗控制系数 B    | Force Position Impedance B           | 0x3588 | 0x02   | INTEGER32 | -2147483648~2147483647                        | RW       | -                                 |                                                                                                                                                                                                                                                                                                                                                                              |
+| 力-位置阻抗控制系数 M    | Force Position Impedance M           | 0x3588 | 0x03   | INTEGER32 | 1~2147483647                                  | RW       | -                                 |                                                                                                                                                                                                                                                                                                                                                                              |
+| 力-位置导纳控制系数 K    | Force Position Admittance K          | 0x3592 | 0x01   | INTEGER32 | -2147483648~2147483647                        | RW       | -                                 |                                                                                                                                                                                                                                                                                                                                                                              |
+| 力-位置导纳控制系数 B    | Force Position Admittance B          | 0x3592 | 0x02   | INTEGER32 | -2147483648~2147483647                        | RW       | -                                 |                                                                                                                                                                                                                                                                                                                                                                              |
+| 力-位置导纳控制系数 M    | Force Position Admittance M          | 0x3592 | 0x03   | INTEGER32 | 1~2147483647                                  | RW       | -                                 |                                                                                                                                                                                                                                                                                                                                                                              |
+| 力-力矩控制单位指数      | Force Torque Unit Index              | 0x35FB | 0x00   | INTEGER8  | -6~0                                          | RW       | -                                 |                                                                                                                                                                                                                                                                                                                                                                              |
+| 力-位置导纳控制单位指数  | Force Position Admittance Unit Index | 0x35FC | 0x00   | INTEGER8  | -6~0                                          | RW       | -                                 |                                                                                                                                                                                                                                                                                                                                                                              |
+| 力控到达检测开关         | Force Target Reached Detect Enable   | 0x360E | 0x00   | UNS8      | 0~1                                           | RW       | -                                 |                                                                                                                                                                                                                                                                                                                                                                              |
+| 力控到达检测窗口         | Force Target Reached Window          | 0x360F | 0x00   | UNS32     | 0 ~ 4294967295                                | RW       | ForceUU（力单位转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 力控到达检测窗口时间     | Force Target Reached Window Time     | 0x3610 | 0x00   | UNS16     | 0~65535                                       | RW       | ms                                |                                                                                                                                                                                                                                                                                                                                                                              |
+状态字解析
+通用定义（各个模式都通用）：
+| bit15 | bit14 | bit13 | bit12 | bit11 | bit10 | bit9 | bit8 | bit7 | bit6 | bit5 | bit4 | bit3 | bit2 | bit1 | bit0 |
+| ----- | ----- | ----- | ----- | ----- | ----- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| 0     | 0     | 0     | 0     | 0     | 0     | 1    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    |
+| ms    | ms    | oms   | oms   | ila   | tr    | rm   | ms   | w    | sod  | qs   | ve   | f    | oe   | so   | rtso |
+ms = manufacturer-specific（厂家自定义）
+oms = operation mode specific（模式定义）
+ila = internal limit active（如果 bit11 置 1，则表明触发内部位置限制）
+tr = target reached（如果 bit10 置 1，则表明目标到达）
+rm = remote （远程控制。如果 bit9 置 1，则表示 CANopen 远程控制模式）
+w = warning（如果 bit7 置 1，则表明警告）
+sod = switch on disabled（如果 bit6 置 1，则表明伺服未接通 PWM）
+qs = quick stop（如果 bit5 置 0，则表明急停）
+ve = voltage enabled（如果 bit4 置 1，则表明驱动器已接通电源）
+f = fault（如果 bit3 置 1，则表明处于错误状态）
+oe = operation enabled（如果 bit2 置 1，则表明伺服运行）
+so = switched on（如果 bit1 置 1，则表明伺服已接通 PWM）
+rtso = ready to switch on（如果 bit0 置 1，则表明伺服未准备好）
+状态字 bit0-bit3，bit5，bit6 定义
+| Value(binary)       | State                  |
+| ------------------- | ---------------------- |
+| xxxx xxxx x0xx 0000 | Not ready to switch on |
+| xxxx xxxx x1xx 0000 | Switch on disabled     |
+| xxxx xxxx x01x 0001 | Ready to switch on     |
+| xxxx xxxx x01x 0011 | Switched on            |
+| xxxx xxxx x01x 0111 | Operation enabled      |
+| xxxx xxxx x00x 0111 | Quick stop active      |
+| xxxx xxxx x0xx 1111 | Fault reaction active  |
+| xxxx xxxx x0xx 1000 | Fault                  |
+状态字 Bit10、Bit12、Bit13 定义：
+| Bit | Value | Definition含义                                                                    |
+| ------- | --------- | ----------------------------------------------------------------------------------------- |
+| 10      | 0         | Halt (Bit 8 in controlword) = 0: Target  not reached 控制字 bit8 = 0 时，表示目标未到达   |
+|         |           | Halt (Bit 8 in controlword) = 1: Axis decelerates 控制字 bit8 = 1 时，表示轴减速中        |
+|         | 1         | Halt (Bit 8 in controlword) = 0: Target  reached 控制字 bit8 = 0 时，表示目标已到达       |
+|         |           | Halt (Bit 8 in controlword) = 1: Velocity of axis is 0 控制字 bit8 = 1 时，表示轴速度为 0 |
+| 12      | -         | -                                                                                         |
+| 13      | -         | -                                                                                         |
+模式下控制字使用
+模式动作对应的控制字：
+| 动作    | 驱动器状态                         | 对应控制字 |
+| ----------- | -------------------------------------- | -------------- |
+| 失能        | Switch on disabled->Ready to switch on | 0x06           |
+| 失能-> 使能 | Switch on disabled->Operation  enabled | 0x0F           |
+|             | Ready to switch on->Operation  enabled |                |
+| 使能-> 暂停 | Operation enabled->Operation enabled   | 0x010F         |
+| 使能-> 失能 | Operation enabled->Ready to switch on  | 0x06           |
+|             | Operation enabled->Switch on disabled  | 0x05           |
+| 暂停-> 继续 | Operation enabled->Operation enabled   | 0x0F           |
+| 暂停-> 失能 | Operation enabled->Ready to switch on  | 0x06           |
+|             | Operation enabled->Switch on disabled  | 0x05           |
+| 故障-> 失能 | Fault->Switch on diabled               | 0x86           |
+模式设置流程
+
+以上媒体的描述: 这是一张流程图，描述了一个运行过程的逻辑。图中包含以下元素：
+
+段参数：
+运行模式
+运行目标值
+搜索模式
+搜索目标值
+等待时间
+超时时间
+运行参数1
+
+运行参数2
+
+
+整体参数：
+
+运行段数
+循环方式
+时间单位
+是否立即切换
+
+重启起始段
+
+
+流程步骤：
+
+运行
+是否达到搜索模式的目标值
+否：继续运行
+是：达到等待时间
+顺序、循环：运行段编号递增
+循环方式：收到新的切换指令
+是否支持立即切换
+否：运行新的段
+是：立即切换
+
+
+
+
+
+图中使用了不同颜色的虚线来表示不同参数之间的关系和流程的走向。

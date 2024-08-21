@@ -1,0 +1,985 @@
+source,target,weight,description,text_unit_ids,id,human_readable_id,source_degree,target_degree,rank
+医美机器人,多轴直流伺服驱动,1.0,医美机器人 uses 多轴直流伺服驱动 for achieving high precision and flexible control in operations,['6a6b204fca456cc0d7497c7446519292'],907ec65076e5494a8631efffb81b3178,0,4,1,5
+医美机器人,伺服电机,1.0,伺服电机 is a component of the医美机器人 used for precise motion control,['6a6b204fca456cc0d7497c7446519292'],2dc7f6b230db452190a09643ca3d5ec0,1,4,21,25
+医美机器人,传感器,1.0,传感器 are components of the医美机器人 used for sensing and feedback,['6a6b204fca456cc0d7497c7446519292'],c20ecfc93b3a4875ade5c92cfe4b94a1,2,4,15,19
+医美机器人,控制系统,1.0,控制系统 is a component of the医美机器人 that manages and coordinates the operation of other components,['6a6b204fca456cc0d7497c7446519292'],4bc7dc91ede345dfb63d7d4f7ac3554f,3,4,14,18
+协作机器人,割草机器人,1.0,"割草机器人 is a product that falls under the category of协作机器人, designed for specific tasks",['678f6e80926121e103efae5e48a8c9f2'],0b2b815c9f834aaaac0c341097def9ba,4,10,8,18
+协作机器人,锂电池制造设备,1.0,协作机器人 is related to the use of 锂电池制造设备 in the manufacturing process,['cd60c553dba9bff40c77be4f699fab03'],424ae71c56024094a02e6fd9bfcfbb04,5,10,4,14
+协作机器人,协作机器人喷涂工位,1.0,协作机器人 is used at the 协作机器人喷涂工位 to perform painting tasks,['d50dbe44b899b4cfaf149cb3fd0c4159'],400d10f2ee1d49be9a66efa34dada0e6,6,10,5,15
+协作机器人,直流伺服驱动,1.0,直流伺服驱动 is a component that works with 协作机器人 to ensure the quality of the painting process,['d50dbe44b899b4cfaf149cb3fd0c4159'],91deb9f152264e958d106d481ff2e1ee,7,10,57,67
+协作机器人,锂电池卷绕机,1.0,协作机器人 can be used in the operation of the 锂电池卷绕机 for tasks such as winding and tension control,['c94be7ba5abf1f79d420aac7fe8bae2e'],586cf02da9494088aed9b3419725638f,8,10,6,16
+协作机器人,协作机器人装配工位,1.0,在协作机器人装配工位上，协作机器人执行组件的拾取和放置任务，需要高精度和重复精度,['725fed5878bff0529e13ba809e325469'],229d85a2783e4a2991f17d2ab5750af7,9,10,2,12
+协作机器人,锂电池测试设备,1.0,锂电池测试设备 is used in the industry of 协作机器人 for testing lithium batteries,['52193089f44e2d4de3eae704535af318'],b7f97d1909a3433abef8ca8e9334fafa,10,10,5,15
+协作机器人,按摩机器人,1.0,协作机器人 is potentially used in the implementation of the massage robot for consumer applications,['cd97ce82b07072c24ffdddbbf2a468a4'],b7fdfffc38b94bf7872eabe9b022c8fd,11,10,3,13
+协作机器人,消费类,1.0,"协作 robots are used in the consumer industry, possibly for the development of products like the massage robot",['cd97ce82b07072c24ffdddbbf2a468a4'],6242e0c237a348908d0256ea790a0211,12,10,3,13
+协作机器人,协作机器人检测工位,1.0,协作机器人 is used at the 协作机器人检测工位 for performing quality inspections on products,['7db76b99a4ad703f2ced3f3241ae2de7'],7cc9f26737e1442595e53253e98015ef,13,10,5,15
+伺服电机,协作机器人喷涂工位,1.0,伺服电机 is a component used in the 协作机器人喷涂工位 to complete the painting task,['d50dbe44b899b4cfaf149cb3fd0c4159'],1868fec1493643208dbdcad7bc97dfa0,14,21,5,26
+伺服电机,医疗影像设备,1.0,伺服电机 is a component of 医疗影像设备 used for precise motion control,['e78da4dada0873bf9b05c64978c91bb0'],a87aa935dccf49cd98b40fb5afe7ad5c,15,21,5,26
+伺服电机,自动光伏电池测试设备,1.0,伺服电机 is a component of the 自动光伏电池测试设备 for precise motion,['ead29f227b9db281279d460a522ad9d5'],36870a3393f6413e9bf647168eb6977a,16,21,6,27
+伺服电机,转台装置,1.0,"伺服电机 is a component of the 转台装置, providing the necessary power and control for stable rotation",['3a1d23ceba280b76b50f854902585bbb'],4fe3ff52700c491f8cc650aadb4d7cb0,17,21,4,25
+伺服电机,药物分拣设备,1.0,伺服电机 is a component of the 药物分拣设备 used for precise control,['8327ea60cb9724d1bf3f13f18f1b917c'],f1f6f6435a444e388d67e16e847afca6,18,21,5,26
+伺服电机,直流伺服驱动,2.0,"The entity ""伺服电机"" (Servo Motor) is a critical component in the realm of automation, renowned for its capability to achieve precise movement control. ""直流伺服驱动"" (DC Servo Drive) is a technology specifically designed to operate in tandem with servo motors, enabling the realization of high-precision motion control. This technology is commonly utilized alongside servo motors, facilitating the accurate and controlled movement essential for various applications in automation and manufacturing processes.",['69ddcc4f6ff5df8aa797fee7694ff710' '725fed5878bff0529e13ba809e325469'],0af2ca1c090843ea92679fd14c1fbc9a,19,21,57,78
+伺服电机,控制系统,1.0,伺服电机 is controlled by the 控制系统 for precise motion in automation systems,['b310460babc9fa725ad47320c61e0086'],1b06d3e53ffd4771952fbef04d1e666c,20,21,14,35
+伺服电机,印刷电路板钻孔机,1.0,"伺服电机 is a component of the 印刷电路板钻孔机, used for precise control and movement",['c4ca69bc6be35c42c4725a35a741befa'],b8e966b34cba4b11b9995106767212ba,21,21,4,25
+伺服电机,移液机器人,1.0,伺服电机 is a component of the 移液机器人 used for precise control and positioning,['3171a8e0686e844a43b8a5bcb122df77'],f6de923de6474d2cab6a9c2f0d81fa59,22,21,4,25
+伺服电机,自动焊接机,1.0,"自动焊接机 uses the 伺服电机, controlled by the DC servo drive, for precise motion control",['69db1015cf2586f3740f46c919eb8e25'],6915637e8d124fdc8473111d501e3703,23,21,4,25
+伺服电机,云台装置,1.0,伺服电机 is a component of the 云台装置 used for smooth rotation and high precision control,['8aa843d0b018051f90583fd0dee4a404'],2233f31929194eac89333ce8731a5584,24,21,4,25
+伺服电机,自动化仓库堆垛机,1.0,伺服电机 is a component used in the automation warehouse stacker for precise control and positioning,['76f3b1592256b4437b7d47b5f14ae2c6'],61f1dc4267314470ac820b6a46c61f7b,25,21,5,26
+伺服电机,智能清舱农机,1.0,智能清舱农机 uses servo motors for efficient movement and operation,['4418484e1f856e36e079b84bd1272840'],f0c578614b224345974c3e4c110878af,26,21,5,26
+伺服电机,智能仓储系统,1.0,智能仓储 system uses servo motors for precise positioning and movement,['ef6d9b5e0927a32e780b2b369685d3ee'],7ffb88ebc729492c897ccfb569d7f6d0,27,21,6,27
+伺服电机,自动点餐与配送机器人,1.0,伺服电机 is a component used in the 自动点餐与配送机器人 for precise control and movement,['ca10fe3d16756300859a0693aee7f7a0'],60dce7d8bc1b4729a038178a400b9a59,28,21,5,26
+伺服电机,巡检机器人,1.0,伺服电机 is a component of the 巡检机器人 that contributes to its operation,['c3025b9f170d4cb9a5794da27f609eb1'],4cbb4e238c5b4656803fb9b4b6c3512e,29,21,4,25
+伺服电机,医疗实验室搬运机器人,1.0,伺服电机 is a component of the 医疗实验室搬运机器人 for precise control,['d9eda21d3e37948306b3b3c665150e73'],652873bcd6d5432187e5deafc4fc5211,30,21,5,26
+伺服电机,协作机器人检测工位,1.0,伺服电机 is a component used in the 协作机器人检测工位 to provide precise control over the movement of the collaborative robot,['7db76b99a4ad703f2ced3f3241ae2de7'],78f9b30c08134ac5abb4f4e0bff0f7f2,31,21,5,26
+伺服电机,医疗机器人,1.0,"伺服电机 is a component of the 医疗机器人, providing precise control and movement",['98cdaf1813fc652ea5cff51372d95793'],f33e4e897b1e422bb516e8a2c941d9dc,32,21,4,25
+伺服电机,智能搬运机器人,1.0,智能搬运机器人 uses 伺服电机 for precise control and movement,['8ae4de39dd9ba11cfa17e06a2174416b'],fac4e1553a9840e990bbfff46e64ff27,33,21,4,25
+传感器,自动化喷涂生产线,1.0,"传感器 are used in the 自动化喷涂生产线 to detect and respond to various physical inputs, aiding in process control",['b4b2ecf75d1aad0ccc5d6f76a00fe3b9'],029a55d327ee4fb3a8314b36d52bdf34,34,15,8,23
+传感器,医疗影像设备,1.0,传感器 is a component of 医疗影像设备 used for detection and measurement,['e78da4dada0873bf9b05c64978c91bb0'],5a636c894c384532bff66212cf9d5824,35,15,5,20
+传感器,自动光伏电池测试设备,1.0,传感器 are used in the 自动光伏电池测试设备 for data collection,['ead29f227b9db281279d460a522ad9d5'],a9c468ef78704e9aabfc0317a5b1b42d,36,15,6,21
+传感器,自动化喷漆设备,1.0,"传感器 is a component of the 自动化喷漆设备, detecting and measuring physical conditions for control",['f08d35c87cc299fc9fe46d2ec11626f7'],5df80c25d33a4d148a14aa614343cc6b,37,15,7,22
+传感器,药物分拣设备,1.0,传感器 is a component of the 药物分拣设备 used for detecting and measuring parameters,['8327ea60cb9724d1bf3f13f18f1b917c'],6a87f06ed55a46f29b24f77e548a3f1d,38,15,5,20
+传感器,直流伺服驱动,1.0,直流伺服驱动可能与传感器集成，以实现更精确的控制和反馈,['725fed5878bff0529e13ba809e325469'],0daf88ac4ec94cbb868e27e956c6d7f1,39,15,57,72
+传感器,移液机器人,1.0,传感器 is a component of the 移液机器人 used for detecting and measuring various parameters,['3171a8e0686e844a43b8a5bcb122df77'],9ed120043e6247be9965e4904920991b,40,15,4,19
+传感器,自动化仓库堆垛机,1.0,传感器 is a component used in the automation warehouse stacker for monitoring and control,['76f3b1592256b4437b7d47b5f14ae2c6'],94d81d7de9254ae4b3b16fcc69aa22ea,41,15,5,20
+传感器,智能仓储系统,1.0,智能仓储 system uses sensors for detecting and measuring various physical phenomena,['ef6d9b5e0927a32e780b2b369685d3ee'],60c9212246f84ae5b6ab254127a39262,42,15,6,21
+传感器,自动点餐与配送机器人,1.0,传感器 is a component used in the 自动点餐与配送机器人 for sensing and data collection,['ca10fe3d16756300859a0693aee7f7a0'],0f8d0c36a4274526a9eddedae5e63881,43,15,5,20
+传感器,巡检机器人,1.0,传感器 is a component of the 巡检机器人 that enables data collection and monitoring,['c3025b9f170d4cb9a5794da27f609eb1'],6aedd377efbe4f07ae42e546996e7bfa,44,15,4,19
+传感器,医疗实验室搬运机器人,1.0,传感器 is a component of the 医疗实验室搬运机器人 for detection and measurement,['d9eda21d3e37948306b3b3c665150e73'],1aa8484562784f378851c33843c89687,45,15,5,20
+传感器,医疗机器人,1.0,"传感器 is a component of the 医疗机器人, enabling detection and measurement for accurate operation",['98cdaf1813fc652ea5cff51372d95793'],f1a65d05dd5d456b889217020475ef80,46,15,4,19
+传感器,智能搬运机器人,1.0,智能搬运机器人 uses 传感器 for detecting and measuring physical conditions,['8ae4de39dd9ba11cfa17e06a2174416b'],c077d92b48b6477db91e1a0460600f52,47,15,4,19
+控制系统,协作机器人喷涂工位,1.0,控制系统 is a component used in the 协作机器人喷涂工位 to complete the painting task,['d50dbe44b899b4cfaf149cb3fd0c4159'],5ca888df9b884e54accdd2ff29d125c1,48,14,5,19
+控制系统,医疗影像设备,1.0,控制系统 is part of 医疗影像设备 that manages the operation of other components,['e78da4dada0873bf9b05c64978c91bb0'],8290a6212d6c4430ae0056c7e8eccd5f,49,14,5,19
+控制系统,自动光伏电池测试设备,1.0,控制系统 manages the operation of the 自动光伏电池测试设备,['ead29f227b9db281279d460a522ad9d5'],14f8ac195fdb4e06a0b9ebc6ef391180,50,14,6,20
+控制系统,转台装置,1.0,"控制系统 is a part of the 转台装置, used for managing and coordinating the operation of the system",['3a1d23ceba280b76b50f854902585bbb'],667ee58a79194316ae2b82eadd3fc575,51,14,4,18
+控制系统,编码器,1.0,编码器 is integrated with the 控制系统 for measuring and controlling the position and speed of moving parts,['b310460babc9fa725ad47320c61e0086'],b0e3ee2324054c88adacdf80db13278f,52,14,42,56
+控制系统,印刷电路板钻孔机,1.0,控制系统 manages and controls the operation of the 印刷电路板钻孔机 and its components,['c4ca69bc6be35c42c4725a35a741befa'],28b7457ca5dc4a38a488946a3f8e207e,53,14,4,18
+控制系统,自动焊接机,1.0,"自动焊接机 is managed by the 控制系统 to ensure high precision, consistency, and stability in the welding process",['69db1015cf2586f3740f46c919eb8e25'],8029a14d15404e6db95ddf5e2bf9fc15,54,14,4,18
+控制系统,云台装置,1.0,控制系统 is a component of the 云台装置 used to manage and coordinate the operation of the servo motor and encoder,['8aa843d0b018051f90583fd0dee4a404'],389314ca89d445888c8d4985864dd733,55,14,4,18
+控制系统,太阳能逆变器制造设备,1.0,"控制系统 is part of the 太阳能逆变器制造设备, responsible for managing the operation of the equipment to ensure high precision and efficiency in assembly and testing.",['937c32a23dadd297f434106e4a601a61'],87fe1462b9064d5692641ab48e826301,56,14,4,18
+控制系统,智能清舱农机,1.0,智能清舱农机 is controlled by a system to manage its operation,['4418484e1f856e36e079b84bd1272840'],a55175ac57014df696ca09d0def9604b,57,14,5,19
+控制系统,医疗机器人,1.0,"控制系统 is a component of the 医疗机器人, managing and coordinating its functions and movements",['98cdaf1813fc652ea5cff51372d95793'],1766e8858d7b45ed97f71cb5a39e96ea,58,14,4,18
+控制系统,CT扫描仪的定位系统,1.0,"控制系统 is a component of the CT scan positioning system, responsible for managing the operation of the system",['0121fa7828a456349a5d679825172e9b'],6191e014f3f64e46a0777063ed4ac19a,59,14,9,23
+卫星转台,军工设备,1.0,卫星转台 is a type of military equipment used in the military industry,['588823a50fa2ae7eea9383df183d8a98'],21b0499cf14342269c46170c291d0535,60,4,1,5
+卫星转台,主控制板,1.0,"主控制板 is a component of the satellite turntable, developed by the customer for control purposes",['588823a50fa2ae7eea9383df183d8a98'],c1ef05b38b3f4d59888150fc0dd26826,61,4,1,5
+卫星转台,旋转轴,1.0,"旋转轴 is a component of the satellite turntable, responsible for rotation actions",['588823a50fa2ae7eea9383df183d8a98'],74cb9b3510e84498b9aee0d904316e8b,62,4,1,5
+卫星转台,俯仰轴,1.0,"俯仰轴 is a component of the satellite turntable, responsible for pitch actions",['588823a50fa2ae7eea9383df183d8a98'],043d764b2e1b4d1294651ff938df5391,63,4,1,5
+自动化农业喷灌系统,喷灌设备,1.0,喷灌设备 is a part of the 自动化农业喷灌系统 used for irrigation,['abe4f205eda50d06d6f8dd7b025f59c7'],31f2170fef004f3281c533a4a60dc3f3,64,8,1,9
+自动化农业喷灌系统,驱动电机,1.0,驱动电机 is a component of the 自动化农业喷灌系统 used for controlling the motion of sprinklers and water flow,['abe4f205eda50d06d6f8dd7b025f59c7'],57f186c5c2754483ba66750e98222f95,65,8,25,33
+自动化农业喷灌系统,喷头,1.0,喷头 is a component of the 自动化农业喷灌系统 used for distributing water,['abe4f205eda50d06d6f8dd7b025f59c7'],4b3fc569d91f4a7aa6501ad4fcf67b7a,66,8,3,11
+自动化农业喷灌系统,管道系统,1.0,管道系统 is a part of the 自动化农业喷灌系统 used for transporting water,['abe4f205eda50d06d6f8dd7b025f59c7'],cbc1667556f84a5eadf867a823e6986c,67,8,1,9
+自动化农业喷灌系统,编码器,1.0,编码器 is a component of the 自动化农业喷灌系统 used for measuring and controlling the position and motion of the sprinklers,['abe4f205eda50d06d6f8dd7b025f59c7'],a876d1ab79864396bc47a039225fd5c7,68,8,42,50
+自动化农业喷灌系统,工业控制器,1.0,工业控制器 is a part of the 自动化农业喷灌系统 used for managing the operation of the system,['abe4f205eda50d06d6f8dd7b025f59c7'],c09f67d4f25448c99f7c0552c30b7706,69,8,24,32
+自动化农业喷灌系统,伺服驱动器,1.0,伺服驱动器 is a component of the 自动化农业喷灌系统 used for controlling the motion of the sprinklers and water flow,['abe4f205eda50d06d6f8dd7b025f59c7'],c0866306dc8c4da2a8a81c0c3a78b657,70,8,25,33
+自动化农业喷灌系统,某大型农业种植企业,1.0,某大型农业种植企业 uses the 自动化农业喷灌系统 for efficient irrigation and crop production,['abe4f205eda50d06d6f8dd7b025f59c7'],3884c37eb13a4c9097ee2c5be4eeefaf,71,8,1,9
+农业,智能清舱农机,1.0,智能清舱农机 is used in the agricultural industry for clearing tasks,['4418484e1f856e36e079b84bd1272840'],90764eb2cab74cffb1c7d72d28b965cc,72,1,5,6
+驱动电机,自动化喷涂生产线,1.0,"驱动电机 is essential for the operation of the 自动化喷涂生产线, providing the power for motion control",['b4b2ecf75d1aad0ccc5d6f76a00fe3b9'],01abe16e67c241a887aa62abe22d155c,73,25,8,33
+驱动电机,自动化垃圾分类设备,1.0,"驱动电机 is a component of the automation waste sorting equipment, providing power for the operation",['ad37dec2a2a19c9d593c5a4927c7c7d2'],37049be0a2c240c6a06acf9339237b8b,74,25,8,33
+驱动电机,自动化点焊机,1.0,驱动电机 is a component of the 自动化点焊机 used to drive its motion,['a4cdb403788ae9e31262a18f4fb0801c'],e785c52881704d95bf4ec03d2720f8ae,75,25,7,32
+驱动电机,锁钉机,1.0,锁钉机 uses 驱动电机 for power and operation,['eced1354dc203db862497de8c414d11c'],654689c65613476b9905d7afb3809cd2,76,25,6,31
+驱动电机,折弯机,1.0,驱动电机 is a component of the 折弯机 that provides the necessary power for bending metal parts,['54c84a3acff36a81a14e832661cab5fc'],15dfb45a6ffa4d34ad72cfe4b3c5cc0d,77,25,6,31
+驱动电机,自动化药品分拣系统,1.0,驱动电机 is a component of the 自动化药品分拣系统 used for driving motion,['b740e95b2369349a884c647a52dc866f'],427c3b7458f148d8bace1b768e2b5b7c,78,25,8,33
+驱动电机,多轴钻孔机,1.0,驱动电机 provides the power and control for the movement of the drill heads in the 多轴钻孔机,['d560c15d411111345f80197f7486058a'],95d506750fd94e72bbd9cf2d3fe18e28,79,25,9,34
+驱动电机,自动售货机,1.0,驱动电机 is a component of the 自动售货机 used for moving goods,['617f570544f5137ea2a26ea012860b88'],bf0138ccbcc740089a55fd0c24897360,80,25,8,33
+驱动电机,自动化天线测量系统,1.0,驱动电机 is a component used in the automation system for controlling movements,['8e000fc4a60954e69e5b2dceaa13a5c0'],83cd5df42643494396b00d6cb6376def,81,25,7,32
+驱动电机,自动物流分拣系统,1.0,驱动电机 is a component of the 自动物流分拣系统 used for mechanical drive,['bb8dd1736ac0ae84f0cefaf4d9ae1d0d'],909d28e443fd4e0bac189373125c8309,82,25,8,33
+驱动电机,自动化喷漆设备,1.0,"驱动电机 is a component of the 自动化喷漆设备, providing the power for motion control",['f08d35c87cc299fc9fe46d2ec11626f7'],efbc2439e5034801af83ac1a0b440535,83,25,7,32
+驱动电机,自动化装袋机,1.0,"驱动电机 is a component of the automation system in the automation装袋机, providing the necessary power for motion",['b5924964ebff3b005590e9cc94e5b39a'],b9a2ef791a064f038cac2059ebea1138,84,25,7,32
+驱动电机,自动输液泵,1.0,驱动电机 is a component of the 自动输液泵 used for motor operation,['cc3f86276324c4b3b25d1ec3649d9abf'],1ce2b24bc93442148dc2240d3c6223b1,85,25,7,32
+驱动电机,自动化检重机,1.0,"驱动电机 is a component of the 自动化检重机, providing the power for motion control",['e77a55ec71b2605da11f93be730a1d44'],804c1e94e7974332a817931363ddb643,86,25,8,33
+驱动电机,CNC加工中心刀塔换刀系统,1.0,"驱动电机 is a component of the CNC加工中心刀塔换刀系统, providing the necessary motion",['5ba07e67aad936b5e8fdced90ee7e0f5'],32dc0b572ad84c75a64a2007788eb981,87,25,6,31
+驱动电机,化妆品生产线,1.0,"驱动电机 is a component of the cosmetics production line, used to drive the movement of machinery",['75d656d482f083d807ff14652a2871f6'],f5c11a5ac94e40068bca8be178a6bcd6,88,25,7,32
+驱动电机,自动化食品加工设备,1.0,驱动电机 is a component of the 自动化食品加工设备 used for providing power,['d677c45b0e6b17b157c972d420c84d31'],ea28ff7f127e4677a913952595dce2f5,89,25,7,32
+驱动电机,自动化制药设备,1.0,"驱动电机 is a critical component in the operation of 自动化制药设备, providing the necessary power for motion control",['794fefdb523287e635a5dce19320814a'],192a6d23595045f38b0d46a3d8e52fd6,90,25,8,33
+驱动电机,自动化灌装线,1.0,驱动电机 is a component of the 自动化灌装线 for motion control,['8757d4df4f6d7215159f27cbefe87143'],ef67c9fc60284b50aa15ac655b06a155,91,25,7,32
+驱动电机,自动化印刷设备,1.0,驱动电机 is a component of the automation printing equipment used for motion control,['51f5fa0deebff5b32f74d90b957de319'],cc8201cce1024b5192056fe8e98fda22,92,25,7,32
+驱动电机,自动化卷纸机,1.0,"驱动电机 is a component of the 自动化卷纸机, providing the necessary power for its operation",['83e00c12ccf537178db6a3b06b5078f2'],97e097f9022540b88ab7c13d2805c25f,93,25,8,33
+驱动电机,直线导轨,1.0,驱动电机 and 直线导轨 are components that work together to guide and control the linear motion in the manufacturing process,['78292823ba9a23ddd49ea39f21675fb2'],829a6299a5fa4e7b8ff4020020a0be05,94,25,8,33
+驱动电机,伺服驱动器,1.0,伺服驱动器 controls the motion of the 驱动电机 in industrial applications,['78292823ba9a23ddd49ea39f21675fb2'],dde2742459c24fb4a91172aa5c1a7620,95,25,25,50
+驱动电机,自动化贴标机,1.0,"驱动电机 is a component of the自动化贴标机, providing the necessary power for motion",['d740381af8ef46f554299a093537dd69'],323979a67d79498fa271acdf8cd1a0c2,96,25,7,32
+喷头,自动化喷涂生产线,1.0,"喷头 is a critical part of the 自动化喷涂生产线, responsible for the application of paint",['b4b2ecf75d1aad0ccc5d6f76a00fe3b9'],c7e8b188b45841a0a1bcb22f3445ea6e,97,3,8,11
+喷头,自动化喷漆设备,1.0,"喷头 is a component of the 自动化喷漆设备, responsible for the precise application of paint",['f08d35c87cc299fc9fe46d2ec11626f7'],5a4ad077106a4a3f951f43d2e01499b0,98,3,7,10
+编码器,自动化喷涂生产线,1.0,编码器 is used in the 自动化喷涂生产线 for measuring and controlling the position and speed of moving parts,['b4b2ecf75d1aad0ccc5d6f76a00fe3b9'],a7ec8df038d7461689d28f1bdea84d9b,99,42,8,50
+编码器,自动化垃圾分类设备,1.0,"编码器 is a component of the automation waste sorting equipment, measuring and controlling the position and speed of mechanical parts",['ad37dec2a2a19c9d593c5a4927c7c7d2'],8ddefa32e2ed4eaf8f76d17a676f74f3,100,42,8,50
+编码器,自动化点焊机,1.0,编码器 is a component of the 自动化点焊机 used for position feedback,['a4cdb403788ae9e31262a18f4fb0801c'],95ec30ce8dbe4ca28714e3e3735da8f3,101,42,7,49
+编码器,锁钉机,1.0,锁钉机 uses 编码器 for precise control and measurement,['eced1354dc203db862497de8c414d11c'],259e7f5e2ec04418937513413b6d51d1,102,42,6,48
+编码器,折弯机,1.0,编码器 is a component of the 折弯机 that measures and controls the position and speed of the bending process,['54c84a3acff36a81a14e832661cab5fc'],2289f06dd3804a3c84371dda0bab091e,103,42,6,48
+编码器,环形FTS系统,1.0,"编码器 is a component of the 环形FTS系统, converting mechanical movements into digital signals for precise control",['93f221ac5d3740108fc98f190e7f3d88'],34ff8ef897804691842071f9ff78708e,104,42,15,57
+编码器,协作机器人喷涂工位,1.0,编码器 is a component used in the 协作机器人喷涂工位 to complete the painting task,['d50dbe44b899b4cfaf149cb3fd0c4159'],a7401447d994439993da7cc57f127649,105,42,5,47
+编码器,自动化药品分拣系统,1.0,编码器 is a component of the 自动化药品分拣系统 used for measuring position and speed,['b740e95b2369349a884c647a52dc866f'],754b0f2616064b18abb90f409ef0539a,106,42,8,50
+编码器,多轴钻孔机,1.0,编码器 measures and controls the position and speed of the drill heads in the 多轴钻孔机,['d560c15d411111345f80197f7486058a'],acd35bb6b3cb4979a3f3fb68a86b3b05,107,42,9,51
+编码器,自动售货机,1.0,编码器 is a component of the 自动售货机 used for measuring and controlling the position and speed of the motor,['617f570544f5137ea2a26ea012860b88'],9e1e7f67ba044c7fbf64723af1ade58e,108,42,8,50
+编码器,自动化天线测量系统,1.0,编码器 is a component used in the automation system for encoding position data,['8e000fc4a60954e69e5b2dceaa13a5c0'],57e16ff087a84b8ebd70de1e7e534225,109,42,7,49
+编码器,自动物流分拣系统,1.0,编码器 is a component of the 自动物流分拣系统 used for precise control,['bb8dd1736ac0ae84f0cefaf4d9ae1d0d'],bbf4007dc9c0486b8ea76d616045467a,110,42,8,50
+编码器,高速取放机,1.0,编码器 is a component in the 高速取放机 that aids in the precise control and monitoring of movement,['993c62a4486ef6aeef83623cbe6ec2b5'],9535f4d754044e128cd3951a9d2e3702,111,42,7,49
+编码器,自动化喷漆设备,1.0,"编码器 is a component of the 自动化喷漆设备, converting mechanical movements into digital signals for control",['f08d35c87cc299fc9fe46d2ec11626f7'],e1ed13e29ee946d4aaafac50aaa3b68f,112,42,7,49
+编码器,自动化装袋机,1.0,"编码器 is a component of the automation装袋机, used for precise control of the bagging process",['b5924964ebff3b005590e9cc94e5b39a'],eb961d47a30c4870a1134b4a4672a8b2,113,42,7,49
+编码器,自动输液泵,1.0,编码器 is a component of the 自动输液泵 for measuring and controlling motor position and speed,['cc3f86276324c4b3b25d1ec3649d9abf'],5b019e8652264136b95306bac70a2e25,114,42,7,49
+编码器,转台装置,1.0,"编码器 is a component of the 转台装置, used for measuring and controlling the position and speed of the motor",['3a1d23ceba280b76b50f854902585bbb'],325fc9e2b37043b7af9f6ad338b09469,115,42,4,46
+编码器,机械手和平台运动控制,1.0,编码器 is used for measuring and controlling the position and speed of the mechanical arm and platform in the 机械手和平台运动控制,['ae030c245f17423575510c619741160a'],6bb11aa08b414232b5b45f10f5766f62,116,42,4,46
+编码器,印刷电路板钻孔机,1.0,编码器 is used in the 印刷电路板钻孔机 to measure and provide feedback on the position and movement of the drill head,['c4ca69bc6be35c42c4725a35a741befa'],179737fd23c943babdfae01ac5c6bfc3,117,42,4,46
+编码器,自动化检重机,1.0,"编码器 is a component of the 自动化检重机, converting mechanical motion into digital signals for control",['e77a55ec71b2605da11f93be730a1d44'],65a31e4da283411fb7c971f63d606723,118,42,8,50
+编码器,自动焊接机,1.0,自动焊接机 uses the 编码器 to convert mechanical motion into electrical signals for precise control,['69db1015cf2586f3740f46c919eb8e25'],de31810d43174a52aa2f31b72f4542f5,119,42,4,46
+编码器,CNC加工中心刀塔换刀系统,1.0,编码器 is used in the CNC加工中心刀塔换刀系统 for position and speed control,['5ba07e67aad936b5e8fdced90ee7e0f5'],a6ae1d99330443fcacb06ace15a0d937,120,42,6,48
+编码器,云台装置,1.0,编码器 is a component of the 云台装置 used for measuring and controlling the position and speed of the servo motor,['8aa843d0b018051f90583fd0dee4a404'],5174cdabb6024de0975762d3a80b059f,121,42,4,46
+编码器,化妆品生产线,1.0,"编码器 is a component of the cosmetics production line, used for measuring and controlling position and speed",['75d656d482f083d807ff14652a2871f6'],e379fba901174b529250169e62d98c09,122,42,7,49
+编码器,智能清舱农机,1.0,智能清舱农机 uses encoders for precise positioning and control,['4418484e1f856e36e079b84bd1272840'],81ee8bb20bbb4d37bc0db642f1c75b8e,123,42,5,47
+编码器,自动化食品加工设备,1.0,编码器 is a component of the 自动化食品加工设备 used for measuring position and speed,['d677c45b0e6b17b157c972d420c84d31'],93b4aa6ce6e44123a861d4c3b3d509a2,124,42,7,49
+编码器,自动化制药设备,1.0,编码器 is used in 自动化制药设备 for converting mechanical movements into digital signals for precise control,['794fefdb523287e635a5dce19320814a'],ee8414e314f547eeb369849cdb51bac2,125,42,8,50
+编码器,刀具磨削机,1.0,编码器 converts mechanical movements into digital signals for the 刀具磨削机,['c73034d6a6f91e79c6bd21fffa416202'],9f77aa8888bd4f94abba8a77c4b0565c,126,42,5,47
+编码器,两轴,1.0,两轴 includes an encoder component for its operation,['795a6efb4c07565e2cea3077eac4130a'],dcf33412678340319e7ec8f7be267ef9,127,42,5,47
+编码器,读数头,1.0,编码器 includes a reading head component for its operation,['795a6efb4c07565e2cea3077eac4130a'],4aa1e0fa00c048939a5d006bfd305fb4,128,42,1,43
+编码器,解码器,1.0,编码器 includes a decoder component for its operation,['795a6efb4c07565e2cea3077eac4130a'],03053ab4a9054384a5f5e88d28841621,129,42,1,43
+编码器,栅尺,1.0,编码器 includes a scale component for its operation,['795a6efb4c07565e2cea3077eac4130a'],9fd0f20997d541bca46c4ec9843a5d0f,130,42,1,43
+编码器,驱动器,1.0,驱动器 works in conjunction with the encoder to control the motor's position and speed,['429770fe8f393c34ddc5b3b06c00b11f'],27168beee1ff456696c330c9c3b3259f,131,42,28,70
+编码器,自动化灌装线,1.0,编码器 is a component of the 自动化灌装线 for measuring position and speed,['8757d4df4f6d7215159f27cbefe87143'],e1c20e06aeac436788a9c6e918bcb844,132,42,7,49
+编码器,自动化印刷设备,1.0,编码器 is a component of the automation printing equipment for precise motion control,['51f5fa0deebff5b32f74d90b957de319'],344417f626ef4da4be4539ef4037bf3f,133,42,7,49
+编码器,协作机器人检测工位,1.0,编码器 is used in the 协作机器人检测工位 to measure the position and movement of the collaborative robot,['7db76b99a4ad703f2ced3f3241ae2de7'],8b1fff87c350475fb1d411a26c3c5b0c,134,42,5,47
+编码器,自动化卷纸机,1.0,"编码器 is a component of the 自动化卷纸机, used for position or speed feedback in the control system",['83e00c12ccf537178db6a3b06b5078f2'],898a9458adfb4c13a1eafacf6a1068f6,135,42,8,50
+编码器,升降台FTS系统,1.0,"编码器 is a component of the 升降台FTS系统, used for encoding in the magnetic levitation system",['d89a41b98c4286f63b72a41c3ebea08d'],5448f05781de44ea96e3dea40b285842,136,42,12,54
+编码器,工业控制器,1.0,编码器 provides input to the 工业控制器 for precise control of machinery and processes,['78292823ba9a23ddd49ea39f21675fb2'],76b1e69904b84d09ba05c4b7efc48f32,137,42,24,66
+编码器,自动化贴标机,1.0,"编码器 is a component of the自动化贴标机, measuring and controlling the label application process",['d740381af8ef46f554299a093537dd69'],3f5590a604894d268603b4b27c3348b5,138,42,7,49
+工业控制器,自动化喷涂生产线,1.0,工业控制器 is used to manage and coordinate the operation of the 自动化喷涂生产线,['b4b2ecf75d1aad0ccc5d6f76a00fe3b9'],68f998c9c8c34bb7a994de5a998bb9a0,139,24,8,32
+工业控制器,自动化垃圾分类设备,1.0,"工业控制器 is a component of the automation waste sorting equipment, controlling the operation of the system",['ad37dec2a2a19c9d593c5a4927c7c7d2'],aafc13d02ade40adae13d3bee241817a,140,24,8,32
+工业控制器,自动化点焊机,1.0,工业控制器 is a component of the 自动化点焊机 used for controlling its operation,['a4cdb403788ae9e31262a18f4fb0801c'],81a4818e5cf84ea085abf09de385c86e,141,24,7,31
+工业控制器,锁钉机,1.0,锁钉机 uses 工业控制器 for managing and coordinating operations,['eced1354dc203db862497de8c414d11c'],b69851bf63e34ced83827b0021628543,142,24,6,30
+工业控制器,折弯机,1.0,工业控制器 is a component of the 折弯机 that coordinates the actions of various components for precise bending,['54c84a3acff36a81a14e832661cab5fc'],b83a4e11bfa64559954327714b73293f,143,24,6,30
+工业控制器,自动化药品分拣系统,1.0,工业控制器 is a component of the 自动化药品分拣系统 used for controlling the system,['b740e95b2369349a884c647a52dc866f'],de23b974cc90497eb4363e26d931a57c,144,24,8,32
+工业控制器,多轴钻孔机,1.0,工业控制器 manages and coordinates the operation of all components in the 多轴钻孔机,['d560c15d411111345f80197f7486058a'],a9de65176e234a9f9073b8df9d675e90,145,24,9,33
+工业控制器,自动售货机,1.0,工业控制器 is a component of the 自动售货机 used for controlling the operation,['617f570544f5137ea2a26ea012860b88'],09a1bd11eb9347a9b466edad1a562cc5,146,24,8,32
+工业控制器,自动化天线测量系统,1.0,工业控制器 is a component used in the automation system for controlling industrial processes,['8e000fc4a60954e69e5b2dceaa13a5c0'],11d74eab1dcb4fcba7c45def5f0ee22d,147,24,7,31
+工业控制器,自动物流分拣系统,1.0,工业控制器 is a component of the 自动物流分拣系统 used for system control,['bb8dd1736ac0ae84f0cefaf4d9ae1d0d'],4f6a6fd018a948f4bd0e630266b8bf61,148,24,8,32
+工业控制器,自动化喷漆设备,1.0,"工业控制器 is a component of the 自动化喷漆设备, coordinating the operation of various components",['f08d35c87cc299fc9fe46d2ec11626f7'],17dbfbecfaf0436bb11ed8f867c0caa1,149,24,7,31
+工业控制器,自动化装袋机,1.0,"工业控制器 is a component of the automation装袋机, used to control the bagging process",['b5924964ebff3b005590e9cc94e5b39a'],2b1ec99684574c2ab26bb050d5b57a4d,150,24,7,31
+工业控制器,自动输液泵,1.0,工业控制器 is a component of the 自动输液泵 for managing operations,['cc3f86276324c4b3b25d1ec3649d9abf'],1ccce5d1892a4b6995bbaec22882d34d,151,24,7,31
+工业控制器,自动化检重机,1.0,"工业控制器 is a component of the 自动化检重机, controlling the operation of various components",['e77a55ec71b2605da11f93be730a1d44'],51cd93f89fbe4bcf883cdb2ca6774cd6,152,24,8,32
+工业控制器,CNC加工中心刀塔换刀系统,1.0,"工业控制器 is a component of the CNC加工中心刀塔换刀系统, managing the machining process",['5ba07e67aad936b5e8fdced90ee7e0f5'],5f353b18fadb438f95ba0ea8feae137c,153,24,6,30
+工业控制器,化妆品生产线,1.0,"工业控制器 is a component of the cosmetics production line, used for managing the operations of machinery",['75d656d482f083d807ff14652a2871f6'],947d70dd14b34cf398a1ab6dbdc51161,154,24,7,31
+工业控制器,自动化食品加工设备,1.0,工业控制器 is a component of the 自动化食品加工设备 used for controlling industrial processes,['d677c45b0e6b17b157c972d420c84d31'],90f5597a558a4652bded9001a4ec2e56,155,24,7,31
+工业控制器,自动化制药设备,1.0,工业控制器 is used in 自动化制药设备 to coordinate the operation of various components for efficient and precise production,['794fefdb523287e635a5dce19320814a'],9532cf83e9324ea0a46e5ac89bac407d,156,24,8,32
+工业控制器,自动化灌装线,1.0,工业控制器 is a component of the 自动化灌装线 for controlling industrial processes,['8757d4df4f6d7215159f27cbefe87143'],8919fa72a9e74d1daff801e8f4c15b2b,157,24,7,31
+工业控制器,自动化印刷设备,1.0,工业控制器 is a component of the automation printing equipment for process control,['51f5fa0deebff5b32f74d90b957de319'],bef38889bb86413895d7dd25b4c3137c,158,24,7,31
+工业控制器,自动化卷纸机,1.0,"工业控制器 is a component of the 自动化卷纸机, used to control the industrial process",['83e00c12ccf537178db6a3b06b5078f2'],f770bc07cecf4aba8fe2d2c33fdc5542,159,24,8,32
+工业控制器,自动化贴标机,1.0,"工业控制器 is a component of the自动化贴标机, managing the operation of various components",['d740381af8ef46f554299a093537dd69'],13cd49512d5642989c2c72bb5e674807,160,24,7,31
+伺服驱动器,自动化喷涂生产线,1.0,伺服驱动器 is crucial for the precise control of motion in the 自动化喷涂生产线,['b4b2ecf75d1aad0ccc5d6f76a00fe3b9'],e5c5c87a281b43868c344ff60f44c100,161,25,8,33
+伺服驱动器,自动化垃圾分类设备,1.0,"伺服驱动器 is a component of the automation waste sorting equipment, controlling the motion of the mechanical parts with high precision",['ad37dec2a2a19c9d593c5a4927c7c7d2'],a562ffbe986247b7943990e7151f4d69,162,25,8,33
+伺服驱动器,自动化点焊机,1.0,伺服驱动器 is a component of the 自动化点焊机 used for controlling the motion of servomotors,['a4cdb403788ae9e31262a18f4fb0801c'],7ea0bc1467e84184842de2d5e5bdd78e,163,25,7,32
+伺服驱动器,锁钉机,1.0,锁钉机 uses 伺服驱动器 for controlling the motion of servomotors,['eced1354dc203db862497de8c414d11c'],056f23eb710f471393ae5dc417d83fd9,164,25,6,31
+伺服驱动器,折弯机,1.0,伺服驱动器 is a component of the 折弯机 that controls the motion of servomotors for precise and controlled bending,['54c84a3acff36a81a14e832661cab5fc'],e1ae27016d63447a8dfa021370cba0fa,165,25,6,31
+伺服驱动器,自动化药品分拣系统,1.0,伺服驱动器 is a component of the 自动化药品分拣系统 used for precise motor control,['b740e95b2369349a884c647a52dc866f'],f8c10f61a8f344cea7bdafa2d8af14b8,166,25,8,33
+伺服驱动器,多轴钻孔机,1.0,伺服驱动器 provides precise control over the speed and position of the drill heads in the 多轴钻孔机,['d560c15d411111345f80197f7486058a'],aa7d003f25624e19bc88d3951d4dc943,167,25,9,34
+伺服驱动器,自动售货机,1.0,伺服驱动器 is a component of the 自动售货机 used for controlling the speed and position of the motor,['617f570544f5137ea2a26ea012860b88'],1c97184ce5ea4049be417a3fd125357b,168,25,8,33
+伺服驱动器,自动化天线测量系统,1.0,伺服驱动器 is a component used in the automation system for precise motor control,['8e000fc4a60954e69e5b2dceaa13a5c0'],13a044c404394c34af1e9b07c48aa985,169,25,7,32
+伺服驱动器,自动物流分拣系统,1.0,伺服驱动器 is a component of the 自动物流分拣系统 used for motor control,['bb8dd1736ac0ae84f0cefaf4d9ae1d0d'],69ef1ac7b1f44372979149e82ecbc860,170,25,8,33
+伺服驱动器,自动化喷漆设备,1.0,"伺服驱动器 is a component of the 自动化喷漆设备, controlling the motion of servomotors",['f08d35c87cc299fc9fe46d2ec11626f7'],6e26ce67bacc4fa089296843463f69ad,171,25,7,32
+伺服驱动器,自动化装袋机,1.0,"伺服驱动器 is a component of the automation装袋机, used for controlling the motion in the bagging process",['b5924964ebff3b005590e9cc94e5b39a'],ae0d3104647f4e6ab3ec2cf8e60be5ca,172,25,7,32
+伺服驱动器,自动输液泵,1.0,伺服驱动器 is a component of the 自动输液泵 for high-precision motor control,['cc3f86276324c4b3b25d1ec3649d9abf'],49e24b5f2c1d40d7857afe327db4f554,173,25,7,32
+伺服驱动器,自动化检重机,1.0,"伺服驱动器 is a component of the 自动化检重机, controlling the motion of servomotors",['e77a55ec71b2605da11f93be730a1d44'],587f39a32e93412395d9c22ad0ac2f94,174,25,8,33
+伺服驱动器,CNC加工中心刀塔换刀系统,1.0,伺服驱动器 is used in the CNC加工中心刀塔换刀系统 for controlling servomotor motion,['5ba07e67aad936b5e8fdced90ee7e0f5'],8d9ded5fc9cf4c4faba8c6c8cd50e2f4,175,25,6,31
+伺服驱动器,化妆品生产线,1.0,"伺服驱动器 is a component of the cosmetics production line, used for controlling the motion of machinery",['75d656d482f083d807ff14652a2871f6'],595a841aa6034c93bd3dc55681e17710,176,25,7,32
+伺服驱动器,自动化食品加工设备,1.0,伺服驱动器 is a component of the 自动化食品加工设备 used for controlling servomotor motion,['d677c45b0e6b17b157c972d420c84d31'],d0e58b78e8e84a0c8796e707b1f95f65,177,25,7,32
+伺服驱动器,自动化制药设备,1.0,伺服驱动器 is a component in 自动化制药设备 that controls the motion of servomotors for precise and controlled movement,['794fefdb523287e635a5dce19320814a'],215fcc6a3b5e452da123aa7f9ef0cbc9,178,25,8,33
+伺服驱动器,自动化灌装线,1.0,伺服驱动器 is a component of the 自动化灌装线 for controlling the motion of servomotors,['8757d4df4f6d7215159f27cbefe87143'],0d0fc5d4ecb548079b28979186f19bf6,179,25,7,32
+伺服驱动器,自动化印刷设备,1.0,伺服驱动器 is a component of the automation printing equipment for controlling servomotors,['51f5fa0deebff5b32f74d90b957de319'],e7d3fe0f87ff47f5a4c8d9572d27245a,180,25,7,32
+伺服驱动器,自动化卷纸机,1.0,"伺服驱动器 is a component of the 自动化卷纸机, controlling the motion of the servo motor",['83e00c12ccf537178db6a3b06b5078f2'],6f7165b558ae427ca14b2b16d1e8e204,181,25,8,33
+伺服驱动器,机场行李输送线,1.0,"伺服驱动器 is a component that controls the operation of the 机场行李输送线, specifically the flipping of luggage",['04fc8c8af2f683271e982faea72b6a93'],2ec093d2a76d45f88ec508e45ba8c6a3,182,25,6,31
+伺服驱动器,自动化贴标机,1.0,"伺服驱动器 is a component of the自动化贴标机, controlling the motion of motors with high precision",['d740381af8ef46f554299a093537dd69'],16d5a528d6374612b87a5656e8d95193,183,25,7,32
+自动化喷涂生产线,制造业,1.0,"自动化喷涂生产线 is a part of the 制造业 industry, specifically designed for the automation of painting processes",['b4b2ecf75d1aad0ccc5d6f76a00fe3b9'],40293e74dbc643e8ab6546dff759ac7c,184,8,32,40
+自动化喷涂生产线,喷涂设备,1.0,"喷涂设备 is a key component of the 自动化喷涂生产线, used for the application of paint or coating",['b4b2ecf75d1aad0ccc5d6f76a00fe3b9'],1834b753dc7f4a8b98c2317a551b56ee,185,8,1,9
+制造业,自动化点焊机,1.0,自动化点焊机 is used in the 制造业 for automated welding processes,['a4cdb403788ae9e31262a18f4fb0801c'],d9b127eab2f64e338d7adcd186786a45,186,32,7,39
+制造业,点焊机,1.0,点焊机 is used in the 制造业 for spot welding tasks,['a4cdb403788ae9e31262a18f4fb0801c'],a18f7c9f58ca49d6acf18e1ca69d3033,187,32,2,34
+制造业,螺丝刀,1.0,"螺丝刀 is used in the manufacturing industry for various tasks, including screw driving",['edec272d39e043e58590061853acbd7c'],f3c3dd44cf50495c81e362174991242e,188,32,1,33
+制造业,高频启停,1.0,"高频启停 is a common action in manufacturing processes, especially in the context of using tools like the screwdriver",['edec272d39e043e58590061853acbd7c'],86c2b3749a3c4342bbb3a8c70c3a76a0,189,32,1,33
+制造业,单片机,1.0,"单片机 is a technology used in the manufacturing industry for control and automation, often integrated with tools and processes",['edec272d39e043e58590061853acbd7c'],571f65acb3134490932feeb91b01cca3,190,32,1,33
+制造业,1轴直流旋转电机+1旋转编码器,1.0,"1轴直流旋转电机+1旋转编码器 is a technology used in manufacturing for precise control, often in conjunction with other equipment and processes",['edec272d39e043e58590061853acbd7c'],d3faf86c153f440eaa410305b3dc6617,191,32,1,33
+制造业,散热要求,1.0,散热要求 is a critical consideration in the manufacturing industry to ensure the proper operation of equipment and prevent overheating,['edec272d39e043e58590061853acbd7c'],f85786004b0540349192d2ca05b15264,192,32,1,33
+制造业,高扭矩控制精度,1.0,高扭矩控制精度 is a requirement in manufacturing processes to ensure the precise operation of machinery and tools,['edec272d39e043e58590061853acbd7c'],cf56bfc9fa7d47fe9cb553dd09f2b412,193,32,1,33
+制造业,轻量化设计小体积,1.0,轻量化设计小体积 is a design principle in the manufacturing industry aimed at improving efficiency and saving space,['edec272d39e043e58590061853acbd7c'],a077dbcd38b644f6929cf05272c2fb9d,194,32,2,34
+制造业,艾而特,1.0,"艾而特 provides solutions for the manufacturing industry, including scenarios involving tools and processes like the use of the screwdriver",['edec272d39e043e58590061853acbd7c'],d2659a32b9de406eb750a35d078c9774,195,32,1,33
+制造业,智能并线机器人装备,1.0,智能并线机器人装备 is used in the 制造业 for the purpose of automating the merging of yarns,['26753c1ce00073c23f2d14ce40c0d028'],0b26876307ad4cc48839b61a21a1d03a,196,32,4,36
+制造业,自动化折弯机,1.0,自动化折弯机 is used in the 制造业 for high-precision metal bending operations,['54c84a3acff36a81a14e832661cab5fc'],c68e6c694a554256846d12178ddb12dc,197,32,2,34
+制造业,玻璃切割设备,1.0,玻璃切割设备 is used in the 制造业 for cutting glass panels,['12e4194788bfabe6f4a9aadc8f8a1366'],ff25ce2e8ace4bdcb765c863b483852b,198,32,3,35
+制造业,多轴钻孔机,1.0,多轴钻孔机 is used in the 制造业 for drilling holes in various materials,['d560c15d411111345f80197f7486058a'],757e402cb7ee4601ac1bc8c4fafb5207,199,32,9,41
+制造业,柔性传输线,1.0,柔性传输线 is used in the 制造业 for flexible material handling and production,['eb78ab8fddcb9c2328b61fbcb6f8b8d7'],62e8f5f04cd04384b246291cef3a9e4d,200,32,2,34
+制造业,光伏设备丝网印卷纸送料工位,1.0,光伏设备丝网印卷纸送料工位 is a part of the 制造业 industry,['832e80057536b00f94963c0e4b0ec74e'],c04abbd5e59b4c64b023908f6db05498,201,32,2,34
+制造业,丝网印刷机,1.0,丝网印刷机 is used in the 制造业 industry for printing processes,['832e80057536b00f94963c0e4b0ec74e'],6bb9bed2e39c4e31a81f12479af3d16c,202,32,7,39
+制造业,通用伺服应用,1.0,通用伺服应用 is a technology used in the 制造业 industry for controlling motion and positioning,['832e80057536b00f94963c0e4b0ec74e'],26c926c6016d4639b05427f01ba629f5,203,32,2,34
+制造业,自动化装配线上的精密定位与搬运,1.0,"自动化装配线上的精密定位与搬运 is a scene that occurs within the manufacturing industry, focusing on the assembly of car parts",['4ddd4eb11c5e0152334178ab2837961c'],8f6872eeb81b432b91405d327636113c,204,32,2,34
+制造业,自动装配机械臂,1.0,"自动装配机械臂 is a part of the manufacturing industry, specifically used in the assembly of car parts",['4ddd4eb11c5e0152334178ab2837961c'],ac80a99fda2b488285d29596dd4d1471,205,32,2,34
+制造业,自动化装袋机,1.0,自动化装袋机 is used in the manufacturing industry to improve efficiency and quality in the bagging process,['b5924964ebff3b005590e9cc94e5b39a'],67d6a3481e4b419292247cef5cd5b737,206,32,7,39
+制造业,自动化冲压机,1.0,自动化冲压机 is used in the 制造业 for high-speed and high-precision pressing of parts,['b310460babc9fa725ad47320c61e0086'],904cd052ec194654bb72f4027e43daa3,207,32,2,34
+制造业,自动化检重机,1.0,"自动化检重机 is part of the 制造业 industry, specifically in the automation of production lines",['e77a55ec71b2605da11f93be730a1d44'],7e88fd2e835147fbb71866612735e8d4,208,32,8,40
+制造业,CNC加工中心刀塔换刀系统,1.0,CNC加工中心刀塔换刀系统 is used in the 制造业 for tool change in CNC machining centers,['5ba07e67aad936b5e8fdced90ee7e0f5'],029d1a8c3b184aa5bb21228f40cd12fd,209,32,6,38
+制造业,化妆品制造,1.0,化妆品制造 is a subcategory of the broader industry of manufacturing,['75d656d482f083d807ff14652a2871f6'],a1ebc53a0bc74a0eb6dbdd18cf3c88cd,210,32,1,33
+制造业,食品,1.0,食品 is a sub-sector of the 制造业 industry,['8757d4df4f6d7215159f27cbefe87143'],a51d063ad4c744049edb359eb88407b7,211,32,6,38
+制造业,自动化纺织机,1.0,"自动化纺织机 is part of the 制造业, which includes the textile sector",['193f87cf7e266aa933fcf9c3aab58025'],b67268f90338474e8e53b9a6715b6833,212,32,3,35
+制造业,协作机器人检测工位,1.0,"协作机器人检测工位 is part of the 制造业, where quality control is a critical process",['7db76b99a4ad703f2ced3f3241ae2de7'],acb53370e72b4430a752d9ea18c17352,213,32,5,37
+制造业,自动化卷纸机,1.0,"自动化卷纸机 is a part of the 制造业, specifically in the paper production sector",['83e00c12ccf537178db6a3b06b5078f2'],a8738c7de11543df930169741381c252,214,32,8,40
+制造业,光学仪器制造,1.0,"光学仪器制造 is a subcategory of 制造业, focusing on the production of optical instruments and equipment",['78292823ba9a23ddd49ea39f21675fb2'],3f8b5b2727924ba0b62e6286063b6861,215,32,3,35
+制造业,贴标机,1.0,贴标机 is used in the制造业 for label application on products,['d740381af8ef46f554299a093537dd69'],bb5010633113442eaf814852995cfa22,216,32,2,34
+光学纤维切割机,某光通信公司,1.0,某光通信公司 uses the 光学纤维切割机 for precise cutting of optical fibers in their production process,['2999540b55ee0bc255eb7068816305ca'],9eb8c635538243a690366f8bc1de34e0,217,5,1,6
+光学纤维切割机,直流伺服驱动,1.0,直流伺服驱动 is a component of the 光学纤维切割机 that controls the position and movement of the cutting head,['2999540b55ee0bc255eb7068816305ca'],050c5b770d51409cb40f9c52f02d1329,218,5,57,62
+光学纤维切割机,切割头,1.0,切割头 is a part of the 光学纤维切割机 that performs the cutting action,['2999540b55ee0bc255eb7068816305ca'],9e12f514d26d48dfab65807568a6cff9,219,5,1,6
+光学纤维切割机,XYZ轴机构,1.0,XYZ轴机构 is a mechanism in the 光学纤维切割机 that provides precise control over the cutting head's movement,['2999540b55ee0bc255eb7068816305ca'],97f98b1623104f48aa93196a1f7dede2,220,5,9,14
+光学纤维切割机,控制器,1.0,控制器 is the control system that manages the operation of the 光学纤维切割机,['2999540b55ee0bc255eb7068816305ca'],87718ef799a34104b6ef9c2df6621cbc,221,5,56,61
+直流伺服驱动,割草机器人,1.0,直流伺服驱动 is a component in the割草机器人that controls its movement and precision,['678f6e80926121e103efae5e48a8c9f2'],f64e87431d674f298c533f6878458b95,222,57,8,65
+直流伺服驱动,智能并线机器人装备,1.0,智能并线机器人装备 uses 直流伺服驱动 for high-precision motion control,['26753c1ce00073c23f2d14ce40c0d028'],e6d44d0db58f42799a02eacbd6b14543,223,57,4,61
+直流伺服驱动,协作机器人喷涂工位,1.0,直流伺服驱动 is used in the 协作机器人喷涂工位 to control the speed and flow of the painting process,['d50dbe44b899b4cfaf149cb3fd0c4159'],64961fbc3a1641378be10bcb3b0955e1,224,57,5,62
+直流伺服驱动,光电吊舱,1.0,直流伺服驱动 is a component of the光电吊舱 used for controlling the three-axis stabilization,['76ea2ccd8defd5fe8f0994abf89a6e31'],59bcc2ec512c4c1ba44272446b419230,225,57,8,65
+直流伺服驱动,锂电池卷绕机,1.0,直流伺服驱动 is used in the 锂电池卷绕机 for precise control of winding and tension,['c94be7ba5abf1f79d420aac7fe8bae2e'],8f39ae56f8b54b1b94faf04dbd0b9d11,226,57,6,63
+直流伺服驱动,电动夹爪,1.0,直流伺服驱动 is used to control the operation of电动夹爪,['7f8423e6b4a3ab5064e9ff23dcd515ca'],f3018b934ac241639a33c925c24bc507,227,57,5,62
+直流伺服驱动,医疗影像设备,1.0,直流伺服驱动 is used in 医疗影像设备 for high-precision control of the motion of the detection components,['e78da4dada0873bf9b05c64978c91bb0'],ddedfd5179e64700adced4803c75cdba,228,57,5,62
+直流伺服驱动,RGV,1.0,直流伺服驱动 is used to control the motion of RGV in the logistics industry,['63a2a1cd72ee4aae8514a1b3ac5b4153'],07d501edd4614e1d9d08d01b702688a3,229,57,2,59
+直流伺服驱动,物流,1.0,直流伺服驱动 is used in the logistics industry to control the motion of RGV,['63a2a1cd72ee4aae8514a1b3ac5b4153'],f745075dedcf444daa9370cf32403d31,230,57,13,70
+直流伺服驱动,自动光伏电池测试设备,1.0,直流伺服驱动 is used in the 自动光伏电池测试设备 for precise motion control,['ead29f227b9db281279d460a522ad9d5'],1ef48284d238405f94190125092a3e28,231,57,6,63
+直流伺服驱动,多轴协调控制,1.0,直流伺服驱动 is a component that enables the implementation of 多轴协调控制 in machinery,['b1f91de1c6784988229a450e724fc412'],8806b817446447e3b50f5bc85ff497e1,232,57,3,60
+直流伺服驱动,生物实验室液体处理系统,1.0,"直流伺服驱动 is a component of the 生物实验室液体处理系统, used for controlling the liquid pump and transfer tube",['ed9c834c687745e8716e27c3f805a0df'],7303ee20690449db8c168df3fe008bc5,233,57,6,63
+直流伺服驱动,激光加工设备,1.0,直流伺服驱动 is a component of the 激光加工设备 used for high-precision control of the XYZ axis and rotary axis,['983e01f7e91373ce4f93fb9b16b82f37'],2f1c535a14b14758bf1cacca81c74878,234,57,5,62
+直流伺服驱动,分拣机,1.0,直流伺服驱动 is used in the 分拣机 to control the movement of the sorting arm and conveyor belt,['2eee1b02b02dee003c1775f70f813957'],3b78cc7ce8224afcab3e4bbe550cde10,235,57,5,62
+直流伺服驱动,咖啡机,1.0,直流伺服驱动 is a component of the coffee machine used for controlling various functions,['f0cae00083505853fd4004f19fc3d189'],29ec9dd9f5864170a7e75c46c11c0090,236,57,6,63
+直流伺服驱动,风力发电机组控制系统,1.0,"直流伺服驱动 is a component of the 风力发电机组控制系统, used for precise control of blade adjustments",['ca322957994b2f23af0e8bcc2550ef68'],7893ee15f0e941cbacad8cc1feaacbaf,237,57,4,61
+直流伺服驱动,自动化打包机,1.0,直流伺服驱动 is a key technology used in the automation of the packing machine to control the packing actions,['2554bdac15587d028fa7857848167eb4'],f53397f743ca4d7397c0a694fe787da0,238,57,3,60
+直流伺服驱动,协作机器人装配工位,1.0,直流伺服驱动在协作机器人装配工位中用于提供稳定和精确的运动控制,['725fed5878bff0529e13ba809e325469'],0041db9da3694ad397f37c76f8477770,239,57,2,59
+直流伺服驱动,驱动器,2.0,"The entities in focus are 直流伺服驱动 (Zhi Liu Fu Drive, or Direct Current Servo Drive) and 驱动器 (Qu Dong Qi, or Motor Driver). The Direct Current Servo Drive is a critical component of Motor Driver technology, specifically designed to control motors within automation systems. The Motor Driver, in turn, is a part of the Direct Current Servo Drive system, utilized to govern the operation of electric motors. These components are integral to the automation sector, facilitating precise control over motor functions in various industrial applications.",['69ddcc4f6ff5df8aa797fee7694ff710' '725fed5878bff0529e13ba809e325469'],a7c2a64e06374091adce74adb36801ab,240,57,28,85
+直流伺服驱动,自动化冲压机,1.0,直流伺服驱动 is used in the automation of the 冲压机 for high-precision pressing of parts,['b310460babc9fa725ad47320c61e0086'],107568a67cac472c89dfce4bbe11157c,241,57,2,59
+直流伺服驱动,机械手和平台运动控制,1.0,直流伺服驱动 is used to control the mechanical arm and platform in the 机械手和平台运动控制,['ae030c245f17423575510c619741160a'],3d78aa9d14714ac189e4020f78b15d24,242,57,4,61
+直流伺服驱动,印刷电路板钻孔机,1.0,直流伺服驱动 is used in the 印刷电路板钻孔机 to provide precise control over the drill head movement,['c4ca69bc6be35c42c4725a35a741befa'],ce0366abadef410d9b65e2bfbbf0b0f9,243,57,4,61
+直流伺服驱动,锂电池分选机,1.0,直流伺服驱动 is used in the 锂电池分选机 to control the conveyor system and sorting mechanism,['efb5708268afc67a61b9f35e5fd9b376'],f4370806deb84d0eb7e85e742e7d4bbf,244,57,5,62
+直流伺服驱动,生化反应器控制,1.0,"直流伺服驱动 is a component of the 生化反应器控制 system, used for controlling temperature and stirring",['40b1d0a5efd1684b5a5bb486a1b454db'],c92392d168c2443e8ed7b04992d0c92b,245,57,6,63
+直流伺服驱动,自动焊接机,1.0,自动焊接机 uses the 直流伺服驱动 to control the motion of the welding head for high-precision welding,['69db1015cf2586f3740f46c919eb8e25'],b5800c807edd4087a2420007272d15d0,246,57,4,61
+直流伺服驱动,激光焊接设备,1.0,直流伺服驱动 is used in 激光焊接设备 to control the movement of the laser head,['9b1c76a2ddd60176752001b3b9c147cb'],aa247540e90d4a7abc5bca6fafaaffa1,247,57,6,63
+直流伺服驱动,灌装输送线,1.0,直流伺服驱动 is used in the 灌装输送线 to control the speed and position of the conveyor belt,['edef8a2bd56d008322049355406edcf4'],34537afa1e954e08bdb52ead3a49e2f3,248,57,5,62
+直流伺服驱动,太阳能逆变器制造设备,1.0,"直流伺服驱动 is a critical component of the 太阳能逆变器制造设备, used to control the motion parts with high precision and efficiency.",['937c32a23dadd297f434106e4a601a61'],ae043af0299f4b32a98cf187efd2a5db,249,57,4,61
+直流伺服驱动,自动化仓库堆垛机,1.0,直流伺服驱动 is a key technology used in the automation warehouse stacker for precise positioning and stable operation,['76f3b1592256b4437b7d47b5f14ae2c6'],6016863be3414d5a92397f2d45fdfd78,250,57,5,62
+直流伺服驱动,全自动洗车机,1.0,直流伺服驱动 is used in the 全自动洗车机 for precise control of actions and parameters,['767b420b9f192c70035d7fb4ac624eb3'],a9b900821b8444d69f432da08a77539f,251,57,5,62
+直流伺服驱动,固晶机,1.0,直流伺服驱动 is used in the 固晶机 for controlling the XYZ axis motion,['7b0d50ca36fedb4fb7b68e4eec73b368'],1fee51d6f4614127a3e1cc80d018506e,252,57,5,62
+直流伺服驱动,叠片机,1.0,直流伺服驱动 is a critical component in the 叠片机 for controlling the XYZ axis movement,['a82bda15276dce27bef66a10a15a3fb1'],00dc2c0748214e52bc799ca3e25204e9,253,57,3,60
+直流伺服驱动,智能仓储系统,1.0,智能仓储 system uses DC servo drives for precise positioning and movement,['ef6d9b5e0927a32e780b2b369685d3ee'],42d1a9e749ad40daa34c7b0b695f8751,254,57,6,63
+直流伺服驱动,自动点餐与配送机器人,1.0,直流伺服驱动 is a technology used in the 自动点餐与配送机器人 for precise movement and positioning,['ca10fe3d16756300859a0693aee7f7a0'],20de9a1af6ab4e88acf003cb7be0217c,255,57,5,62
+直流伺服驱动,自动化玻璃清洗设备,1.0,直流伺服驱动 is used in 自动化玻璃清洗设备 to control the movement of the cleaning head for precision and efficiency,['69ddcc4f6ff5df8aa797fee7694ff710'],f3229f10a5a54cb1b91a26ffa6ee77a3,256,57,6,63
+直流伺服驱动,灌装生产线,1.0,"直流伺服驱动 is a critical component of the 灌装生产线, used for controlling the position and volume of the filling process",['966a905cf094e3cf44c91ebc9ebc1904'],5154b4a4f3ac43729703c69fccb54633,257,57,6,63
+直流伺服驱动,刀具磨削机,1.0,直流伺服驱动 is used in the 刀具磨削机 to control the axes and achieve precise grinding,['c73034d6a6f91e79c6bd21fffa416202'],2091070e709e45f5ae56d40a9da45520,258,57,5,62
+直流伺服驱动,新能源汽车充换电,1.0,直流伺服驱动 is used in the scene of 新能源汽车充换电 for controlling the positioning and connection operations,['b82f227e2c7b3ab4e25187539ace1216'],09045ef5c4314dde9a631a206274563f,259,57,2,59
+直流伺服驱动,可靠性、安全性、精度,1.0,可靠性、安全性、精度 are critical requirements for the operation of 直流伺服驱动 in the scene,['b82f227e2c7b3ab4e25187539ace1216'],1b9baa98ede84164883e8cdcbc7000c1,260,57,1,58
+直流伺服驱动,伺服电机、传感器、驱动器,1.0,伺服电机、传感器、驱动器 are components that work together with 直流伺服驱动 to achieve precise control in the scene,['b82f227e2c7b3ab4e25187539ace1216'],e4f3fcc475a74756925b730caffcb70d,261,57,1,58
+直流伺服驱动,面粉设备,1.0,直流伺服驱动 is a component of the 面粉设备 used for controlling multi-axis movements,['2b27d987660b3fbe33f43bfab4ac6564'],7f3d5282303f4fc3a009e04f7de0ad84,262,57,5,62
+直流伺服驱动,巡检机器人,1.0,巡检机器人 uses 直流伺服驱动 for smooth movement and precise detection positioning,['c3025b9f170d4cb9a5794da27f609eb1'],1219a14eaf5f49ab84c9287ebf58db7a,263,57,4,61
+直流伺服驱动,医疗实验室搬运机器人,1.0,直流伺服驱动 is used in the 医疗实验室搬运机器人 for stable and precise movement,['d9eda21d3e37948306b3b3c665150e73'],efaa386bd5e9454b87e1851cd8b28ac3,264,57,5,62
+直流伺服驱动,弧面丝印设备,1.0,直流伺服驱动 is used in the arc surface printing equipment to control the motion of the printing head,['19c5a3d15d92b939549523842bf010df'],073241be9b6a4952ad01dd14b94fb89c,265,57,4,61
+直流伺服驱动,丝网印设备,1.0,直流伺服驱动 is a component of the 丝网印设备 used for controlling the movement of the printing head and screen,['ce7b5cb4e3fb4fd9a08453d18554c799'],f7ac6bc4a9ca4250ad29a3adb5d08657,266,57,5,62
+直流伺服驱动,电批,1.0,直流伺服驱动用于控制电批的扭矩和转速,['cd075fd077df22767f0bee4befbd9610'],ac2ee54e75a2492c8db372dadfccd083,267,57,5,62
+直流伺服驱动,控制器,1.0,控制器用于控制直流伺服驱动，实现扭矩和转速的精确控制,['cd075fd077df22767f0bee4befbd9610'],ee895ad0b8cd40c29465e8527748d847,268,57,56,113
+直流伺服驱动,擦玻璃升降机,1.0,直流伺服驱动 is used in擦玻璃升降机for height adjustment and maintenance control,['c25c68e2662c5c32de1b502014590cf7'],fe38c996c2d64bc899eabd6389034075,269,57,5,62
+直流伺服驱动,智能搬运机器人,1.0,智能搬运机器人 uses 直流伺服驱动 for stable movement and precise path control,['8ae4de39dd9ba11cfa17e06a2174416b'],c0e28ae832c94405b8ddd4d2ad978be5,270,57,4,61
+直流伺服驱动,摄影小车,1.0,直流伺服驱动 is used in摄影小车 to control its movement with high precision and stability,['7b88e7691653f636b158b91247c42615'],7a4573a19ef94e25b4480cb4d953ae7a,271,57,5,62
+直流伺服驱动,高压注射器设备,1.0,"直流伺服驱动 is a component of the 高压注射器设备, used for controlling the injection mechanism",['efb3ae073af3ae2b901a79c1e2c49d39'],05f6639803524537b67a7f2b0c66ad23,272,57,3,60
+直流伺服驱动,计量包装机,1.0,直流伺服驱动 is used in the 计量包装机 to control the metering device and packaging head,['940d8d3c2c5834885c79cf828c1137cb'],21bfd14cbc1f4cbc8ac59f7fd8c75b31,273,57,6,63
+直流伺服驱动,芯片封装焊接控制,1.0,直流伺服驱动 is used in the芯片封装焊接控制 process to ensure precise motion control,['e5a2a05750db1a3e1151f75abdaed149'],c19cf2d7b067421990ab9f3acec9e736,274,57,5,62
+XYZ轴机构,激光加工设备,1.0,XYZ轴机构 is part of the 激光加工设备 that needs high-precision control,['983e01f7e91373ce4f93fb9b16b82f37'],3e1981b9301c4d339a9228ae7a089a04,275,9,5,14
+XYZ轴机构,光纤激光标刻机,1.0,光纤激光标刻机 relies on the XYZ轴机构 for three-dimensional movement during the marking process,['ef5440b55c37dc608f23f717bde61396'],0948efa844814529b4c023aacbc23d64,276,9,4,13
+XYZ轴机构,贴装运动控制,1.0,XYZ轴机构 is part of the贴装运动控制 mechanism for multi-axis movement,['fb8c5282757073100fea0ee147a1b32a'],fcdc0cc5ff93453eb0b94b9254760999,277,9,4,13
+XYZ轴机构,激光焊接设备,1.0,XYZ轴机构 is used in 激光焊接设备 for high-precision movement,['9b1c76a2ddd60176752001b3b9c147cb'],0ec4ad4398a8457ab3d71bd2561858dc,278,9,6,15
+XYZ轴机构,激光切割设备,1.0,"XYZ轴机构 is part of the 激光切割设备, enabling three-dimensional movement of the laser head",['a920920e8e149592d00031f362d614af'],3c06988555334a389eab093f98679e85,279,9,5,14
+XYZ轴机构,激光打标设备,1.0,XYZ轴机构 is a component of the 激光打标设备 that enables high-precision movement,['ed18651c3085e19592c04bfcd0b52dac'],81ceb8db419b4697ad24e9d7f46422ff,280,9,5,14
+XYZ轴机构,手机相机模组组装设备,1.0,XYZ轴机构是手机相机模组组装设备中的一个组件，用于实现多轴运动控制,['2bcae705653a8c2dfee33dc9aec75026'],fd05d8198d0947b39b8fa1b16f3ecf5f,281,9,6,15
+XYZ轴机构,弧面丝印设备,1.0,XYZ轴机构 is a part of the arc surface printing equipment that provides high-precision movement,['19c5a3d15d92b939549523842bf010df'],d984f08ad62f47ab9aabb9aeec1b245e,282,9,4,13
+控制器,割草机器人,1.0,"控制器 manages the operation of the割草机器人, coordinating its actions",['678f6e80926121e103efae5e48a8c9f2'],43603c7868164ac38c659bce7a77f45a,283,56,8,64
+控制器,环形FTS系统,1.0,"控制器 is a component of the 环形FTS系统, used to manage and coordinate the operation of the system",['93f221ac5d3740108fc98f190e7f3d88'],54a20cc6062d4b7193d023b6ff20461f,284,56,15,71
+控制器,流水线自动涂装机,1.0,控制器 is a component of the 流水线自动涂装机 that manages the operation of the system,['49290954ecdd529e32620a1efe074e79'],6bb190069a704ccca3d8e1648a384185,285,56,5,61
+控制器,光电吊舱,1.0,控制器 is a component of the光电吊舱 used for controlling its operation,['76ea2ccd8defd5fe8f0994abf89a6e31'],47d2036509bf408095ab440bd052ac24,286,56,8,64
+控制器,锂电池卷绕机,1.0,控制器 is used to control the operation of the 锂电池卷绕机 and its components,['c94be7ba5abf1f79d420aac7fe8bae2e'],c20e6b1418a140389c31c7b71a6eba0c,287,56,6,62
+控制器,电动夹爪,1.0,控制器 is used to manage the functions of电动夹爪,['7f8423e6b4a3ab5064e9ff23dcd515ca'],ad96e5294247465a9c7d5ea8161dc305,288,56,5,61
+控制器,生物实验室液体处理系统,1.0,"控制器 is a component of the 生物实验室液体处理系统, managing the overall operation",['ed9c834c687745e8716e27c3f805a0df'],25c968bf5a4f48369fded6c260f71540,289,56,6,62
+控制器,高速取放机,1.0,控制器 is a component in the 高速取放机 that manages the operation and coordination of various components,['993c62a4486ef6aeef83623cbe6ec2b5'],269b441634a144219f539202309bc9fb,290,56,7,63
+控制器,激光加工设备,1.0,控制器 manages the operation and control of the 激光加工设备,['983e01f7e91373ce4f93fb9b16b82f37'],d0baf2392635468db7f5657f89eb2024,291,56,5,61
+控制器,全自动咖啡机,1.0,"控制器 is a component of the 全自动咖啡机, used to manage the operation of other components",['19b0b1daced528c841d48a7a99e4bb55'],4f29bcf5377d4c9f94ff3f8ca2f8d941,292,56,6,62
+控制器,分拣机,1.0,"控制器 manages the operation of the 分拣机, including the control of the direct current servo drive, sorting arm, and conveyor belt",['2eee1b02b02dee003c1775f70f813957'],e7072a582d9b4c1ea8b171ee940d4d6e,293,56,5,61
+控制器,咖啡机,1.0,控制器 is a component of the coffee machine used for controlling the operation of other components,['f0cae00083505853fd4004f19fc3d189'],cb6fcf84e3d04ef59b01f97ac94823a1,294,56,6,62
+控制器,风力发电机组控制系统,1.0,"控制器 is a part of the 风力发电机组控制系统, managing the overall operation",['ca322957994b2f23af0e8bcc2550ef68'],97a21db5f5954e2c8868b298a3f0090e,295,56,4,60
+控制器,红外干扰设备,1.0,控制器 manages the operation of the 红外干扰设备,['fe557d4342348364f94380da2231b422'],c8f3e6cadcf34c8fafe8987e4a9b66f8,296,56,4,60
+控制器,光纤激光标刻机,1.0,光纤激光标刻机 is controlled by the 控制器 to manage its operation and components,['ef5440b55c37dc608f23f717bde61396'],26c9c44e5059429bb8abc3308bc6c814,297,56,4,60
+控制器,激光风能扫描仪（激光测风仪）,1.0,控制器 is a component of the 激光风能扫描仪（激光测风仪） that controls its operation,['0868eedc0ef863a89360ac5deb7182c4'],7cea9903153f43b895c0b23d25bc90a3,298,56,8,64
+控制器,贴装运动控制,1.0,控制器 is the control system used in the贴装运动控制 process,['fb8c5282757073100fea0ee147a1b32a'],b54436ccc23745c88d24edcc3fdd8ed1,299,56,4,60
+控制器,机械手和平台运动控制,1.0,控制器 is used to control the operation of the mechanical arm and platform in the 机械手和平台运动控制,['ae030c245f17423575510c619741160a'],977c895bb98d4136a76e8749533154b6,300,56,4,60
+控制器,直流伺服,2.0,"The entity ""控制器"" (Kongzhiqi, or ""Controller"") is utilized in the manufacturing sector to coordinate and control the operation of ""直流伺服"" (Zhi Liu Fuwu, or ""DC Servo"") systems. This control mechanism is integral to assembly line processes, ensuring smooth and efficient operations in machinery and equipment used in the manufacturing domain. The Controller manages the DC Servo systems, playing a critical role in the synchronization and regulation of assembly line activities, thereby optimizing production efficiency and performance.",['3304ccd1a407776fdfe70ecfd3572d71' 'fd61fde37c9267966317cf3d724fe633'],8d75cfea884248aba1f372de5e1b82a9,301,56,35,91
+控制器,锂电池分选机,1.0,控制器 manages the operation of the 锂电池分选机,['efb5708268afc67a61b9f35e5fd9b376'],90f4ee186bcd4996ad8002888569fffc,302,56,5,61
+控制器,康复机器人,1.0,"控制器 is a part of the 康复机器人, managing the overall operation and coordination of the system",['ae75fa3b40e2d99d51b0839ec4faef35'],4bb78401581b4240b0967309e96af00b,303,56,5,61
+控制器,激光测风,1.0,控制器 manages the operation of the laser测风device,['5d4207d4245f8e80d82d635747760370'],a18dd9ea4143411cb32e261db056cf0c,304,56,5,61
+控制器,激光焊接设备,1.0,控制器 manages and controls the operation of 激光焊接设备,['9b1c76a2ddd60176752001b3b9c147cb'],cd8d9795f540413390927ea2a9e77c26,305,56,6,62
+控制器,激光切割设备,1.0,"控制器 manages the operation of the 激光切割设备, including the coordination of the laser head and the XYZ axis mechanism",['a920920e8e149592d00031f362d614af'],2917f3b478b04ffcacd4b47602f4d0f5,306,56,5,61
+控制器,手机组装生产线,1.0,控制器 is used in the 手机组装生产线 to manage the operations,['cd1096eef266dc55fcc79a78604e195f'],3984bd063b384901862e68506c77cc68,307,56,5,61
+控制器,装配机械手,1.0,控制器 is used to manage and control the operation of装配机械手 in assembly line processes,['3304ccd1a407776fdfe70ecfd3572d71'],4137a2c7dd884bc2a8469b7fa937346c,308,56,4,60
+控制器,传送装置,1.0,控制器 is used to manage and control the operation of传送装置 in assembly line processes,['3304ccd1a407776fdfe70ecfd3572d71'],60b6bf585ccc477d830d4b69b8c7b62a,309,56,2,58
+控制器,灌装输送线,1.0,控制器 manages the operation of the 灌装输送线,['edef8a2bd56d008322049355406edcf4'],4330f73cb78a4bb39a384eb29112201b,310,56,5,61
+控制器,机器人焊接工作站,1.0,"控制器 is used to manage the operation of the 机器人焊接工作站, including the control of the welding robot and the servo drives",['4b028e742c5bb99151ce8d6869dd59e1'],45c4ed77967746e485ec9e52c0dcc0d2,311,56,4,60
+控制器,激光打标设备,1.0,控制器 is a component of the 激光打标设备 that manages the overall operation,['ed18651c3085e19592c04bfcd0b52dac'],17c2cc25d00347c3bf2422d4f7a4ad7e,312,56,5,61
+控制器,全自动洗车机,1.0,控制器 is the control system that manages the operation of the 全自动洗车机,['767b420b9f192c70035d7fb4ac624eb3'],0057fb2ddc0e4088ae5099b7ffa137da,313,56,5,61
+控制器,手机相机模组组装设备,1.0,控制器是手机相机模组组装设备中的一个组件，用于控制整个设备的运行,['2bcae705653a8c2dfee33dc9aec75026'],d67d67cc3698438db76eb4a7f75e1ea0,314,56,6,62
+控制器,锂电池测试设备,1.0,"控制器 is a component of the 锂电池测试设备, managing and controlling its operation",['52193089f44e2d4de3eae704535af318'],c23761290af24cf29adc1ee8644bdad0,315,56,5,61
+控制器,车载雷达,1.0,控制器 manages the operation of the 车载雷达 and its components,['5dbdf06fa4c2f0172e062f438941881b'],de51b828ce1f442bbb19a7b20bce9dda,316,56,4,60
+控制器,喷洗设备,1.0,"控制器 is used to manage and coordinate the operations of the 喷洗设备, including the control of the 喷洗机械臂",['5d67b02ec3d25e19d4c5df9075d68aad'],4a3ff6a3471945fd8c7fd5c171c56d56,317,56,2,58
+控制器,VIVO音量按键检测设备,1.0,控制器 is a component of the VIVO音量按键检测设备,['f07aee97ec45456415a9098726dd2e7a'],31bb84eb2a834dabacc0ed51af4fcefd,318,56,7,63
+控制器,固晶机,1.0,控制器 is used to control the operation of the 固晶机,['7b0d50ca36fedb4fb7b68e4eec73b368'],5070012e83e7442381bcba1cdacdb7d8,319,56,5,61
+控制器,灌装生产线,1.0,控制器 is the system that manages the operation of the 灌装生产线,['966a905cf094e3cf44c91ebc9ebc1904'],5eda9074df124f5497f17b61badd52ac,320,56,6,62
+控制器,水下机器人,1.0,"控制器 is used to coordinate the operation of 水下机器人, including its 仿生泳姿控制",['bec622312c7d50d15196290b6635711e'],4cf4107b0e2842778aaa658a1a85f3b3,321,56,4,60
+控制器,刀具磨削机,1.0,控制器 manages the operation of the 刀具磨削机,['c73034d6a6f91e79c6bd21fffa416202'],7f4857f94b4e4e49be7236a42071e167,322,56,5,61
+控制器,太阳能电池板装配设备,1.0,控制器 is used to control the operation of the 太阳能电池板装配设备,['5dd431defb92ab5537c35d879d857152'],d21a1fef903f4a399bd3cd366aad3c9e,323,56,5,61
+控制器,面粉设备,1.0,控制器 is a component of the 面粉设备 used to manage the operations for high-quality flour production,['2b27d987660b3fbe33f43bfab4ac6564'],fc596a598ff74a4c843e405b597551b5,324,56,5,61
+控制器,检测相机,1.0,控制器 manages the operation of the 检测相机 during the inspection process,['a20f67b391030e5cac0afe988906825f'],e2aacff6b4404574b818e7a3ece57b5b,325,56,2,58
+控制器,弧面丝印设备,1.0,控制器 manages the operation of the arc surface printing equipment,['19c5a3d15d92b939549523842bf010df'],2ec5cae98c7a485881f0680fbca6d67f,326,56,4,60
+控制器,丝网印设备,1.0,控制器 is a part of the 丝网印设备 that controls the operation of the machine,['ce7b5cb4e3fb4fd9a08453d18554c799'],c87b815d61af448596d3194a804b57b3,327,56,5,61
+控制器,擦玻璃升降机,1.0,"控制器 manages the擦玻璃升降机's operations, including height adjustment",['c25c68e2662c5c32de1b502014590cf7'],2f92fc82c3b74417896bad3bd8e61f5e,328,56,5,61
+控制器,管道焊接,1.0,"控制器 is used to manage the operation of equipment in the pipe welding process, including multi-axis control",['2733b7b74727ba58db94c1283f095dbb'],fb61c68efe5b4d69a9623e531e7c639c,329,56,6,62
+控制器,检测工位,1.0,控制器 is used at the 检测工位 to control the overall operation,['a6844f057674db0c5330ba30e9c6e247'],dc61e34c1ca8419e923aeeff7d83d949,330,56,11,67
+控制器,CNC小型雕刻机,1.0,控制器 is a component of the CNC小型雕刻机 that manages its operation,['ff1f5521156a3aa41a97fbd693ec610f'],697fb824eef34759852f1d5588921aec,331,56,7,63
+控制器,摄影小车,1.0,控制器 manages the overall operation of摄影小车,['7b88e7691653f636b158b91247c42615'],b872fcc5b18a4f32b976f4693f22e88e,332,56,5,61
+控制器,升降台FTS系统,1.0,"控制器 is a component of the 升降台FTS系统, used for control in the magnetic levitation system",['d89a41b98c4286f63b72a41c3ebea08d'],64be9b98299f4d349e0f4358685ca235,333,56,12,68
+控制器,高压注射器设备,1.0,"控制器 manages the operation of the 高压注射器设备, including control of the injection mechanism and servo drive",['efb3ae073af3ae2b901a79c1e2c49d39'],8302a03f6ede471bb955c0bbf44a4b3c,334,56,3,59
+控制器,计量包装机,1.0,控制器 is a component that controls the operation of the 计量包装机,['940d8d3c2c5834885c79cf828c1137cb'],a02263dd89964a1c8ab2d0e9aba0f4eb,335,56,6,62
+控制器,芯片封装焊接控制,1.0,控制器 is used to manage the chip packaging process in the芯片封装焊接控制,['e5a2a05750db1a3e1151f75abdaed149'],6b7aa6ce4cac4edbaaab831286e67e5e,336,56,5,61
+自动化垃圾分类设备,环保,1.0,自动化垃圾分类设备 is used in the environmental protection industry to sort waste,['ad37dec2a2a19c9d593c5a4927c7c7d2'],655d40ea08e348ad94ae49785797da90,337,8,1,9
+自动化垃圾分类设备,垃圾分类机,1.0,垃圾分类机 is a part of the automation waste sorting system,['ad37dec2a2a19c9d593c5a4927c7c7d2'],254cea99330f4f2aa062c771146da7ea,338,8,1,9
+自动化垃圾分类设备,直线导轨,1.0,"直线导轨 is a component of the automation waste sorting equipment, guiding the movement of mechanical parts",['ad37dec2a2a19c9d593c5a4927c7c7d2'],a2836232227c4e3383d166db860cb2a3,339,8,8,16
+自动化垃圾分类设备,抓取装置,1.0,"抓取装置 is a component of the automation waste sorting equipment, handling and sorting waste",['ad37dec2a2a19c9d593c5a4927c7c7d2'],8a9247ee9bac45bdbf69c9d0bb8419b5,340,8,2,10
+直线导轨,自动化点焊机,1.0,直线导轨 is a component of the 自动化点焊机 used for guiding its motion,['a4cdb403788ae9e31262a18f4fb0801c'],757a0f78fcdd4bf6b8326a75fcee9e15,341,8,7,15
+直线导轨,自动化药品分拣系统,1.0,直线导轨 is a component of the 自动化药品分拣系统 used for guiding motion,['b740e95b2369349a884c647a52dc866f'],b5235cb24b8f440389f250ebd5b6e2f8,342,8,8,16
+直线导轨,自动化检重机,1.0,"直线导轨 is a component of the 自动化检重机, guiding the linear motion of parts",['e77a55ec71b2605da11f93be730a1d44'],bdee1849252749efa2e671ed87641f61,343,8,8,16
+直线导轨,化妆品生产线,1.0,"直线导轨 is a component of the cosmetics production line, used for guiding linear motion",['75d656d482f083d807ff14652a2871f6'],057641c1476247958d8c357e17095d8e,344,8,7,15
+直线导轨,自动化食品加工设备,1.0,直线导轨 is a component of the 自动化食品加工设备 used for guiding linear motion,['d677c45b0e6b17b157c972d420c84d31'],b61dfd0b24664f37af4046bdf0cb7b19,345,8,7,15
+直线导轨,自动化灌装线,1.0,直线导轨 is a component of the 自动化灌装线 for guiding linear motion,['8757d4df4f6d7215159f27cbefe87143'],0bc00f14e6194df7b0fe9ef9ba28d34f,346,8,7,15
+抓取装置,自动化药品分拣系统,1.0,抓取装置 is a component of the 自动化药品分拣系统 used for handling pharmaceuticals,['b740e95b2369349a884c647a52dc866f'],b823c5d22037423da919eee6c35c4c8b,347,2,8,10
+器件切割控制,划片机,1.0,划片机 is used to perform the 器件切割控制 process in the semiconductor industry,['c0726458ba2e66f48f0fa2309b6fff34'],cd7f555e4ab948ba94bade14e262ff84,348,1,4,5
+半导体设备,划片机,1.0,划片机 is a type of equipment used in the 半导体设备 industry,['c0726458ba2e66f48f0fa2309b6fff34'],86cd53087b2542f898d6cecca31e6145,349,7,4,11
+半导体设备,自动光伏电池测试设备,1.0,自动光伏电池测试设备 is used in the semiconductor industry for testing photovoltaic cells,['ead29f227b9db281279d460a522ad9d5'],5dc3480806b04fdd8089a3be46e22540,350,7,6,13
+半导体设备,高速取放机,1.0,高速取放机 is a piece of equipment used in the 半导体设备 industry for high-speed pick-up and placement of components,['993c62a4486ef6aeef83623cbe6ec2b5'],50c91820a91f488d8606198540aba894,351,7,7,14
+半导体设备,显影机,1.0,显影机 is used in the 半导体设备 industry for image development in semiconductor and display manufacturing,['aa5f74cf315f6aa83731f3098a81c194'],a38eace89e7e40de8f007fde24597e9e,352,7,5,12
+半导体设备,精密组装机,1.0,精密组装机 is used in the 半导体设备 industry for assembling small and precise components,['5b6f25a5160dd3e31cedbf0e27231ae3'],5d75097d065e4b049a1678deab40949b,353,7,4,11
+半导体设备,晶圆搬运,1.0,晶圆搬运 is an application within the 半导体设备 industry,['44704166a30f1b067418bdeced9c4aab'],c277134d380a42cd886a14a953554792,354,7,9,16
+半导体设备,分选机,1.0,分选机 is used in the semiconductor equipment industry for sorting tasks,['1f738b4b390bb6d06b5afd780d7d1cd1'],b680be879404440885b1d3af5b9af583,355,7,3,10
+划片机,直流伺服,1.0,直流伺服 is a component of the 划片机 used for controlling the XYZ axis movement,['c0726458ba2e66f48f0fa2309b6fff34'],4cc609b1a64a442aac6b72078a315ac6,356,4,35,39
+划片机,某半导体公司,1.0,某半导体公司 uses 划片机 for wafer production in the semiconductor industry,['c0726458ba2e66f48f0fa2309b6fff34'],a3ee323c9c9a4f81b5907030122b80d2,357,4,2,6
+直流伺服,锂电池制造设备,1.0,直流伺服 is a component used in the 锂电池制造设备 for controlling the movement,['cd60c553dba9bff40c77be4f699fab03'],19aa5f0b738c4f4a96668c80c3e93331,358,35,4,39
+直流伺服,流水线自动涂装机,1.0,直流伺服 is a component of the 流水线自动涂装机 that controls the precision of the coating process,['49290954ecdd529e32620a1efe074e79'],f8402b10349f4db888ac4fb6fd81723a,359,35,5,40
+直流伺服,爬墙机器人,1.0,直流伺服 is used in the 爬墙机器人 to control its movement in vertical and horizontal directions,['f1c4352948a83386ee35325f64c315b7'],5927f9089289429da4adf2bbd5641e44,360,35,3,38
+直流伺服,焊接工位控制,1.0,直流伺服 is used in the welding workstation for high-precision control of the XYZ axes,['397a609ce44dd49589cc082c635acd1b'],60724b8b268044b69a4b3d939f1757e2,361,35,2,37
+直流伺服,玻璃切割设备,1.0,直流伺服 is used in the glass切割设备 for precise control of the XY axes during the cutting process,['12e4194788bfabe6f4a9aadc8f8a1366'],d931685d35e149909472f736114ca62f,362,35,3,38
+直流伺服,高速取放机,1.0,"直流伺服 is a technology used in the 高速取放机 for controlling the axes, contributing to the precision and speed of the operation",['993c62a4486ef6aeef83623cbe6ec2b5'],3f5e9927a4114a958d75f5ed313526a8,363,35,7,42
+直流伺服,全自动咖啡机,1.0,"直流伺服 is a component of the 全自动咖啡机, used to control the water pump, grinder, and frother",['19b0b1daced528c841d48a7a99e4bb55'],4728bf0cb7564bbd85c90ceaa846f290,364,35,6,41
+直流伺服,红外干扰设备,1.0,直流伺服 is used in the 红外干扰设备 to adjust the angle and direction of the emitter,['fe557d4342348364f94380da2231b422'],cdac6338c3234797a0d3a32cd68d1b2e,365,35,4,39
+直流伺服,显影机,1.0,直流伺服 is used in the 显影机 for controlling the multi-axis motion and development parameters,['aa5f74cf315f6aa83731f3098a81c194'],372f78df13f9452b84d898c703a1ba95,366,35,5,40
+直流伺服,光纤激光标刻机,1.0,光纤激光标刻机 uses 直流伺服 for controlling the XYZ axis movement of the marking head,['ef5440b55c37dc608f23f717bde61396'],7af06d2b32a941a4b044579a7c423371,367,35,4,39
+直流伺服,贴装运动控制,1.0,直流伺服 is used in the贴装运动控制 process for multi-axis movement control,['fb8c5282757073100fea0ee147a1b32a'],a10b8fad74744ae981747dadf7234b78,368,35,4,39
+直流伺服,手术机器人,1.0,直流伺服 is a component used in手术机器人 for high-precision control of surgical instruments,['fd61fde37c9267966317cf3d724fe633'],0cb2118ecc87439a91409deef7ef9830,369,35,3,38
+直流伺服,精密组装机,1.0,直流伺服 is used in the 精密组装机 for controlling the multi-axis movement,['5b6f25a5160dd3e31cedbf0e27231ae3'],ea27218042d640fd81c23eb64aff6b46,370,35,4,39
+直流伺服,晶圆外延生长设备,1.0,晶圆外延生长设备 uses 直流伺服 for controlling the movement of the growth head in XYZ axes and rotation,['6d1ff4138a2fdf278463ac4bbbad8361'],9e5d626681094933abf87cf797f2fa46,371,35,3,38
+直流伺服,精密光学检测设备,1.0,直流伺服 is used in the 精密光学检测设备 to control the movement of the detection head across the XYZ axes with high precision and stability,['0e85b783058feb121a0f62c97031f9ca'],545358ff14f84601a22e9f39f5ef1534,372,35,3,38
+直流伺服,康复机器人,1.0,"直流伺服 is a component of the 康复机器人, used to control the precision of motion",['ae75fa3b40e2d99d51b0839ec4faef35'],1b0e7dbc7c5944a7833f6540bde1fa4f,373,35,5,40
+直流伺服,无人配送车辆,1.0,直流伺服 is used in the无人配送车辆 for controlling its drive and steering,['241d0a881a404f7179b8abcb48712c01'],0c0f2d8c623949f1ae89c67d0753aeab,374,35,4,39
+直流伺服,激光测风,1.0,直流伺服 is used in the laser测风device for controlling the rotation and angle of the laser,['5d4207d4245f8e80d82d635747760370'],20c3844c80a140ac97b62dc444feee41,375,35,5,40
+直流伺服,激光切割设备,1.0,直流伺服 is used in 激光切割设备 to control the XYZ axis movement of the laser head,['a920920e8e149592d00031f362d614af'],c5fac1bea509464d9dc934275d938039,376,35,5,40
+直流伺服,手机组装生产线,1.0,直流伺服 is used in the 手机组装生产线 for controlling assembly robots and conveying tools,['cd1096eef266dc55fcc79a78604e195f'],45b64fbddd8f4abdb86a9c3c6f53f802,377,35,5,40
+直流伺服,装配机械手,2.0,"In the context of assembly processes within the Manufacturing and Logistics Technology sector, 直流伺服 (Zhi Liu Fu Wu, or Direct Current Servo) is a critical component that plays a pivotal role in controlling the movement and operation of 装配机械手 (Zhuang Pei Ji Xie Shou, or Assembly Manipulator). This specialized technology ensures precise and efficient manipulation of the assembly manipulator, facilitating smooth and accurate operations in various manufacturing settings. The Direct Current Servo system is specifically designed to oversee the movement of the assembly manipulator, making it an indispensable element in the automation and control of assembly line processes.",['3304ccd1a407776fdfe70ecfd3572d71' '5dd431defb92ab5537c35d879d857152'],0e504b58cbda4d9188050bc43004c01f,378,35,4,39
+直流伺服,传送装置,1.0,直流伺服 is used to control the operation of传送装置 for efficient material handling in production lines,['3304ccd1a407776fdfe70ecfd3572d71'],c06bd37e120e4af49ec8bd6ce399473b,379,35,2,37
+直流伺服,机器人焊接工作站,1.0,直流伺服 is used in the 机器人焊接工作站 to control the movement of the welding head and maintain stable welding trajectories,['4b028e742c5bb99151ce8d6869dd59e1'],5d507985f2f540d8a1fa2d1191eae2a8,380,35,4,39
+直流伺服,激光打标设备,1.0,直流伺服 is a component of the 激光打标设备 used for controlling the XYZ axis movement,['ed18651c3085e19592c04bfcd0b52dac'],8e0b5b4011d74bbb8dc09fa05d88369c,381,35,5,40
+直流伺服,手机相机模组组装设备,1.0,直流伺服是手机相机模组组装设备中的一个关键组件，用于控制装配头的多轴运动,['2bcae705653a8c2dfee33dc9aec75026'],5d8184f5d52040d8bb67d1a6b889e9fe,382,35,6,41
+直流伺服,锂电池测试设备,1.0,"直流伺服 is a part of the 锂电池测试设备, used for controlling the movement of test probes and power devices",['52193089f44e2d4de3eae704535af318'],b3bf669489ae4913bb60ddfe50e41697,383,35,5,40
+直流伺服,车载雷达,1.0,直流伺服 is used to control the rotation and tilt of the 车载雷达,['5dbdf06fa4c2f0172e062f438941881b'],0eba9d55a3ff46298665a0c292e2237f,384,35,4,39
+直流伺服,喷洗机械臂,1.0,直流伺服 is used to control the multi-axis motion of the 喷洗机械臂 for high-precision and efficient cleaning operations,['5d67b02ec3d25e19d4c5df9075d68aad'],55e3f4a200eb4619ae2b6efb645464d1,385,35,1,36
+直流伺服,激光扫描仪,1.0,直流伺服 is used to control the angle and position of the 激光扫描仪 for high-precision scanning,['1004c3ef61d917fa05a207f01ed74560'],c44324c171674d00a743413042e9b944,386,35,3,38
+直流伺服,水下机器人,1.0,直流伺服 is used in 水下机器人 to control the precise movement of its joints,['bec622312c7d50d15196290b6635711e'],4bdaba79a3274241ab98e27aeaf98f57,387,35,4,39
+直流伺服,移动平台,1.0,直流伺服 is used to control the movement of the 移动平台,['5dd431defb92ab5537c35d879d857152'],7c8c464ed7044a7896adfeb35f58a04d,388,35,2,37
+直流伺服,管道焊接,1.0,直流伺服 is used to control the position of the welding head and pipes in the pipe welding process,['2733b7b74727ba58db94c1283f095dbb'],5fa2eec73bec481b85eba22ea7a2a927,389,35,6,41
+直流伺服,CNC小型雕刻机,1.0,直流伺服 is a component of the CNC小型雕刻机 that controls the XYZ axes for precise motion,['ff1f5521156a3aa41a97fbd693ec610f'],e6aa5eedca984c56b5fa5e179127951d,390,35,7,42
+某半导体公司,晶圆外延生长设备,1.0,某半导体公司 may have implemented or developed the 晶圆外延生长设备 for their production line,['6d1ff4138a2fdf278463ac4bbbad8361'],1c4bd4ba4ef64a93acd55faa8fd97ca9,391,2,3,5
+自动化点焊机,点焊机,1.0,自动化点焊机 is a specialized version of the 点焊机 designed for automated welding tasks,['a4cdb403788ae9e31262a18f4fb0801c'],5b85c70d578c4d67b5cb4743552bd559,392,7,2,9
+3D打印机,"消费类, 制造业",1.0,"3D打印机 is used in the 消费类, 制造业 for creating three-dimensional objects",['a46344e3103e068d36f2d181c78d6f78'],956113fb770840c38bce65bb5832f988,393,8,2,10
+3D打印机,XYZ轴同步配合,1.0,3D打印机 uses xyz轴同步配合 for precise control and positioning during the printing process,['a46344e3103e068d36f2d181c78d6f78'],785bb55e79954b0c84a4a53cd7f0b454,394,8,3,11
+3D打印机,工控机或单片机,1.0,工控机或单片机 is used in the 3D打印机 for controlling the printing process,['a46344e3103e068d36f2d181c78d6f78'],1239281fd3774b91a99358c9c1e6ee1c,395,8,5,13
+3D打印机,3轴定制直线电机,1.0,3轴定制直线电机 is used in the 3D打印机 for providing linear motion along three axes,['a46344e3103e068d36f2d181c78d6f78'],32b29a842b224f4c99fa1d5c764efc9a,396,8,2,10
+3D打印机,较高重复定位精度,1.0,较高重复定位精度 is a requirement for the 3D打印机 to ensure high accuracy in the printing process,['a46344e3103e068d36f2d181c78d6f78'],f5ae7dc11fd64822a3a15e7d3839031a,397,8,1,9
+3D打印机,较低跟随误差,1.0,较低跟随误差 is a requirement for the 3D打印机 to ensure low error in the printing process,['a46344e3103e068d36f2d181c78d6f78'],e1e254e67719488894eaa3553112a8cf,398,8,1,9
+3D打印机,3-8G的加速度,1.0,3-8G的加速度 is a requirement for the 3D打印机 to ensure it can handle the necessary acceleration for printing,['a46344e3103e068d36f2d181c78d6f78'],ebdd79169d7d41b99faf09b039a66204,399,8,1,9
+3D打印机,轻量化设计小体积,1.0,轻量化设计小体积 is a requirement for the 3D打印机 to ensure it is portable and space-efficient,['a46344e3103e068d36f2d181c78d6f78'],e036534e17b24dd2895167a20873230f,400,8,2,10
+"消费类, 制造业",人形机器人,1.0,人形机器人 is used in the industries of 消费类 and 制造业 for various applications,['1414dfe00486439d8b6e21e0ab903a45'],a00bc5e4be634b08b1f084b6a07abafd,401,2,3,5
+XYZ轴同步配合,工控机或单片机,1.0,工控机或单片机 is used to control the xyz轴同步配合 for precise movement,['a46344e3103e068d36f2d181c78d6f78'],ce8241c964724429bb361b7b53867007,402,3,5,8
+XYZ轴同步配合,3轴定制直线电机,1.0,3轴定制直线电机 is used to achieve xyz轴同步配合 by providing controlled linear motion,['a46344e3103e068d36f2d181c78d6f78'],61cd7f168f7f44d6a23415e9497f1e65,403,3,2,5
+工控机或单片机,激光摆振控制,1.0,工控机或单片机 is used in the 激光摆振控制 to control the small 1-2 axis galvanometer motors,['79aa04e481a4012b9038dab21db76ad6'],3be77a7b57e34c55acc1f1dfbc64ee10,404,5,5,10
+工控机或单片机,激光振镜仪,1.0,激光振镜仪 is controlled by 工控机或单片机 to achieve precise motor control,['11e6b3ae933f56d04dc0bf25295f1a04'],751c564f8ff6444d9d4c8de4a677e655,405,5,2,7
+工控机或单片机,控制1-2轴中型振镜电机,1.0,"工控机或单片机 is used to control the 1-2 axis medium-sized galvanometer motors, which is essential for the laser oscillation control",['11e6b3ae933f56d04dc0bf25295f1a04'],96963c158fb64680bded290f442ff9aa,406,5,1,6
+割草路径控制,割草机器人,1.0,割草路径控制 is a function performed by the割草机器人to ensure precise grass cutting,['678f6e80926121e103efae5e48a8c9f2'],bdbfbde5dd244447a2a0674b30ae3e8f,407,1,8,9
+割草机器人,电动工具,1.0,割草机器人 is a type of electric tool used for lawn maintenance,['678f6e80926121e103efae5e48a8c9f2'],f970bfe31db74929abff6ea38e5d18e6,408,8,4,12
+割草机器人,割草刀片,1.0,割草刀片 is a critical component of the割草机器人for cutting grass,['678f6e80926121e103efae5e48a8c9f2'],6f0c2a8b79e6406a8ab7a20864ae2ce2,409,8,1,9
+割草机器人,车轮模块,1.0,车轮模块 enables the割草机器人to move across the lawn,['678f6e80926121e103efae5e48a8c9f2'],7b09e60e33f44ffdab9c656c5b9c1d50,410,8,1,9
+割草机器人,某园艺设备公司,1.0,"某园艺设备公司 produces割草机器人, indicating a manufacturer-supplier relationship",['678f6e80926121e103efae5e48a8c9f2'],8b7beab7c0a143aea7bffc31df7528d5,411,8,1,9
+电动工具,电动螺丝刀,1.0,电动螺丝刀 is a product within the 电动工具 industry,['0c80e93a0cd526d5772684b100405e43'],d03eb34a0612420680555ab9f10d03d5,412,4,6,10
+电动工具,艾尔特,1.0,艾尔特 is a company operating within the 电动工具 industry,['0c80e93a0cd526d5772684b100405e43'],b066746cdff7440c8a3591f0c098201d,413,4,1,5
+电动工具,电批,1.0,电批是电动工具行业中的一个产品,['cd075fd077df22767f0bee4befbd9610'],1e2eded8ef7b4b458c33fbc2d36c4380,414,4,5,9
+智能并线机器人装备,并线机器人,1.0,智能并线机器人装备 is a type of 并线机器人 used for high-precision merging of yarns in the manufacturing industry,['26753c1ce00073c23f2d14ce40c0d028'],c59e3e931b0f4cf888c2eb70857ee753,415,4,1,5
+智能并线机器人装备,纺织厂自动化设备,1.0,智能并线机器人装备 is an example of 纺织厂自动化设备 used for automating the merging of yarns in textile factories,['26753c1ce00073c23f2d14ce40c0d028'],305b80bb4df5488b8a34129daeeae0c7,416,4,1,5
+自动气动锁钉设备,锁钉机,1.0,自动气动锁钉设备 is a type of 锁钉机 used for precise screwing operations,['eced1354dc203db862497de8c414d11c'],66fa0de756da440bad8da583306410c4,417,2,6,8
+自动气动锁钉设备,建筑设备,1.0,自动气动锁钉设备 is used in the 建筑设备 industry for improving screwing efficiency and accuracy,['eced1354dc203db862497de8c414d11c'],d1e9c550a0e74c48ae81c319f26ccafc,418,2,2,4
+建筑设备,爬墙机器人,1.0,爬墙机器人 is a type of equipment used in the 建筑设备 industry for cleaning and inspecting building exteriors,['f1c4352948a83386ee35325f64c315b7'],3730b5d759ba4fd28a54af0a02151f09,419,2,3,5
+锁钉机,锁钉头,1.0,锁钉机 uses 锁钉头 for direct interaction with screws,['eced1354dc203db862497de8c414d11c'],82b7f7c27e2348f880c94ffb80942de7,420,6,1,7
+多轴运动协调控制,锂电池制造设备,1.0,多轴运动协调控制 is used in the 锂电池制造设备 to achieve high precision and efficiency in the production process,['cd60c553dba9bff40c77be4f699fab03'],0980c4f558654466b4d691d0cb7ce16d,421,1,4,5
+锂电池制造设备,多轴控制系统,1.0,多轴控制系统 is used in the 锂电池制造设备 to coordinate the movement of multiple axes,['cd60c553dba9bff40c77be4f699fab03'],f1e47cf5daa441649c3474c3339bb704,422,4,1,5
+锂电设备,锂电物流生产线,1.0,"锂电物流生产线 is part of the 锂电设备 industry, which focuses on the manufacturing and processing of lithium battery equipment",['93f221ac5d3740108fc98f190e7f3d88'],0964dcfbff934c92af8961155673ac7f,423,2,3,5
+锂电设备,电动螺丝刀,1.0,电动螺丝刀 is a tool used in the lithium battery equipment industry for screw tightening,['429770fe8f393c34ddc5b3b06c00b11f'],51b82bcdffe04056bad1c082c3830047,424,2,6,8
+某新能源公司,全自动锂电池生产线,1.0,某新能源公司 uses the 全自动锂电池生产线 for manufacturing lithium batteries,['cd60c553dba9bff40c77be4f699fab03'],c62bb148852b49a98e2779ca23a0919d,425,3,1,4
+某新能源公司,锂电池卷绕机,1.0,某新能源公司 uses the 锂电池卷绕机 in their production of lithium battery cells,['c94be7ba5abf1f79d420aac7fe8bae2e'],72b5a0c357c24b739084d501b9354bc1,426,3,6,9
+某新能源公司,锂电池分选机,1.0,某新能源公司 uses the 锂电池分选机 in their lithium battery production line,['efb5708268afc67a61b9f35e5fd9b376'],c827b62ebf134e55a3ccf0b63f976870,427,3,5,8
+自动化折弯机,折弯机,1.0,自动化折弯机 is a type of 折弯机 that incorporates automation for improved precision and efficiency in the manufacturing process,['54c84a3acff36a81a14e832661cab5fc'],b51ef388758845e880e736309ae791e3,428,2,6,8
+折弯机,折弯头,1.0,折弯头 is a component of the 折弯机 that physically bends the metal parts,['54c84a3acff36a81a14e832661cab5fc'],0a841cd4b6664423b033f22e3a80f33c,429,6,1,7
+锂电物流生产线,环形FTS系统,1.0,环形FTS系统 is a key technology used in the 锂电物流生产线 to achieve high efficiency and precision in material handling,['93f221ac5d3740108fc98f190e7f3d88'],16911c51c65b42f8a2d04c05f45b2c58,430,3,15,18
+锂电物流生产线,果栗-金源精密,1.0,果栗-金源精密 has implemented or is associated with a similar case or project in the 锂电物流生产线 context,['93f221ac5d3740108fc98f190e7f3d88'],fc3f77f29574410d991a2aa333950bf6,431,3,1,4
+环形FTS系统,驱动器,1.0,"驱动器 is a component of the 环形FTS系统, providing the necessary power for the movement of the system components",['93f221ac5d3740108fc98f190e7f3d88'],4f847eb72cbe48678d5634dcf93fc0e2,432,15,28,43
+环形FTS系统,线圈,1.0,"线圈 is a component of the 环形FTS系统, generating magnetic fields for magnetic levitation",['93f221ac5d3740108fc98f190e7f3d88'],829e64159ae04301982e88e93a2f0e49,433,15,2,17
+环形FTS系统,导轨,1.0,"导轨 is a component of the 环形FTS系统, supporting and constraining the movement of the system components",['93f221ac5d3740108fc98f190e7f3d88'],cf37d3d4bc154f65b3d79c831c587763,434,15,2,17
+环形FTS系统,小车,1.0,"小车 is a component of the 环形FTS系统, moving along the conveyor line to carry materials or products",['93f221ac5d3740108fc98f190e7f3d88'],4b4fce341d554012bc73d7886860749e,435,15,2,17
+环形FTS系统,磁栅,1.0,"磁栅 is a component of the 环形FTS系统, using magnetic fields for positioning and control",['93f221ac5d3740108fc98f190e7f3d88'],9f6e7a08bd814d19b45fac58928027f8,436,15,2,17
+环形FTS系统,磁铁,1.0,"磁铁 is a component of the 环形FTS系统, generating magnetic fields for levitation and control",['93f221ac5d3740108fc98f190e7f3d88'],ff9410fed5e64c04a875e040e3d182b2,437,15,2,17
+环形FTS系统,直线模组,1.0,"直线模组 is a component of the 环形FTS系统, providing precise linear movement",['93f221ac5d3740108fc98f190e7f3d88'],1161272728914953b568f384d7a9f2f1,438,15,2,17
+环形FTS系统,中压驱动器,1.0,"中压驱动器 is a component of the 环形FTS系统, providing power for the movement of components",['93f221ac5d3740108fc98f190e7f3d88'],f09c82eb89944ae9846df82135123b90,439,15,2,17
+环形FTS系统,旋转模组,1.0,"旋转模组 is a component of the 环形FTS系统, providing precise rotational movement",['93f221ac5d3740108fc98f190e7f3d88'],d221b743a51d464b87de3b72b85f6b59,440,15,1,16
+环形FTS系统,锂电制造生产线,1.0,"环形FTS系统 is used in the 锂电制造生产线 to achieve high-precision, cable-free, dust-free conveyor lines",['01c3b6319760663ac7c9a1cf2b1bd935'],9fd31a28e1384b40a9d1658a765871cd,441,15,3,18
+环形FTS系统,控制器+N*(驱动器+编码器+线圈)+导轨+M * （小车+磁栅+磁铁) +RFID系统,1.0,环形FTS系统 is composed of the 控制器+n*(驱动器+编码器+线圈)+导轨+m * （小车+磁栅+磁铁) +RFID系统 to achieve its functionality,['01c3b6319760663ac7c9a1cf2b1bd935'],0119f233c8394b9584e55fadcce173f0,442,15,1,16
+环形FTS系统,艾美珈-CATL,1.0,艾美珈-CATL has implemented a solution similar to the 环形FTS系统,['01c3b6319760663ac7c9a1cf2b1bd935'],5c20b469b92446dabb1b68976807be7c,443,15,1,16
+驱动器,丝网印刷机,1.0,驱动器 is used in the 丝网印刷机 to control the motion of the motors,['3985deee87120aea5fa768e9170c7361'],2c2392247a35456da663adfcffd12e73,444,28,7,35
+驱动器,转塔式测试分选机,1.0,驱动器 is a component of the 转塔式测试分选机 for controlling motor operations,['051f5fcffcb071578deaa06a2635a685'],167a32ff67ce4471baa8cf019ee7c17b,445,28,10,38
+驱动器,激光风能扫描仪（激光测风仪）,1.0,驱动器 is a component of the 激光风能扫描仪（激光测风仪） that drives its operation,['0868eedc0ef863a89360ac5deb7182c4'],3280fc12ef414827838e6ac7089f0618,446,28,8,36
+驱动器,移液机器人,1.0,驱动器 is a component of the 移液机器人 used to control the operation of the servo motor,['3171a8e0686e844a43b8a5bcb122df77'],556fba72a0854ce4831f6cfea6fd035e,447,28,4,32
+驱动器,手持激光焊,1.0,驱动器 is a component that drives the operation of the 手持激光焊,['29588231a566f2e3de9f1e8a62b56266'],8e2e6eeed5a04c9f80efbcfc624ced95,448,28,6,34
+驱动器,XY直线电机+音圈电机,1.0,驱动器 is used to control the operation of the XY直线电机+音圈电机 for precise motion in the pharmaceutical equipment industry,['a3a1e7579ad252d4c58c6193b5504bfe'],ea6d546f1caa4b4aaacdad8b8af195ec,449,28,1,29
+驱动器,脉冲控制器,1.0,脉冲控制器 is used to control the operation of the 驱动器 by generating and controlling pulses,['a3a1e7579ad252d4c58c6193b5504bfe'],267ce44e6dae43ee94d0d375ec08ef17,450,28,1,29
+驱动器,晶圆搬运,1.0,驱动器 is a component used in the 晶圆搬运 process,['44704166a30f1b067418bdeced9c4aab'],b37e5d15f3154ee39df016b8eac8de66,451,28,9,37
+驱动器,自动化仓库堆垛机,1.0,驱动器 is a component used in the automation warehouse stacker for controlling the operation of other components,['76f3b1592256b4437b7d47b5f14ae2c6'],e13eb574e885414b80f0b66992767ef2,452,28,5,33
+驱动器,振镜旋转控制,1.0,驱动器 is a component used in the 振镜旋转控制 process,['27cc8dca2eaecc56df40ff1259b58cee'],93f4140f654e41ccba908c6f6dc65f17,453,28,6,34
+驱动器,智能仓储系统,1.0,智能仓储 system uses drivers for controlling the operation of other components,['ef6d9b5e0927a32e780b2b369685d3ee'],a102d091986749ef90b45d411e707bef,454,28,6,34
+驱动器,自动点餐与配送机器人,1.0,驱动器 is a component used in the 自动点餐与配送机器人 for controlling the movement of the robot,['ca10fe3d16756300859a0693aee7f7a0'],cd6ae38a5a6742899d14f4a064f42c19,455,28,5,33
+驱动器,机器人关节控制,1.0,"驱动器 is a component in 机器人关节控制, driving the motor and controlling joint motion",['3ab4ffccaf8256da93b5b8b2d90c943f'],fe18688bd4ef44d1a184ec6d1451a5cf,456,28,4,32
+驱动器,车载雷达转台,1.0,驱动器 is a component of the 车载雷达转台 that drives its operation,['d788500a87babbf7fc609e78e060493d'],0f1282bdfedb4f6e8765007a90dd2959,457,28,4,32
+驱动器,两轴,1.0,两轴 includes a driver component for its operation,['795a6efb4c07565e2cea3077eac4130a'],540af5c5d4cd41ceb29c40c5fb02e2fe,458,28,5,33
+驱动器,自研开发板,1.0,自研开发板 communicates with the driver over CAN bus to control the screw tightening process,['429770fe8f393c34ddc5b3b06c00b11f'],bbf83708095f47019eaee93d6879bc77,459,28,1,29
+驱动器,电机,1.0,"驱动器 powers the motor, which is essential for the screw tightening process",['429770fe8f393c34ddc5b3b06c00b11f'],245a56f01d1b48a7b4d88ed0e354155a,460,28,3,31
+驱动器,减速机,1.0,驱动器 interacts with the gear reducer to adjust the motor's speed and torque for screw tightening,['429770fe8f393c34ddc5b3b06c00b11f'],d3aa564fb4eb430a8ca6813ca76bfff6,461,28,3,31
+驱动器,把手板,1.0,驱动er is part of a system that includes the handle board for screw tightening,['429770fe8f393c34ddc5b3b06c00b11f'],d9b948357d96419ca135065ce1c360ef,462,28,1,29
+驱动器,医疗实验室搬运机器人,1.0,驱动器 is a component of the 医疗实验室搬运机器人 for controlling movement,['d9eda21d3e37948306b3b3c665150e73'],20a79ddd91ba48e4bb7bc194c79baaf6,463,28,5,33
+驱动器,协作机器人检测工位,1.0,驱动器 is used in the 协作机器人检测工位 to control the operation of the collaborative robot's motors,['7db76b99a4ad703f2ced3f3241ae2de7'],b95728a0b96b405cbccafa6c12fd8722,464,28,5,33
+驱动器,摆臂电机,1.0,驱动器 controls the operation of the 摆臂电机,['a20f67b391030e5cac0afe988906825f'],5d6dc034d2014e8c930fde69c31b99cf,465,28,2,30
+驱动器,智能搬运机器人,1.0,智能搬运机器人 uses 驱动器 for controlling the movement of the robot,['8ae4de39dd9ba11cfa17e06a2174416b'],127cbb53940f4efa8e1807b4452375ba,466,28,4,32
+驱动器,检测工位,1.0,驱动器 is used at the 检测工位 to drive the operation of components,['a6844f057674db0c5330ba30e9c6e247'],f1ea6ef9539043ab887bcce22ccf9625,467,28,11,39
+驱动器,升降台FTS系统,1.0,"驱动器 is a component of the 升降台FTS系统, used for driving in the magnetic levitation system",['d89a41b98c4286f63b72a41c3ebea08d'],b50c4f053f0546029c4095b7b93aa05e,468,28,12,40
+线圈,升降台FTS系统,1.0,"线圈 is a component of the 升降台FTS系统, used for magnetic levitation in the system",['d89a41b98c4286f63b72a41c3ebea08d'],0cea7f7a7fab49339cdd6fb02d0d183e,469,2,12,14
+导轨,升降台FTS系统,1.0,"导轨 is a component of the 升降台FTS系统, used for guiding in the magnetic levitation system",['d89a41b98c4286f63b72a41c3ebea08d'],5b89f0d8101c419b86e1959cca2db848,470,2,12,14
+小车,升降台FTS系统,1.0,"小车 is a component of the 升降台FTS系统, used for transportation in the magnetic levitation system",['d89a41b98c4286f63b72a41c3ebea08d'],cdb407fc600b45caa6f94f82e89d2e4f,471,2,12,14
+磁栅,升降台FTS系统,1.0,"磁栅 is a component of the 升降台FTS系统, used for magnetic control in the system",['d89a41b98c4286f63b72a41c3ebea08d'],7f4905fcb43e4d6ca23e6d2b40f6958e,472,2,12,14
+磁铁,升降台FTS系统,1.0,"磁铁 is a component of the 升降台FTS系统, used for magnetic levitation in the system",['d89a41b98c4286f63b72a41c3ebea08d'],f5ad4fe84df544c69db25f0e30c6eace,473,2,12,14
+直线模组,升降台FTS系统,1.0,"直线模组 is a component of the 升降台FTS系统, used for linear motion in the magnetic levitation system",['d89a41b98c4286f63b72a41c3ebea08d'],237a46cc973b41dc9af4190c71c5c9e1,474,2,12,14
+中压驱动器,升降台FTS系统,1.0,"中压驱动器 is a component of the 升降台FTS系统, used for medium-voltage driving in the magnetic levitation system",['d89a41b98c4286f63b72a41c3ebea08d'],aaa27aa0b1024e3aa3c87a6ec821a348,475,2,12,14
+预推机的工件焊点推杆控制,预推机的推杆控制,1.0,预推机的工件焊点推杆控制 is an action that involves the use of 预推机的推杆控制 to remove falsely welded points on workpieces,['e278769b0a13ab97a48ea0f7f0aae2a4'],f0a28fe3f68546dba7850815f7933275,476,1,4,5
+预推机的推杆控制,汇川PLC,1.0,预推机的推杆控制 is controlled by 汇川PLC for automation and precision in the manufacturing process,['e278769b0a13ab97a48ea0f7f0aae2a4'],45b59feba7134bc18632cb42530c189a,477,4,1,5
+预推机的推杆控制,一个伺服控制凸轮结构,1.0,预推机的推杆控制 uses 一个伺服控制凸轮结构 for precise motion control in the manufacturing process,['e278769b0a13ab97a48ea0f7f0aae2a4'],7747cd2048f94d378e83265b9561d921,478,4,1,5
+预推机的推杆控制,音圈电机,1.0,预推机的推杆控制 may require different numbers of 音圈电机 depending on the type of workpiece for precise positioning and control,['e278769b0a13ab97a48ea0f7f0aae2a4'],c4e9532dbc734264a0e3e827bc8014c6,479,4,6,10
+音圈电机,固晶机/贴片机,1.0,音圈电机 is a component of 固晶机/贴片机 used for precise motion control,['31c28568798886d8f586690e0f0f477b'],003e5d505a01434596c6d65ff20b0bdf,480,6,7,13
+音圈电机,转塔式测试分选机,1.0,音圈电机 is a component of the 转塔式测试分选机,['051f5fcffcb071578deaa06a2635a685'],f79358f3535045d9aad3b828df59293b,481,6,10,16
+音圈电机,贴片机贴片头的运动控制,1.0,音圈电机 is an alternative for the Z-axis motion in the 贴片机贴片头的运动控制,['07462221b3d84a411e218d4b81d9e334'],7d375c18c1e2415faecd9f7397068a32,482,6,9,15
+音圈电机,细胞检测设备,1.0,细胞检测设备 uses 音圈电机 for the z axis control,['d7a373e4186ea1ad9e54a33a5c7e2f1a'],dfa0e847a6704c93a0fe014b01858ff7,483,6,3,9
+音圈电机,检测工位,1.0,音圈电机 is used at the 检测工位 for precise camera movement,['a6844f057674db0c5330ba30e9c6e247'],9e91823feb174cd1b6a3bf8d0a5cb86b,484,6,11,17
+自动涂层控制,流水线自动涂装机,1.0,自动涂层控制 is the process that the 流水线自动涂装机 is designed to perform,['49290954ecdd529e32620a1efe074e79'],ad76c8dc8dd94412a5e79005cf8e0f2f,485,1,5,6
+流水线自动涂装机,喷枪,1.0,喷枪 is a tool used in the 流水线自动涂装机 for applying coatings,['49290954ecdd529e32620a1efe074e79'],26a03482961e41918ea049018080af7a,486,5,1,6
+流水线自动涂装机,涂装机械手,1.0,涂装机械手 is a part of the 流水线自动涂装机 that applies coatings to products,['49290954ecdd529e32620a1efe074e79'],1cfd220ff4d2493ca4b92d725d171d32,487,5,1,6
+三轴稳定控制,光电吊舱,1.0,三轴稳定控制 is a technique used in the光电吊舱 to ensure stability and precision during motion,['76ea2ccd8defd5fe8f0994abf89a6e31'],97738fe0830d405ba53598b5cb1e5e38,488,1,8,9
+航空航天,光电吊舱,1.0,光电吊舱 is used in the航空航天 industry for aerial surveillance and photography,['76ea2ccd8defd5fe8f0994abf89a6e31'],354cea4f6e164a48ad12122c28a5b30d,489,1,8,9
+光电吊舱,影视制作,1.0,光电吊舱 can be used in the影视制作 industry for aerial filming,['76ea2ccd8defd5fe8f0994abf89a6e31'],1ee2380c1eda4ebb8c9304820750ac88,490,8,3,11
+光电吊舱,三轴稳定系统,1.0,"三轴稳定系统 is part of the光电吊舱, designed for high-speed response, high-precision control, and stability",['76ea2ccd8defd5fe8f0994abf89a6e31'],57e00d4d4e0e4679a150f048deb80af3,491,8,1,9
+光电吊舱,摄像头,1.0,摄像头 is a component of the光电吊舱 used for capturing video images,['76ea2ccd8defd5fe8f0994abf89a6e31'],c1e4a9dbe55c4fb89f0d927c9fb067a4,492,8,4,12
+光电吊舱,某无人机公司,1.0,某无人机公司 uses光电吊舱 systems in their drones for aerial surveillance and photography,['76ea2ccd8defd5fe8f0994abf89a6e31'],1474a72a5cff4b72ae6f99e804ceaa95,493,8,1,9
+影视制作,云台装置,1.0,云台装置 is used in the 影视制作 industry for precise angle control and smooth rotation,['8aa843d0b018051f90583fd0dee4a404'],738fda68df7a49a0bae96673a8711afc,494,3,4,7
+影视制作,摄影小车,1.0,摄影小车 is used in the industry of影视制作 for high-precision and stable movement during filming,['7b88e7691653f636b158b91247c42615'],89dd5a0943c64247adae624abbc95afb,495,3,5,8
+摄像头,SP小件植入机,1.0,摄像头 is a component of the SP小件植入机 used for visual inspection,['0c9912b4dc242caa53d3ec6df160bfec'],405e9907440d4deab71f3960ae36f47b,496,4,6,10
+摄像头,巡检机器人,1.0,摄像头 is a component of the 巡检机器人 that provides visual monitoring capabilities,['c3025b9f170d4cb9a5794da27f609eb1'],f91e7c9600ca4623a8cc4a56d2dccd07,497,4,4,8
+摄像头,自动化光学检测设备,1.0,摄像头 is a component of the 自动化光学检测设备 used for capturing images for optical inspection,['78292823ba9a23ddd49ea39f21675fb2'],3af2a8619c394be6adf06e4bc742b7ec,498,4,3,7
+爬墙机器人,某物业公司,1.0,某物业公司 uses 爬墙机器人 for cleaning the exteriors of high-rise buildings,['f1c4352948a83386ee35325f64c315b7'],c10ffc51dcb54708a1dc757693010bfe,499,3,1,4
+送料并精准切料,飞达设备（供料器）,1.0,飞达设备（供料器） is used to perform the action of 送料并精准切料,['8b764e9bc5ff2fb6ca08d5b70220ba66'],e67ce34d48364422973ccf3a6b57af83,500,2,2,4
+送料并精准切料,旋转电机，驱动器，脉冲型PLC,1.0,旋转电机，驱动器，脉冲型PLC are components required to perform the action of 送料并精准切料,['8b764e9bc5ff2fb6ca08d5b70220ba66'],98773a34c9bb474d8a789ea08f57250e,501,2,1,3
+飞达设备（供料器）,"半导体设备, 3C设备",1.0,"飞达设备（供料器） is used in the industries of 半导体设备, 3C设备",['8b764e9bc5ff2fb6ca08d5b70220ba66'],ae260498423e4d55aa413423cd0eb20b,502,2,1,3
+焊接工位控制,焊片机,1.0,焊片机 is used at the welding workstation for welding operations,['397a609ce44dd49589cc082c635acd1b'],4aeecb9d885743ca9373337a43957dd8,503,2,3,5
+焊片机,某电池厂,1.0,某电池厂 uses the 焊片机 for automatic welding of lithium batteries or LED components,['397a609ce44dd49589cc082c635acd1b'],1121b50f7858427fa679d81861238825,504,3,1,4
+焊片机,检测工位,1.0,焊片机 is used at the 检测工位 for soldering tasks,['a6844f057674db0c5330ba30e9c6e247'],6e3c8aa3abab475bb0148faa9112f0bf,505,3,11,14
+锂电池卷绕机,卷绕机构,1.0,卷绕机构 is a part of the 锂电池卷绕机 responsible for the physical winding of battery materials,['c94be7ba5abf1f79d420aac7fe8bae2e'],948a00e8ee1246cc90c47b292d03ddff,506,6,1,7
+锂电池卷绕机,张力装置,1.0,张力装置 is a part of the 锂电池卷绕机 that maintains the tension of the materials being wound,['c94be7ba5abf1f79d420aac7fe8bae2e'],45c42e619f5e488f914608780dcf0579,507,6,1,7
+玻璃切割设备,某玻璃厂,1.0,某玻璃厂 uses the 玻璃切割设备 in their production of smart home glass panels,['12e4194788bfabe6f4a9aadc8f8a1366'],2b3bea0d9ede41f193828526bcb8e02c,508,3,1,4
+摄像头的俯仰和旋转动作,重型云台,1.0,重型云台 is used to perform the 摄像头的俯仰和旋转动作,['c8ea0d05845895b9692235e7dff0d7a4'],6b2586cc1f8e4dc8af64913af63d9837,509,1,2,3
+重型云台,旋转电机+同步带+涡轮蜗杆，驱动器，脉冲型控制卡,1.0,The components are essential for the operation of the 重型云台,['c8ea0d05845895b9692235e7dff0d7a4'],7983bfa8d173414685272b3844d6612e,510,2,1,3
+抓取和释放控制,电动夹爪,1.0,电动夹爪 is used to perform the action of抓取和释放控制,['7f8423e6b4a3ab5064e9ff23dcd515ca'],09294e8220a445e288ea8841f234a440,511,1,5,6
+3C设备,物流,2.0,"In the context of the Manufacturing and Logistics Technology sector, 3C设备 (3C Equipment) is recognized as a significant subcategory within the broader industry of 物流 (Logistics). Often encountered in logistics operations, 3C Equipment plays a crucial role in the dynamics of the sector, contributing to the efficient handling and management of goods. This highlights the interconnectivity between 3C Equipment and the logistics industry, where 3C Equipment serves as a key component in facilitating the flow of materials and products. Understanding the relationship between 3C Equipment and logistics is essential for identifying collaboration opportunities and potential knowledge gaps within the professional community, as well as for recognizing key influencers in the sector.",['63a2a1cd72ee4aae8514a1b3ac5b4153' '7f8423e6b4a3ab5064e9ff23dcd515ca'],d4e043cf972c4d129b6b855f1731caae,512,17,13,30
+3C设备,点胶机,1.0,点胶机是3C设备行业中的常用设备，用于自动化点胶,['4b9a8f4ccbb34c68e3eae76bc8f0b994'],e0d63137270c426dbbfe7fcf78c474de,513,17,8,25
+3C设备,手机屏幕/笔记本电脑触摸板的按压检测设备,1.0,手机屏幕/笔记本电脑触摸板的按压检测设备 is used in the 3C设备 industry for testing purposes,['a8a882055b379825fd5e73405b085f92'],c50bca18bc454a98b935df012b7fd6f9,514,17,2,19
+3C设备,自动化点胶机中的点胶头位置控制,1.0,自动化点胶机中的点胶头位置控制是3C设备行业中的一个具体应用，用于实现高精度的点胶过程,['c72dd4780b72f9f00821a0bf9f02bcb6'],434b133c64bd46219e67c6eb296ad0ff,515,17,10,27
+3C设备,飞达模组,1.0,飞达模组 is a product used in the 3C设备 industry for feeding materials,['a2560e0ede818486829442c1f6e3f90b'],cb895bf7e7c147e6b5d923b6c8f67d63,516,17,3,20
+3C设备,转塔式测试分选机,1.0,转塔式测试分选机 is used in the 3C设备 industry for testing and sorting components,['051f5fcffcb071578deaa06a2635a685'],87776e869a01402499a317cb9cf09453,517,17,10,27
+3C设备,自动化焊接,1.0,自动化焊接 is a process within the 3C equipment industry,['90ec61cd3b48ca76d750887d30d08016'],d1e5359d2e344260bf1b83823df839b7,518,17,8,25
+3C设备,笔记本电脑组装生产线,1.0,笔记本电脑组装生产线 is part of the 3C设备 industry,['ae030c245f17423575510c619741160a'],0522f6580b824bc39792b695fc8be66b,519,17,4,21
+3C设备,SP小件植入机,1.0,SP小件植入机 is used in the 3C设备 industry for inserting small components into fixtures,['0c9912b4dc242caa53d3ec6df160bfec'],580fd6d19460460fa40613f66b3ee200,520,17,6,23
+3C设备,PCB插针检测设备,1.0,PCB插针检测设备 is used in the 3C设备 industry,['036a33f7bae7440b1b9f73f0fff55122'],84f4684a7a5241c18bb087ccb00550d3,521,17,3,20
+3C设备,翱翔,1.0,翱翔 is a project that may be related to the 3C设备 industry,['036a33f7bae7440b1b9f73f0fff55122'],9607ba4a796f46be8d4f79bc7065d60b,522,17,2,19
+3C设备,无人配送车辆,1.0,无人配送车辆 can be considered a type of 3C设备 used for delivery purposes,['241d0a881a404f7179b8abcb48712c01'],236dd7dce9ee4cf5918fddd44b4863e5,523,17,4,21
+3C设备,手机相机模组组装设备,1.0,手机相机模组组装设备属于3C设备行业，用于生产3C产品,['2bcae705653a8c2dfee33dc9aec75026'],9e92fed814a64d9d88bfab9a227859d3,524,17,6,23
+3C设备,VIVO音量按键检测设备,1.0,VIVO音量按键检测设备 is used in the 3C设备 industry for testing volume buttons,['f07aee97ec45456415a9098726dd2e7a'],7dccecb29d3a419093b279b22e207539,525,17,7,24
+3C设备,锁螺丝机,1.0,锁螺丝机 is relevant to the 3C设备 industry as it is used for tightening screws in this sector,['f38bbac969d88a67d68b93ceb4957404'],89857eb61e63461cbad7c5014f5098f9,526,17,2,19
+3C设备,华为团泊洼实验室,1.0,"华为团泊洼实验室 is part of the 3C设备 industry, potentially using or developing technologies like the锁螺丝机",['f38bbac969d88a67d68b93ceb4957404'],7b2e7a0d910c4988a7b64489f4159a65,527,17,1,18
+3C设备,智能仓储系统,1.0,智能仓储 system is used in the 3C equipment industry for material handling and storage,['ef6d9b5e0927a32e780b2b369685d3ee'],38630cf0996f4cff8d32b2dbdaa5ba85,528,17,6,23
+电动夹爪,夹爪机构,1.0,夹爪机构 is a part of电动夹爪,['7f8423e6b4a3ab5064e9ff23dcd515ca'],bd0fb68ac7014b91a314c93ec55897f5,529,5,1,6
+电动夹爪,某机器人厂,1.0,某机器人厂 uses电动夹爪in their assembly line for electronic components,['7f8423e6b4a3ab5064e9ff23dcd515ca'],f24dcb3cd6d644f8af2b6c47983e280b,530,5,1,6
+物流,RGV,1.0,RGV is used in the logistics industry for material handling,['63a2a1cd72ee4aae8514a1b3ac5b4153'],b1cad695afbc4ec3bbcd46ea34bd26ca,531,13,2,15
+物流,某电商巨头物流中心的自动化仓储系统,1.0,某电商巨头物流中心的自动化仓储系统 is part of the logistics industry,['63a2a1cd72ee4aae8514a1b3ac5b4153'],72f7974758d74e5d89ddb64ad739abb8,532,13,1,14
+物流,物流输送顶升系统,1.0,物流输送顶升系统 is used in the logistics industry for efficient item handling,['5f2031d0db3b974786f20359afd26bc6'],e6ee83249adf4e14b98d1676b1c6b05f,533,13,3,16
+物流,自动物流分拣系统,1.0,自动物流分拣系统 is used in the 物流 industry to improve sorting efficiency,['bb8dd1736ac0ae84f0cefaf4d9ae1d0d'],f805fd9fe42947a38b92a3db6e8cc986,534,13,8,21
+物流,自动搬运物流车,1.0,自动搬运物流车 is used in the 物流 industry for material handling,['08dc4441d8b079c2201c646aa57dec68'],e8b956218d5c4e5d9d390abcf527a514,535,13,2,15
+物流,6轴机械臂码垛机器人,1.0,6轴机械臂码垛机器人 is used in the logistics industry for stacking tasks,['cdeb6a80c5f50f79066c94f515892c2d'],9525aa223d774e62ad856c2201cfab1b,536,13,9,22
+物流,自动化打包机,1.0,自动化打包机 is used in the logistics industry for efficient and automated packing operations,['2554bdac15587d028fa7857848167eb4'],1087596b06d1400a8f863d0ac1af64a4,537,13,3,16
+物流,柔性流水线,1.0,柔性流水线 is a technology that is specifically designed for use in the 物流 industry to improve efficiency and flexibility in handling goods,['2b4bd1e000c8a8a34fe9fac4d360115e'],39058965295643c8a7738350cc18ceac,538,13,2,15
+物流,无人配送车辆,1.0,无人配送车辆 is used in the物流 industry for automated item delivery,['241d0a881a404f7179b8abcb48712c01'],9a8a2e5e3f2645619a0403532d935afe,539,13,4,17
+物流,自动化仓库堆垛机,1.0,自动化仓库堆垛机 is used in the logistics industry for automated warehousing,['76f3b1592256b4437b7d47b5f14ae2c6'],f0c21c67baac47f097f74f5055b89877,540,13,5,18
+物流,智能仓储系统,1.0,智能仓储 system is used in the logistics industry for material handling and storage,['ef6d9b5e0927a32e780b2b369685d3ee'],323a4c7407ac401db79a6023c3a5a17d,541,13,6,19
+自动化药品分拣系统,药品分拣机,1.0,药品分拣机 is a component of the 自动化药品分拣系统 used for sorting pharmaceuticals,['b740e95b2369349a884c647a52dc866f'],686bc2bd59644e398dde88ffd37bf49b,542,8,1,9
+自动化药品分拣系统,某大型制药企业,1.0,某大型制药企业 has implemented the 自动化药品分拣系统 for pharmaceutical sorting,['b740e95b2369349a884c647a52dc866f'],e368f8e9c9864acc880fdb5113631f3f,543,8,2,10
+医药器械,自动输液泵,1.0,自动输液泵 is a product within the 医药器械 industry,['cc3f86276324c4b3b25d1ec3649d9abf'],05063c19ddb847a89ae1746588464288,544,10,7,17
+医药器械,手术机器人,1.0,手术机器人 is a product used in the医药器械 industry,['fd61fde37c9267966317cf3d724fe633'],019b34e800414f7b87f38a14adf2eb67,545,10,3,13
+医药器械,外骨骼机器人,2.0,"The entity, 外骨胳机器人人 (Wàigǔgé jīqìrén), is utilized in the 医疗器械 (Yīliáo qìxiè) industry, specifically to assist or augment human movement. This advanced technology is designed to support human limbs, enhancing mobility and potentially aiding in rehabilitation or augmenting physical capabilities in medical settings.",['3ab4ffccaf8256da93b5b8b2d90c943f' 'f17a93e1949af035be1e4824206f385b'],1064a663ca4742a78e743128546f6d87,546,10,4,14
+医药器械,康复机器人,1.0,康复机器人 is a product used in the 医药器械 industry for patient rehabilitation,['ae75fa3b40e2d99d51b0839ec4faef35'],9a5e0a4ae34f46b39a5a028cbc135264,547,10,5,15
+医药器械,自动化制药设备,1.0,自动化制药设备 is a specialized type of 医药器械 used in the pharmaceutical industry for high-precision and high-speed production,['794fefdb523287e635a5dce19320814a'],5a224002ecbc4725abeb5a424aaca6a6,548,10,8,18
+医药器械,医疗实验室搬运机器人,1.0,医疗实验室搬运机器人 is used in the 医药器械 industry for transporting items,['d9eda21d3e37948306b3b3c665150e73'],8826a17bbda34012b3ea84d58ae531eb,549,10,5,15
+医药器械,医疗机器人,1.0,医疗机器人 is a product used within the 医药器械 industry for surgical assistance and operations,['98cdaf1813fc652ea5cff51372d95793'],bab69d76defb402da2a2a358739f1497,550,10,4,14
+医药器械,检测工位,1.0,检测工位 is part of the 医药器械 industry for inspecting medicine bottles,['a20f67b391030e5cac0afe988906825f'],ea465e5cd92247829f52ff0c8591d1bb,551,10,11,21
+医药器械,灯检机,1.0,灯检机 is a piece of equipment used in the 医药器械 industry for inspecting medicine bottles,['a20f67b391030e5cac0afe988906825f'],2dbac25b512c4f21965169a95a910a94,552,10,2,12
+医药器械,CT扫描仪的定位系统,1.0,CT扫描仪的定位系统 is a product within the medical device industry,['0121fa7828a456349a5d679825172e9b'],97958ed004f645b1b331fa0e66faa313,553,10,9,19
+某大型制药企业,自动化制药设备,1.0,某大型制药企业 has implemented 自动化制药设备 in its production processes to enhance efficiency and quality,['794fefdb523287e635a5dce19320814a'],48129b4ee99f4e30843fd4395d4815c0,554,2,8,10
+医疗影像设备,CT扫描仪的定位系统,1.0,"CT扫描仪的定位系统 is a part of the medical imaging equipment, providing precise control for imaging",['0121fa7828a456349a5d679825172e9b'],6de4c00e48b3480883e696e24df9fda4,555,5,9,14
+自动化多轴钻孔设备,多轴钻孔机,1.0,自动化多轴钻孔设备 is a type of 多轴钻孔机 used for drilling holes with high precision and consistency,['d560c15d411111345f80197f7486058a'],4b3d236101de4904ab348e3e3b11b4be,556,1,9,10
+多轴钻孔机,X、Y、Z三轴,1.0,X、Y、Z三轴 are the coordinate system used to control the movement of the drill heads in the 多轴钻孔机,['d560c15d411111345f80197f7486058a'],5be2ce9957ba404f939b6c8175015619,557,9,1,10
+多轴钻孔机,螺杆,1.0,螺杆 is used in the 多轴钻孔机 to convert rotational motion into linear motion for precise positioning,['d560c15d411111345f80197f7486058a'],fe77344850214c1cac923094de81098c,558,9,1,10
+多轴钻孔机,钻孔头,1.0,钻孔头 is the tool used in the 多轴钻孔机 to drill holes in various materials,['d560c15d411111345f80197f7486058a'],798f739abfc14a13bf3911d0a9cfb63b,559,9,1,10
+自动化点胶机中的点胶头位置控制,点胶机,2.0,"The entity in focus is the ""点焊机中的点焊头位置控制"" (position control of the welding head in spot welding machines), which is a crucial component in the automation of spot welding machines. This position control system is responsible for governing the movement of the welding head, ensuring precision and efficiency in the welding process. As part of the automated spot welding machine, the position control of the welding head plays a significant role in the functionality of the machine, facilitating the accurate and controlled movement necessary for high-quality spot welding operations.",['4b9a8f4ccbb34c68e3eae76bc8f0b994' 'c72dd4780b72f9f00821a0bf9f02bcb6'],3105de8188fd41d88d0dbf0a5d48e443,560,10,8,18
+自动化点胶机中的点胶头位置控制,工控机,1.0,工控机是实现自动化点胶机中的点胶头位置控制的关键设备，用于控制整个系统的运行,['4b9a8f4ccbb34c68e3eae76bc8f0b994'],8108dde0e62a48008a270138a690a0b9,561,10,2,12
+自动化点胶机中的点胶头位置控制,直线电机,1.0,直线电机是实现x轴和y轴运动的关键设备，用于自动化点胶机中的点胶头位置控制,['4b9a8f4ccbb34c68e3eae76bc8f0b994'],d07207b853c14504a44eea1d4778f902,562,10,7,17
+自动化点胶机中的点胶头位置控制,直线编码器,1.0,直线编码器用于测量直线电机的位移和速度，是实现自动化点胶机中的点胶头位置控制的必要设备,['4b9a8f4ccbb34c68e3eae76bc8f0b994'],406822a1a01a4140baf9bbf1d479f07e,563,10,6,16
+自动化点胶机中的点胶头位置控制,直流伺服驱动器,1.0,直流伺服驱动器用于控制直线电机和旋转伺服电机的运动，是实现自动化点胶机中的点胶头位置控制的关键设备,['4b9a8f4ccbb34c68e3eae76bc8f0b994'],fe47ba3762ae4feda39904d59cbb4160,564,10,9,19
+自动化点胶机中的点胶头位置控制,旋转伺服电机,1.0,旋转伺服电机用于z轴的运动控制，是实现自动化点胶机中的点胶头位置控制的关键设备,['4b9a8f4ccbb34c68e3eae76bc8f0b994'],53032c2afcb5474a88446ad7c5506980,565,10,4,14
+自动化点胶机中的点胶头位置控制,丝杆传动,1.0,丝杆传动用于将旋转运动转换为直线运动，是实现z轴运动控制的关键设备,['4b9a8f4ccbb34c68e3eae76bc8f0b994'],5c66a88612a245cb91fbba9c094f12fc,566,10,2,12
+自动化点胶机中的点胶头位置控制,旋转编码器,1.0,旋转编码器用于测量旋转伺服电机的旋转角度和速度，是实现自动化点胶机中的点胶头位置控制的必要设备,['4b9a8f4ccbb34c68e3eae76bc8f0b994'],b4c54fb7ce0b4b77afd5fbe5a8a2527f,567,10,4,14
+自动化点胶机中的点胶头位置控制,欧洲某家电子制造企业的点胶机使用案例,1.0,欧洲某家电子制造企业的点胶机使用案例是自动化点胶机中的点胶头位置控制的实际应用案例,['c72dd4780b72f9f00821a0bf9f02bcb6'],c8b60cdb74104667b5d2b4b70d74d039,568,10,1,11
+点胶机,直线电机,1.0,直线电机是点胶机中实现X、Y轴平面运动的关键部件,['c72dd4780b72f9f00821a0bf9f02bcb6'],333e294d7cc34df4abc47ad9ced3d186,569,8,7,15
+点胶机,旋转伺服电机,1.0,旋转伺服电机是点胶机中实现Z轴垂直运动的关键部件,['c72dd4780b72f9f00821a0bf9f02bcb6'],15e66e10d12f4520abca20985d2cb39c,570,8,4,12
+点胶机,直流伺服驱动器,1.0,直流伺服驱动器是控制点胶机中直线电机和旋转伺服电机运行的驱动装置,['c72dd4780b72f9f00821a0bf9f02bcb6'],2a271d9b5d7b46fea4046d5590eed1d7,571,8,9,17
+点胶机,直线编码器,1.0,直线编码器是检测点胶机中直线电机位移和速度的关键部件,['c72dd4780b72f9f00821a0bf9f02bcb6'],99e372089bed4a0394af57175679f8e4,572,8,6,14
+点胶机,旋转编码器,1.0,旋转编码器是检测点胶机中旋转伺服电机旋转角度和速度的关键部件,['c72dd4780b72f9f00821a0bf9f02bcb6'],62afe93767684ea38f861d20fb05ff71,573,8,4,12
+点胶机,丝杆传动,1.0,丝杆传动是实现点胶机中Z轴垂直运动的机械结构,['c72dd4780b72f9f00821a0bf9f02bcb6'],8fc1fbff7e6c459c93ce2c2f5a62226e,574,8,2,10
+工控机,6轴机械臂码垛机器人,1.0,工控机 is used to control the 6轴机械臂码垛机器人,['cdeb6a80c5f50f79066c94f515892c2d'],04b3ae04020349a9bc568f26d17eab14,575,2,9,11
+直线电机,高速取放机,1.0,直线电机 is a component in the 高速取放机 that contributes to the precision and speed of the pick-up and placement operation,['993c62a4486ef6aeef83623cbe6ec2b5'],bbc4d367c60f41ad8a279c12e5cc7da6,576,7,7,14
+直线电机,贴片机贴片头的运动控制,1.0,直线电机 is an option for the Z-axis motion in the 贴片机贴片头的运动控制,['07462221b3d84a411e218d4b81d9e334'],9a1aff251eda416ea6270e6158e663fc,577,7,9,16
+直线电机,固晶机,1.0,直线电机 is used in the 固晶机 for precise linear motion,['7b0d50ca36fedb4fb7b68e4eec73b368'],7a9e50846c274338ab09e7313b540edb,578,7,5,12
+直线电机,刀具磨削机,1.0,直线电机 is part of the control system for the 刀具磨削机,['c73034d6a6f91e79c6bd21fffa416202'],b268cc3ef860434ba663dd46af633cc5,579,7,5,12
+直线电机,CT扫描仪的定位系统,1.0,直线电机 is used in the CT scan positioning system for linear motion control,['0121fa7828a456349a5d679825172e9b'],1c9f67904a4c4fcc8cdac6a605900248,580,7,9,16
+直线编码器,贴片机贴片头的运动控制,1.0,直线编码器 provides position feedback for the Z-axis motion in the 贴片机贴片头的运动控制,['07462221b3d84a411e218d4b81d9e334'],e00c403d1dc84ba6a37ee193596e320f,581,6,9,15
+直线编码器,固晶机,1.0,直线编码器 is used in the 固晶机 for measuring linear displacement and providing feedback,['7b0d50ca36fedb4fb7b68e4eec73b368'],3f2e726c3b624fe7bf11de9be2c0457e,582,6,5,11
+直线编码器,CT扫描仪的定位系统,1.0,直线编码器 is used in the CT scan positioning system for measuring linear motion,['0121fa7828a456349a5d679825172e9b'],f71dc0c394f04771af7e2ed37f85647e,583,6,9,15
+直线编码器,CNC小型雕刻机,1.0,直线编码器 is a component of the CNC小型雕刻机 that measures the position and speed of linear motion,['ff1f5521156a3aa41a97fbd693ec610f'],2fea9c1856e54a91b79a9ce85755fbf5,584,6,7,13
+直流伺服驱动器,贴片机贴片头的运动控制,1.0,直流伺服驱动器 controls the Z-axis motor in the 贴片机贴片头的运动控制,['07462221b3d84a411e218d4b81d9e334'],7823b4c5b3364c5f890d05f33a46bdde,585,9,9,18
+直流伺服驱动器,晶圆自动化搬运机器人,1.0,直流伺服驱动器 is integrated into the 晶圆自动化搬运机器人 to provide smooth motion control,['539698a25cb179675acbe49815b3afbc'],183f3a0b73ff41c5bb4a19fd7adf0c1d,586,9,4,13
+直流伺服驱动器,CT扫描仪的定位系统,1.0,直流伺服驱动器 is used in the CT scan positioning system for precise and smooth control of motion,['0121fa7828a456349a5d679825172e9b'],392e06f17d724484a9cfb85fe69aac50,587,9,9,18
+直流伺服驱动器,备各轴的精准控制,1.0,直流伺服驱动器 is used to achieve备各轴的精准控制 in medical imaging devices,['3fb069ed8802e04fa8fc1cc2e2a916d5'],6f49e00cdac04a358173ecd40351ee00,588,9,1,10
+直流伺服驱动器,可靠性和耐用性,1.0,直流伺服驱动器 contributes to the可靠性和耐用性 of the system,['3fb069ed8802e04fa8fc1cc2e2a916d5'],3fef96af4ec343da8c34f8b09518de8a,589,9,1,10
+直流伺服驱动器,易于操作和维护,1.0,直流伺服驱动器 facilitates易于操作和维护 by providing smooth and precise control,['3fb069ed8802e04fa8fc1cc2e2a916d5'],bd403eff654e42c997e5656a2b1c1a20,590,9,1,10
+直流伺服驱动器,安全性考虑,1.0,直流伺服驱动器 is designed with安全性考虑 in mind to ensure safety standards are met,['3fb069ed8802e04fa8fc1cc2e2a916d5'],5763d829837144f199fac2b490b38110,591,9,1,10
+旋转伺服电机,贴片机贴片头的运动控制,1.0,旋转伺服电机 is used for the R-axis motion in the 贴片机贴片头的运动控制,['07462221b3d84a411e218d4b81d9e334'],234c6f1859f0405ab607f0be53e7b06c,592,4,9,13
+旋转伺服电机,CT扫描仪的定位系统,1.0,旋转伺服电机 is used in the CT scan positioning system for rotational control,['0121fa7828a456349a5d679825172e9b'],21800eab85b94d4880bcada7a60763e5,593,4,9,13
+旋转编码器,贴片机贴片头的运动控制,1.0,旋转编码器 provides position feedback for the R-axis motion in the 贴片机贴片头的运动控制,['07462221b3d84a411e218d4b81d9e334'],b8bb28a7a9624b6d805be89adfe29eb5,594,4,9,13
+旋转编码器,CT扫描仪的定位系统,1.0,旋转编码器 is used in the CT scan positioning system for measuring rotational motion,['0121fa7828a456349a5d679825172e9b'],61f26f8850504d56a6b7cd764c33299d,595,4,9,13
+手机屏幕/笔记本电脑触摸板的按压检测设备,直线电机+直流伺服驱动器+力传感器,1.0,"直线电机, 直流伺服驱动器, and 力传感器 are essential components of the 手机屏幕/笔记本电脑触摸板的按压检测设备 to achieve precise force control",['a8a882055b379825fd5e73405b085f92'],d4456fac0ada4b6fbe3cfee873403d00,596,2,1,3
+自动售货机,售货机,1.0,自动售货机 is a type of 售货机 used in the retail industry,['617f570544f5137ea2a26ea012860b88'],f8fd3fcf650b47b2b1692506ebe77762,597,8,1,9
+自动售货机,零售业,1.0,自动售货机 is used in the 零售业 to sell goods,['617f570544f5137ea2a26ea012860b88'],d95acc24180c47caa34114627d501592,598,8,1,9
+自动售货机,消费类,1.0,自动售货机 is used in the 消费类 industry to sell goods,['617f570544f5137ea2a26ea012860b88'],f4753ab09adc42a9a52754e95440d4b9,599,8,3,11
+自动售货机,投放头,1.0,投放头 is a component of the 自动售货机 used for precise placement of goods,['617f570544f5137ea2a26ea012860b88'],12f5a7c56b454a3d8aae97f65908f96b,600,8,1,9
+消费类,按摩机器人,1.0,"按摩机器人 is part of the consumer industry, targeting consumer products and services",['cd97ce82b07072c24ffdddbbf2a468a4'],95f79ff0b8a34080ae2ac8448ce561f1,601,3,3,6
+自动光伏电池测试设备,光伏测试设备,1.0,自动光伏电池测试设备 and 光伏测试设备 are similar types of equipment used for testing photovoltaic cells,['ead29f227b9db281279d460a522ad9d5'],8733d4602c084e1cab1384dde0306abf,602,6,1,7
+丝网印刷机,旋转电机,1.0,旋转电机 is used in the 丝网印刷机 to provide rotational motion for the processing of materials,['3985deee87120aea5fa768e9170c7361'],ded3a49efdf6479a991cad53d0758cf4,603,7,4,11
+丝网印刷机,传送带,1.0,传送带 is used in the 丝网印刷机 to transport materials between different processing positions,['3985deee87120aea5fa768e9170c7361'],816fceb7e1ca4b5d9277368f78e6ed80,604,7,1,8
+丝网印刷机,ECAT控制器（倍福 C6030 PLC ）,1.0,ECAT控制器 is used in the 丝网印刷机 to coordinate the operations and control the system,['3985deee87120aea5fa768e9170c7361'],50539d4503a4495097f49a8ed83e2462,605,7,1,8
+丝网印刷机,迈为,1.0,迈为 may have solutions or experience related to the operation or design of the 丝网印刷机,['3985deee87120aea5fa768e9170c7361'],d6f67aa7ef0e4a19bf5830e777aafea5,606,7,1,8
+丝网印刷机,光伏设备丝网印卷纸送料工位,1.0,光伏设备丝网印卷纸送料工位 is a part of the process where the 丝网印刷机 is used for printing,['832e80057536b00f94963c0e4b0ec74e'],bbf61f9cd3e14f46a010d704e86be008,607,7,2,9
+旋转电机,转塔式测试分选机,1.0,旋转电机 is a component of the 转塔式测试分选机 for rotating actions,['051f5fcffcb071578deaa06a2635a685'],5d34e587bd2f41dba285e9178f179577,608,4,10,14
+旋转电机,车载雷达转台,1.0,旋转电机 is a component of the 车载雷达转台 that provides rotational motion,['d788500a87babbf7fc609e78e060493d'],901b491be7344401b4544ff05e591a0e,609,4,4,8
+旋转电机,转塔,1.0,旋转电机 powers the rotation of the 转塔,['a20f67b391030e5cac0afe988906825f'],ecacbf62b81d485396a56e1730e75a04,610,4,2,6
+音圈以设定力按压屏幕,多模态检测设备,1.0,多模态检测设备 is used in the scene of 音圈以设定力按压屏幕 for detection purposes,['04a58d92db9eb3b50b00d935dfc4be91'],ba0ad1bcf02b4928a1b7ff7b23acdd6f,611,3,1,4
+音圈以设定力按压屏幕,"单向水平施力, 双向水平施力, 垂直向上施力, 按压检测",1.0,These actions are performed in the scene of 音圈以设定力按压屏幕,['04a58d92db9eb3b50b00d935dfc4be91'],0e3c66c25d7e43a7960c37d28315e5d8,612,3,1,4
+音圈以设定力按压屏幕,结构，控制，驱动,1.0,结构，控制，驱动 are the components needed to execute the action in the scene of 音圈以设定力按压屏幕,['04a58d92db9eb3b50b00d935dfc4be91'],a0e0d5b7db9f4efcb5277856db799775,613,3,1,4
+物流输送顶升系统,滚动电机+伺服驱动器+传送带,1.0,"滚动电机, 伺服驱动器, and 传送带 are essential components of the logistics system for conveying items",['5f2031d0db3b974786f20359afd26bc6'],3f85dab93736440f9776020b6410aa9b,614,3,1,4
+物流输送顶升系统,旋转伺服电机+伺服驱动器+顶升机构,1.0,"旋转伺服电机, 伺服驱动器, and 顶升机构 are essential components of the logistics system for lifting items",['5f2031d0db3b974786f20359afd26bc6'],710ed70c346342ff81ccf205e30271bb,615,3,1,4
+多轴协调控制,高铁检测设备,1.0,多轴协调控制 is used in 高铁检测设备 to ensure precision and efficiency in the inspection process,['b1f91de1c6784988229a450e724fc412'],b3d3e8ba2ede4574a0498f082f0c15ae,616,3,2,5
+多轴协调控制,全自动咖啡机,1.0,"多轴协调控制 is used in the 全自动咖啡机 to ensure the precise operation of components like the water pump, grinder, and frother",['19b0b1daced528c841d48a7a99e4bb55'],8686013390614eca9116ccbab27431d7,617,3,6,9
+高铁检测设备,某铁路公司,1.0,某铁路公司 uses 高铁检测设备 for inspecting railway tracks and trains,['b1f91de1c6784988229a450e724fc412'],fd8c8b7e3b9248abb1d8cb8958ab86d3,618,2,1,3
+生物实验室液体处理系统,液泵,1.0,"液泵 is a component of the 生物实验室液体处理系统, used for handling and transferring liquids",['ed9c834c687745e8716e27c3f805a0df'],039594428123415f95deb246f5097169,619,6,1,7
+生物实验室液体处理系统,输送管,1.0,"输送管 is a component of the 生物实验室液体处理系统, facilitating the transfer of liquids",['ed9c834c687745e8716e27c3f805a0df'],d78ce7696ff14234a544de945ffe40d6,620,6,1,7
+生物实验室液体处理系统,生物技术,1.0,生物实验室液体处理系统 is used in the 生物技术 industry for automated handling and transfer of reagents,['ed9c834c687745e8716e27c3f805a0df'],59b21508be904875af22b5c1cfdcd211,621,6,2,8
+生物实验室液体处理系统,某生物公司,1.0,某生物公司 uses the 生物实验室液体处理系统 for high-throughput liquid handling in CRISPR laboratory applications,['ed9c834c687745e8716e27c3f805a0df'],e9c7a1d505b14229afbbef7c0d04751e,622,6,1,7
+生物技术,生化反应器控制,1.0,生化反应器控制 is a technology used in the 生物技术 industry for controlling biochemical reactions,['40b1d0a5efd1684b5a5bb486a1b454db'],4b0efcd54efc40e8a884ac6c31deada2,623,2,6,8
+自动化天线测量系统,天线测量设备,1.0,天线测量设备 is a part of the automation system for antenna measurement,['8e000fc4a60954e69e5b2dceaa13a5c0'],0970f08f3d1a4d638d44e2ccb9237382,624,7,1,8
+自动化天线测量系统,旋转平台,1.0,旋转平台 is a component used in the automation system for rotating antennas,['8e000fc4a60954e69e5b2dceaa13a5c0'],8f10c11ecb5142029869025521c73431,625,7,1,8
+自动化天线测量系统,测试传感器,1.0,测试传感器 is a component used in the automation system for measuring parameters,['8e000fc4a60954e69e5b2dceaa13a5c0'],e36a0e3901864a7eaa5f5ad4280a6471,626,7,1,8
+XY方向（有些是XYR）精密定位,精密运动台（较小的方形物料台）,1.0,XY方向（有些是XYR）精密定位 is used to adjust the position of materials on the 精密运动台（较小的方形物料台）,['6138160fcd06aaa5e5058e3af0177c5c'],6fce354faa104fe58ba8a565eb3c43f2,627,1,2,3
+精密运动台（较小的方形物料台）,X与Y两个方向的直线电机，R轴则加上旋转电机，驱动器，ECAT控制器,1.0,X与Y两个方向的直线电机，R轴则加上旋转电机，驱动器，ECAT控制器 are components of the 精密运动台（较小的方形物料台） for achieving precise motion,['6138160fcd06aaa5e5058e3af0177c5c'],20585e9a43c04375aa334e946e2dd144,628,2,1,3
+自动物流分拣系统,分拣系统,1.0,自动物流分拣系统 is a type of 分拣系统 used in logistics,['bb8dd1736ac0ae84f0cefaf4d9ae1d0d'],32e343c0ae454660bdfcd1d3133baf0a,629,8,1,9
+自动物流分拣系统,抓取设备,1.0,抓取设备 is a component of the 自动物流分拣系统 used for item handling,['bb8dd1736ac0ae84f0cefaf4d9ae1d0d'],505ab840f6cc4fa6a839ebfe82d255ed,630,8,1,9
+自动物流分拣系统,某大型物流企业的自动化分拣系统应用案例,1.0,某大型物流企业的自动化分拣系统应用案例 is an example of the 自动物流分拣系统 in action,['bb8dd1736ac0ae84f0cefaf4d9ae1d0d'],e38eb1698900424bb7392a74ff0f3351,631,8,1,9
+取放运动控制,高速取放机,1.0,取放运动控制 is the specific action performed by the 高速取放机 in the semiconductor industry,['993c62a4486ef6aeef83623cbe6ec2b5'],855c57eecf2a45c7aab02ff1ac36938d,632,1,7,8
+高速取放机,3个直流伺服驱动,1.0,3个直流伺服驱动 are components in the 高速取放机 that control the axes for high-speed pick-up and placement,['993c62a4486ef6aeef83623cbe6ec2b5'],6ee77949c94d4906bd98c24341fdfa03,633,7,2,9
+3个直流伺服驱动,CNC小型雕刻机,1.0,3个直流伺服驱动 are components of the CNC小型雕刻机 that control the motion of the XYZ axes,['ff1f5521156a3aa41a97fbd693ec610f'],d06f506604b249feb423915db282ed75,634,2,7,9
+柔性传输线,艾美珈,1.0,艾美珈 has either used the 柔性传输线 in their manufacturing process or is associated with it in some capacity,['eb78ab8fddcb9c2328b61fbcb6f8b8d7'],0f642f63d4af4fc38298822bfc952719,635,2,1,3
+通用伺服应用,大族光伏,1.0,大族光伏 uses 通用伺服应用 in their projects to meet specific requirements for speed and accuracy,['832e80057536b00f94963c0e4b0ec74e'],e017ad1f09b049a7ad41d5a11dc1e3d9,636,2,1,3
+自动化装配线上的精密定位与搬运,自动装配机械臂,1.0,自动装配机械臂 is used in the scene of automation assembly line for precise positioning and handling of car parts,['4ddd4eb11c5e0152334178ab2837961c'],5cbced0ba7044b7490f520a436261c57,637,2,2,4
+自动化喷漆设备,喷漆机,1.0,"喷漆机 is a component of the 自动化喷漆设备, used for the application of paint",['f08d35c87cc299fc9fe46d2ec11626f7'],d45dea925f8d4e7e93d0e17317001eec,638,7,1,8
+自动化装袋机,包装设备,1.0,自动化装袋机 is a type of equipment used in the packaging equipment industry for automating the bagging process,['b5924964ebff3b005590e9cc94e5b39a'],8123eee04a3a4c779f03bdb85de99f9f,639,7,2,9
+自动化装袋机,装袋头,1.0,"装袋头 is a component of the automation装袋机, used for the bagging process",['b5924964ebff3b005590e9cc94e5b39a'],6129d90c83194bcfaede9ff00a011297,640,7,1,8
+包装设备,自动化贴标机,1.0,"自动化贴标机 is a part of the包装设备 industry, used for precise label application",['d740381af8ef46f554299a093537dd69'],6ef76e963a564dbe9c9feff4f8ce1683,641,2,7,9
+自动搬运物流车,地狼AGV,1.0,地狼AGV is a specific model of the 自动搬运物流车 used in the logistics industry,['08dc4441d8b079c2201c646aa57dec68'],1c8bad73fda646f8b3f413e432f0e351,642,2,8,10
+地狼AGV,主站,1.0,"主站 is a component of the 地狼AGV system, acting as the central control unit",['08dc4441d8b079c2201c646aa57dec68'],7e75749d13d24321b8b10c5be0138805,643,8,1,9
+地狼AGV,行走左轮 驱动器+编码器+减速机+电机,1.0,"行走左轮 驱动器+编码器+减速机+电机 is a component of the 地狼AGV, responsible for the left wheel movement",['08dc4441d8b079c2201c646aa57dec68'],05bfaf60aa304a288e6789443bd6fd6c,644,8,1,9
+地狼AGV,行走右轮 驱动器+编码器+减速机+电机,1.0,"行走右轮 驱动器+编码器+减速机+电机 is a component of the 地狼AGV, responsible for the right wheel movement",['08dc4441d8b079c2201c646aa57dec68'],6097e047a74d41ca996a0b7949ef6f0e,645,8,1,9
+地狼AGV,顶升电机 驱动器+编码器+减速机+电机,1.0,"顶升电机 驱动器+编码器+减速机+电机 is a component of the 地狼AGV, responsible for lifting operations",['08dc4441d8b079c2201c646aa57dec68'],e257439ce5be47a88faaeb0fe01bc4a1,646,8,1,9
+地狼AGV,旋转电机 驱动器+编码器+减速机+电机,1.0,"旋转电机 驱动器+编码器+减速机+电机 is a component of the 地狼AGV, responsible for rotation operations",['08dc4441d8b079c2201c646aa57dec68'],067b9486d59f45d2963235220f723a41,647,8,1,9
+地狼AGV,客户自研控制板,1.0,客户自研控制板 is a custom component used in the 地狼AGV for control purposes,['08dc4441d8b079c2201c646aa57dec68'],87c46c7ead5447bc8309ab116a316959,648,8,1,9
+地狼AGV,CSV模式控制,1.0,CSV模式控制 is a control method used in the operation of the 地狼AGV system,['08dc4441d8b079c2201c646aa57dec68'],f607d795f00347109cab3b2370c414f7,649,8,1,9
+激光加工设备,激光头,1.0,激光头 is a component of the 激光加工设备 that requires stable control for processing,['983e01f7e91373ce4f93fb9b16b82f37'],8f0610c89e9f42e9b8c3d8a947fa2852,650,5,2,7
+激光加工设备,某仪器厂,1.0,某仪器厂 uses 激光加工设备 for the precision processing of laboratory equipment components,['983e01f7e91373ce4f93fb9b16b82f37'],75ef3591790a49748154ddbba20e9cdf,651,5,1,6
+激光头,激光焊接设备,1.0,激光头 is a component of 激光焊接设备 that emits the laser beam,['9b1c76a2ddd60176752001b3b9c147cb'],58b7f26cb17b4b2283d3cacbaed15cfc,652,2,6,8
+6轴机械臂码垛机器人,无框电机,1.0,无框电机 is used in each joint of the 6轴机械臂码垛机器人,['cdeb6a80c5f50f79066c94f515892c2d'],277cdf13617e47ca883b949f495bc243,653,9,1,10
+6轴机械臂码垛机器人,减速机,1.0,减速机 is used in each joint of the 6轴机械臂码垛机器人,['cdeb6a80c5f50f79066c94f515892c2d'],26080c121c9645b2bb258e4d61d47672,654,9,3,12
+6轴机械臂码垛机器人,内环编码器,1.0,内环编码器 is used for internal feedback in each joint of the 6轴机械臂码垛机器人,['cdeb6a80c5f50f79066c94f515892c2d'],ee91a06f13b4495f95c800a0c7329ef7,655,9,1,10
+6轴机械臂码垛机器人,外环编码器,1.0,外环编码器 is used for external feedback in each joint of the 6轴机械臂码垛机器人,['cdeb6a80c5f50f79066c94f515892c2d'],6ed8b67be79242e98aa1b9283431d5df,656,9,1,10
+6轴机械臂码垛机器人,可选抱闸,1.0,可选抱闸 is an optional component used in each joint of the 6轴机械臂码垛机器人,['cdeb6a80c5f50f79066c94f515892c2d'],40c2425cb1c34c1591f7cb89f9f5e0bf,657,9,1,10
+6轴机械臂码垛机器人,直流伺服环形驱动器,1.0,直流伺服环形驱动器 is used to control the motors in each joint of the 6轴机械臂码垛机器人,['cdeb6a80c5f50f79066c94f515892c2d'],7cf59650687a435ba26a7c5ffc6c4f4c,658,9,1,10
+6轴机械臂码垛机器人,蓝思,1.0,蓝思 may have implemented or is related to the 6轴机械臂码垛机器人 scene,['cdeb6a80c5f50f79066c94f515892c2d'],53c2882604b74192a649a4eaa0536c5e,659,9,1,10
+减速机,两轴,1.0,两轴 includes a gear reducer component for its operation,['795a6efb4c07565e2cea3077eac4130a'],3fbb8aeacea54ca9a957118fba613ccf,660,3,5,8
+全自动咖啡机,水泵,1.0,"水泵 is a component of the 全自动咖啡机, used to supply water for brewing",['19b0b1daced528c841d48a7a99e4bb55'],496ae6a894584a6cb12e50b516341788,661,6,2,8
+全自动咖啡机,研磨器,1.0,"研磨器 is a component of the 全自动咖啡机, used to grind coffee beans",['19b0b1daced528c841d48a7a99e4bb55'],dd1a82c597794ba3a490cb70d488d9dd,662,6,1,7
+全自动咖啡机,奶泡机,1.0,"奶泡机 is a component of the 全自动咖啡机, used to create milk froth",['19b0b1daced528c841d48a7a99e4bb55'],bbd206ae4c1a4794813fd239fcfef313,663,6,2,8
+水泵,咖啡机,1.0,水泵 is a component of the coffee machine used for water supply,['f0cae00083505853fd4004f19fc3d189'],708ac105e8bb4beeade0472c899f214d,664,2,6,8
+奶泡机,咖啡机,1.0,奶泡机 is a component of the coffee machine used for creating milk foam,['f0cae00083505853fd4004f19fc3d189'],b4fe3c6aea95472db73a5e8bf575895a,665,2,6,8
+芯片贴装,固晶机/贴片机,1.0,固晶机/贴片机 is used in the process of 芯片贴装 to mount chips onto a substrate,['31c28568798886d8f586690e0f0f477b'],a861f44aa7dd414790ee82b3f651c609,666,1,7,8
+固晶机/贴片机,ETHERCAT通讯类型驱动器,1.0,EtherCAT通讯类型驱动器 is a component of 固晶机/贴片机 for real-time data exchange,['31c28568798886d8f586690e0f0f477b'],add9948a221a4aabafbaaed650b1db26,667,7,1,8
+固晶机/贴片机,ECAT控制器,1.0,ECAT控制器 is a component of 固晶机/贴片机 for managing and coordinating operations,['31c28568798886d8f586690e0f0f477b'],6c04f2ab7c9843ea900c3444b014bed8,668,7,2,9
+固晶机/贴片机,气管,1.0,气管 is a component of 固晶机/贴片机 used in pneumatic systems,['31c28568798886d8f586690e0f0f477b'],88356435ca9d43ebaf93134b3af8a53e,669,7,1,8
+固晶机/贴片机,气动吸取与放物料,1.0,气动吸取与放物料 is a process facilitated by 固晶机/贴片机 using pneumatic systems,['31c28568798886d8f586690e0f0f477b'],233edf428a04436a8d32849af584f9d8,670,7,1,8
+固晶机/贴片机,压力控制,1.0,压力控制 is a process integrated into 固晶机/贴片机 to regulate force and prevent damage,['31c28568798886d8f586690e0f0f477b'],28a6317db3d141db82a4a22525265fef,671,7,1,8
+ECAT控制器,转塔式测试分选机,1.0,ECAT控制器 is a component of the 转塔式测试分选机 for coordinating actions of various components,['051f5fcffcb071578deaa06a2635a685'],90051a1b69cd40f696e440d54085887e,672,2,10,12
+分拣和分运控制,分拣机,1.0,分拣机 is used for the process of 分拣和分运控制 in the semiconductor equipment industry,['2eee1b02b02dee003c1775f70f813957'],973fe6e8a1314a269748f40a98786115,673,1,5,6
+分拣机,分拣臂,1.0,分拣臂 is a component of the 分拣机 used for sorting tasks,['2eee1b02b02dee003c1775f70f813957'],9a442a8c054d48339aff04923bafe47f,674,5,1,6
+分拣机,输送带,1.0,输送带 is a component of the 分拣机 used for transporting goods,['2eee1b02b02dee003c1775f70f813957'],ffdacb33c3a94b7f9d890d7cc03a1f40,675,5,3,8
+输送带,灌装生产线,1.0,"输送带 is a component of the 灌装生产线, responsible for transporting containers",['966a905cf094e3cf44c91ebc9ebc1904'],8792fc245cc94235a7764481ebad4828,676,3,6,9
+输送带,面粉设备,1.0,输送带 is a component of the 面粉设备 that requires precise control for high-quality flour production,['2b27d987660b3fbe33f43bfab4ac6564'],b5982d09c32e4e7387e88f9160b4dd78,677,3,5,8
+多轴协调控制及调节,咖啡机,1.0,多轴协调控制及调节 is a technique used in the operation of the coffee machine to ensure the quality and precision of coffee making,['f0cae00083505853fd4004f19fc3d189'],04ed223f57e44cf18284ba42ba760423,678,1,6,7
+咖啡机,咖啡研磨器,1.0,咖啡研磨器 is a component of the coffee machine used for grinding coffee beans,['f0cae00083505853fd4004f19fc3d189'],0debfb49a28d480db1b7d5ef713cac8f,679,6,1,7
+餐饮,自动点餐与配送机器人,1.0,自动点餐与配送机器人 is used in the 餐饮 industry for automating the ordering and delivery of food,['ca10fe3d16756300859a0693aee7f7a0'],1f9abc7d006f4afa86200385acc3d1ae,680,1,5,6
+风力发电机组控制系统,叶片控制机构,1.0,"叶片控制机构 is part of the 风力发电机组控制系统, aiding in the adjustment of wind turbine blades",['ca322957994b2f23af0e8bcc2550ef68'],cac3f76fbc11413e92cdfd3064d56ece,681,4,1,5
+风力发电机组控制系统,某风电场,1.0,某风电场 uses the 风力发电机组控制系统 for controlling the adjustment of wind turbine blades,['ca322957994b2f23af0e8bcc2550ef68'],f120d98b793a4276a6f1a0a8e51a589a,682,4,1,5
+能源,太阳能电池板装配设备,1.0,太阳能电池板装配设备 is used in the 能源 industry for assembling solar panels,['5dd431defb92ab5537c35d879d857152'],bfda4c94278b49ab98cd3f407980d4d8,683,1,5,6
+金属带飞达场景,飞达模组,1.0,"飞达模组 is used in the '金属带飞达场景' for feeding materials in various forms such as metal strips, paper bands, and plastics",['a2560e0ede818486829442c1f6e3f90b'],7e5e5b80b84749d98cb36f56dbfcb47b,684,2,3,5
+金属带飞达场景,旋转伺服电机+丝杆+气缸+结构+驱动器+PLC,1.0,旋转伺服电机+丝杆+气缸+结构+驱动器+PLC are the components required to complete the actions in the '金属带飞达场景',['a2560e0ede818486829442c1f6e3f90b'],6330604339ca4113b94624bc9bed5ede,685,2,1,3
+飞达模组,华亚飞达项目,1.0,华亚飞达项目 is a case study related to the use of '飞达模组' in a specific industry setting,['a2560e0ede818486829442c1f6e3f90b'],9638492c4f034be6b3bf88f8abd82edc,686,3,1,4
+光热发电定日镜,PLC,1.0,"PLC is used to control the operations of the 光热发电定日镜, including the angles of the mirrors",['1356538fb18fd91002b00750f2f9bd65'],a76322b81f644f3c8733d04fa046b4e4,687,4,3,7
+光热发电定日镜,主轴,1.0,"主轴 is a critical component of the 光热发电定日镜, used for precise control of the mirror angles",['1356538fb18fd91002b00750f2f9bd65'],653ee6584dbc46d1b8e97a05a3eac81e,688,4,1,5
+光热发电定日镜,副轴,1.0,"副轴 is an additional component of the 光热发电定日镜, used for supplementary control of the mirror angles",['1356538fb18fd91002b00750f2f9bd65'],9f0d58a479ec404d8e8f493f9269b08d,689,4,1,5
+光热发电定日镜,东锅,1.0,东锅 may have relevant experience or case studies related to the use of 光热发电定日镜 in their projects,['1356538fb18fd91002b00750f2f9bd65'],c5ae09d00a3f417981fc4177ef333eff,690,4,1,5
+PLC,贴片机贴片头的运动控制,1.0,PLC is used in the 贴片机贴片头的运动控制 to manage the automation process,['07462221b3d84a411e218d4b81d9e334'],4dd086fcba704d26b976c08a81c1465c,691,3,9,12
+PLC,分选机,1.0,PLC is used in the 分选机 for automation and control of the sorting process,['1f738b4b390bb6d06b5afd780d7d1cd1'],f1ef6375ea84496eaed13c03318d80c6,692,3,3,6
+电批,电动螺丝刀,1.0,电批 is a type of 电动螺丝刀 used for screw tightening,['0c80e93a0cd526d5772684b100405e43'],ba6829116d114532b99530f101ff0c72,693,5,6,11
+电批,扭矩和转速控制,1.0,扭矩和转速控制是电批实现自动锁紧螺丝功能的关键技术,['cd075fd077df22767f0bee4befbd9610'],1ab2048463174873883061373d480ac4,694,5,1,6
+电批,电批机构,1.0,电批机构是电批的组成部分，用于实现自动锁紧螺丝的功能,['cd075fd077df22767f0bee4befbd9610'],97038fe907af4710859c3daeb13972e9,695,5,1,6
+电动螺丝刀,位置、力矩控制,1.0,位置、力矩控制 is a function performed by the 电动螺丝刀,['0c80e93a0cd526d5772684b100405e43'],e0595082eb9f41a4ac2afd9e614b363c,696,6,1,7
+电动螺丝刀,1旋转伺服电机（含编码器或霍尔）+1减速机+1DC伺服驱动器（485或CAN）+1自研主站,1.0,These components are essential for the operation of the 电动螺丝刀,['0c80e93a0cd526d5772684b100405e43'],5bd2ef268d4f4ba18925c17242370e21,697,6,1,7
+电动螺丝刀,汽车制造,1.0,电动螺丝刀 is used in the car manufacturing process for screw tightening,['429770fe8f393c34ddc5b3b06c00b11f'],96a21e764d1143fc90de0b2cc7751983,698,6,1,7
+自动输液泵,输液泵,1.0,自动输液泵 is a type of 输液泵 with automated features,['cc3f86276324c4b3b25d1ec3649d9abf'],801b7142ab5b4c5eac41dade999a7c1f,699,7,1,8
+自动输液泵,泵头,1.0,泵头 is a component of the 自动输液泵 responsible for fluid delivery,['cc3f86276324c4b3b25d1ec3649d9abf'],aac39de4e7e74d1c83f0eb835e635c88,700,7,1,8
+转台,转台装置,1.0,转台 is the location where the 转台装置 is used for product display or processing,['3a1d23ceba280b76b50f854902585bbb'],c2e801c8221c4806a4f59ba5b793c784,701,1,4,5
+人形机器人,FAE部门,1.0,FAE部门 provides technical support and information necessary for the operation and application of 人形机器人 in specific scenarios,['1414dfe00486439d8b6e21e0ab903a45'],351fc21986564103b324540289e2e608,702,3,1,4
+人形机器人,南科大,1.0,"南科大 may have been involved in projects or research related to 人形机器人, possibly contributing to its development or application",['1414dfe00486439d8b6e21e0ab903a45'],1c8a90b0aed7439286bbf85903d423d4,703,3,1,4
+红外干扰设备,角度调整机构,1.0,角度调整机构 is part of the 红外干扰设备 for precise angle control,['fe557d4342348364f94380da2231b422'],6c98609312154f118c04d8781663b16a,704,4,2,6
+红外干扰设备,某军工企业,1.0,某军工企业 produces or uses the 红外干扰设备,['fe557d4342348364f94380da2231b422'],b91a6bf16e334b3ab7ec57665e980ceb,705,4,1,5
+角度调整机构,激光测风,1.0,角度调整机构 is part of the laser测风device for precise angle adjustment,['5d4207d4245f8e80d82d635747760370'],c067e41adf9840df89052b111e6c0a6a,706,2,5,7
+自动化打包机,物流打包自动化系统,1.0,"物流打包自动化系统 includes the use of automation in packing machines, such as the自动化打包机, to achieve high efficiency and stability in the logistics industry",['2554bdac15587d028fa7857848167eb4'],76d7feb8140b4064b5492d3055736ee0,707,3,1,4
+药物分拣设备,多轴直流伺服驱动系统,1.0,多轴直流伺服驱动系统 is used in the 药物分拣设备 to control the precise movement of components,['8327ea60cb9724d1bf3f13f18f1b917c'],53273797509d45178c49045830ec9fc2,708,5,1,6
+药物分拣设备,机械臂,1.0,机械臂 is a component of the 药物分拣设备 used for handling and moving objects,['8327ea60cb9724d1bf3f13f18f1b917c'],2383fd3c3b4a4249a5a96550c494edb2,709,5,1,6
+药物分拣设备,制药厂自动化分拣线,1.0,制药厂自动化分拣线 is a similar system to the 药物分拣设备 used in pharmaceutical factories,['8327ea60cb9724d1bf3f13f18f1b917c'],29f172df150042e0a6db5481d5d91cfc,710,5,1,6
+转塔式测试分选机,伺服凸轮控制方案,1.0,伺服凸轮控制方案 is used in the 转塔式测试分选机 to control the movement of components,['051f5fcffcb071578deaa06a2635a685'],a243935f440241a281fbabb20422c641,711,10,1,11
+转塔式测试分选机,独立升降,1.0,独立升降 is a function of the 转塔式测试分选机 allowing individual components to be lifted and lowered,['051f5fcffcb071578deaa06a2635a685'],34b704124fe94c2f933a344c11165f2e,712,10,1,11
+转塔式测试分选机,中心电机选用DDR,1.0,中心电机选用DDR is a component of the 转塔式测试分选机,['051f5fcffcb071578deaa06a2635a685'],e429a497b01c40f3aef7e2205eaf01d8,713,10,1,11
+转塔式测试分选机,升降工位电机搭配伺服凸轮,1.0,升降工位电机搭配伺服凸轮 is a component of the 转塔式测试分选机 for lifting and lowering workstations,['051f5fcffcb071578deaa06a2635a685'],f521933b91564693b07bd838160083ac,714,10,1,11
+转塔式测试分选机,全直驱方案,1.0,全直驱方案 is a technology used in the 转塔式测试分选机 for higher efficiency in processing control,['051f5fcffcb071578deaa06a2635a685'],e0d361b6991b40debf5599e86f2638ca,715,10,1,11
+多色油墨印刷机油墨推力,印刷机,1.0,"多色油墨印刷机油墨推力 is an action that occurs within the operation of a 印刷机, requiring a constant ink thrust for proper functioning",['48aaf3866f77369585afc1283e1a3b1a'],cf16005cfadf4e48832ffd0e43f57be1,716,2,3,5
+多色油墨印刷机油墨推力,印刷,1.0,"多色油墨印刷机油墨推力 is a specific action within the 印刷 industry, focusing on the printing process",['48aaf3866f77369585afc1283e1a3b1a'],db10b0e690754748b0d75639f3e8d2b8,717,2,1,3
+印刷机,东方精工,1.0,"东方精工 may have expertise or solutions related to 印刷机, potentially including the specific action of oil ink thrust in multi-color printing machines",['48aaf3866f77369585afc1283e1a3b1a'],ec13b80209e246588bb5486d516f85eb,718,3,1,4
+印刷机,自动化印刷设备,1.0,自动化印刷设备 is a type of specialized printing machine,['51f5fa0deebff5b32f74d90b957de319'],617a76d54ed546e29428a31dea955b96,719,3,7,10
+贴片机场景,半导体设备行业,1.0,"贴片机场景 is part of the semiconductor equipment industry, which is its application field",['fe6a52f206939edc5e977ee64ad94beb'],c88ffd2aa7284ac38eb4351c5fad6f44,720,4,1,5
+贴片机场景,Z+R轴控制,1.0,Z+R轴控制 is a critical function in the贴片机场景 for precise component placement,['fe6a52f206939edc5e977ee64ad94beb'],0dace3b24df14aae909a2815653e9db1,721,4,1,5
+贴片机场景,部件组合,1.0,部件组合 is necessary to complete the target actions in the贴片机场景,['fe6a52f206939edc5e977ee64ad94beb'],b3cfde857302479aa59b91d6648a40df,722,4,1,5
+贴片机场景,场景及方案要点,1.0,场景及方案要点 are special know-how or design considerations that need attention in the贴片机场景,['fe6a52f206939edc5e977ee64ad94beb'],01a52a986b6a444badc83fb11aa7a160,723,4,1,5
+显影机,显影头,1.0,显影头 is a component of the 显影机 that is involved in the multi-axis motion control,['aa5f74cf315f6aa83731f3098a81c194'],2516b3485b754bdabf6820863c918e3d,724,5,1,6
+显影机,多轴运动控制系统,1.0,多轴运动控制系统 is used in the 显影机 to control the multi-axis motion of the development head,['aa5f74cf315f6aa83731f3098a81c194'],0523ed6330f4429f8468f5b49169c940,725,5,1,6
+显影机,某显示器厂,1.0,某显示器厂 uses the 显影机 for high-resolution display screen development,['aa5f74cf315f6aa83731f3098a81c194'],0b7ac591dfd34971b24d38e344b40c37,726,5,1,6
+高速打标控制,光纤激光标刻机,1.0,高速打标控制 is the action performed by the 光纤激光标刻机 for high-speed and precise marking,['ef5440b55c37dc608f23f717bde61396'],2864f68297e94d7e84213833e22da077,727,1,4,5
+激光设备,风速测量控制,1.0,风速测量控制 is an action performed within the laser equipment industry,['5d4207d4245f8e80d82d635747760370'],629cd969d05c4c329bbe24f5d86e0089,728,3,2,5
+激光设备,激光振镜,1.0,激光振镜 is a product used in the 激光设备 industry,['27cc8dca2eaecc56df40ff1259b58cee'],f7bc5d1fb1404acdb77d50a6b9129141,729,3,3,6
+激光设备,激光打标设备,1.0,激光打标设备 is a product used within the 激光设备 industry for marking on products,['ed18651c3085e19592c04bfcd0b52dac'],d47535a52c2b40a3bacb3d520b8f0f1c,730,3,5,8
+某手机厂,激光打标生产线,1.0,某手机厂 uses the 激光打标生产线 for marking on mobile phone cases,['ef5440b55c37dc608f23f717bde61396'],557ed8720c2845cabcce0287f7284b3e,731,1,1,2
+激光风能扫描仪（激光测风仪）,调制器,1.0,调制器 is a component of the 激光风能扫描仪（激光测风仪） that controls signal modulation,['0868eedc0ef863a89360ac5deb7182c4'],cef8ff96a0e842fdae4751933bcb1a28,732,8,1,9
+激光风能扫描仪（激光测风仪）,多级光纤放大器,1.0,多级光纤放大器 is a component of the 激光风能扫描仪（激光测风仪） that amplifies signals,['0868eedc0ef863a89360ac5deb7182c4'],93c8356953da486e9630d7e7304a6ff3,733,8,1,9
+激光风能扫描仪（激光测风仪）,环形器,1.0,环形器 is a component of the 激光风能扫描仪（激光测风仪） that facilitates its operation,['0868eedc0ef863a89360ac5deb7182c4'],dc52f3641c1548bba5b3cf8c65a5c072,734,8,1,9
+激光风能扫描仪（激光测风仪）,望远镜,1.0,望远镜 is a component of the 激光风能扫描仪（激光测风仪） used for precise scanning,['0868eedc0ef863a89360ac5deb7182c4'],d0fdcc6945d84b20aa1de4afe2786592,735,8,1,9
+激光风能扫描仪（激光测风仪）,电机,1.0,电机 powers the movement of the 激光风能扫描仪（激光测风仪）,['0868eedc0ef863a89360ac5deb7182c4'],af6e03260c5946be96737b148b5edd9d,736,8,3,11
+激光风能扫描仪（激光测风仪）,牧镭,1.0,牧镭 may have experience or involvement with the 激光风能扫描仪（激光测风仪）,['0868eedc0ef863a89360ac5deb7182c4'],1949eb874c544c58a71bbd04d6241a22,737,8,1,9
+电机,两轴,1.0,两轴 includes a motor component for its operation,['795a6efb4c07565e2cea3077eac4130a'],09384ed4453846cb8c4d0076ecbf928a,738,3,5,8
+直线电机加无刷电机拼接,柔性流水线,1.0,直线电机加无刷电机拼接 is a key technology used in the implementation of 柔性流水线 to achieve flexibility and adaptability in the logistics industry,['2b4bd1e000c8a8a34fe9fac4d360115e'],181833ae880a4d0ab24ba0ccb158138d,739,2,2,4
+直线电机加无刷电机拼接,直线电机+圆弧做无刷电机,1.0,直线电机+圆弧做无刷电机 is the component combination that enables the functionality of 直线电机加无刷电机拼接 in the logistics industry,['2b4bd1e000c8a8a34fe9fac4d360115e'],3426a7ea02f740aeabcb552feee11bcc,740,2,1,3
+自动化焊接,锡焊机,1.0,锡焊机 is used in the process of automation welding for soldering tasks,['90ec61cd3b48ca76d750887d30d08016'],e47ae0eea85b4f6e86b77fe56396460e,741,8,1,9
+自动化焊接,板卡,1.0,板卡 is a component used in the automation welding process,['90ec61cd3b48ca76d750887d30d08016'],1ad7e0ad19334488b5d3b008f93a4ef4,742,8,1,9
+自动化焊接,XYZR轴,1.0,xyzR轴 is a component that provides multi-axis movement in the automation welding process,['90ec61cd3b48ca76d750887d30d08016'],8c76a8cb5951422ba3b3cc6fcb66a391,743,8,1,9
+自动化焊接,XY龙门运动,1.0,xy龙门运动 is a component that facilitates movement in the x and y directions in the automation welding process,['90ec61cd3b48ca76d750887d30d08016'],096dee591c1f4141a73fd628a59ffbe9,744,8,1,9
+自动化焊接,Z轴下压,1.0,z轴下压 is a component that provides downward pressure in the z-axis in the automation welding process,['90ec61cd3b48ca76d750887d30d08016'],9886a385806e46a69d92a726017b99b6,745,8,1,9
+自动化焊接,R轴旋转切换角度清锡与焊接,1.0,R轴旋转切换角度清锡与焊接 is a component that rotates and switches angles for cleaning and welding in the automation welding process,['90ec61cd3b48ca76d750887d30d08016'],4ecf891e9a5b4daf9e02d5b2ec963079,746,8,1,9
+自动化焊接,锡丝传动,1.0,锡丝传动 is a component that involves the transmission of solder wire in the automation welding process,['90ec61cd3b48ca76d750887d30d08016'],59207227178147e39296a4059ac1055d,747,8,1,9
+贴装运动控制,透镜贴装,1.0,贴装运动控制 is the process used for the application of透镜贴装,['fb8c5282757073100fea0ee147a1b32a'],0682e47ed49146c0bc5e2b77fb924b6c,748,4,3,7
+光学仪器制造,透镜贴装,1.0,透镜贴装 is an application within the industry of光学仪器制造,['fb8c5282757073100fea0ee147a1b32a'],6022e4aa784f42b88dbcb27a5d9d2614,749,3,3,6
+光学仪器制造,精密光学检测设备,1.0,精密光学检测设备 is a product used in the 光学仪器制造 industry for quality control and inspection of optical components,['0e85b783058feb121a0f62c97031f9ca'],386047cff59549ea83158b69bbac1870,750,3,3,6
+透镜贴装,贴装头,1.0,贴装头 is a component used in the透镜贴装 process for mounting lenses,['fb8c5282757073100fea0ee147a1b32a'],2ead31e49ce643ebae4d5f047bb7a37b,751,3,1,4
+某光学公司,智能手机相机透镜贴装生产线,1.0,某光学公司 uses the智能手机相机透镜贴装生产线 for assembling lenses in smartphone cameras,['fb8c5282757073100fea0ee147a1b32a'],a74ee5b02e1e41b0ac4cf5449f7cdf2c,752,1,1,2
+机械手和平台运动控制,笔记本电脑组装生产线,1.0,机械手和平台运动控制 is used in the 笔记本电脑组装生产线 for precise assembly operations,['ae030c245f17423575510c619741160a'],0f73fcdab31348a880a468124099071c,753,4,4,8
+笔记本电脑组装生产线,机械手臂,1.0,机械手臂 is a component used in the 笔记本电脑组装生产线 for handling and assembling parts,['ae030c245f17423575510c619741160a'],24d2dcb7f28144cbad714b0a8b6c9e70,754,4,1,5
+笔记本电脑组装生产线,某电子厂,1.0,某电子厂 uses the 笔记本电脑组装生产线 for manufacturing notebook computers,['ae030c245f17423575510c619741160a'],093447e0342e490aa6a55bd70ce7c2f2,755,4,1,5
+手术机器人,手术器械的精准控制,1.0,手术机器人 is designed to achieve手术器械的精准控制 in minimally invasive surgeries,['fd61fde37c9267966317cf3d724fe633'],0439db7ac7d2484596e02246bd340424,756,3,1,4
+贴片机,贴片机贴片头的运动控制,1.0,贴片机贴片头的运动控制 is a function performed by the 贴片机 to control the placement head,['07462221b3d84a411e218d4b81d9e334'],81ffef86ebb341bebf145c742fb33dbd,757,1,9,10
+贴片机贴片头的运动控制,ZR模组,1.0,ZR模组 can be used to implement the motion control function in the 贴片机贴片头的运动控制,['07462221b3d84a411e218d4b81d9e334'],a0da2872126f43769f75c8533fca5e26,758,9,2,11
+ZR模组,SP小件植入机,1.0,ZR模组 is a component of the SP小件植入机 used for inserting small parts,['0c9912b4dc242caa53d3ec6df160bfec'],7facdc1f91014f42a67e34bac31a95ce,759,2,6,8
+移液机器人,高校/研究院,1.0,移液机器人 is used in 高校/研究院 for automated liquid handling in research and development,['3171a8e0686e844a43b8a5bcb122df77'],ca7a635373294067b5f3050c82d38983,760,4,1,5
+SP小件植入机,苹果治具,1.0,SP小件植入机 uses 苹果治具 to insert small parts into Apple products,['0c9912b4dc242caa53d3ec6df160bfec'],2833c46f05984f729c7ec15e071f0c8e,761,6,1,7
+SP小件植入机,欧姆龙PLC,1.0,欧姆龙PLC is a component of the SP小件植入机 used for control,['0c9912b4dc242caa53d3ec6df160bfec'],ada7cf1171b74ad793f7856febc9c6fe,762,6,1,7
+SP小件植入机,XY轴直线电机,1.0,XY轴直线电机 is a component of the SP小件植入机 used for precise movement,['0c9912b4dc242caa53d3ec6df160bfec'],33b355c0a8044ef2b2b8be81bea0d431,763,6,1,7
+锂电池分选机,输送装置,1.0,输送装置 is a component of the 锂电池分选机 that transports batteries,['efb5708268afc67a61b9f35e5fd9b376'],85698526e09a47878e3255a251d95406,764,5,1,6
+锂电池分选机,分选机构,1.0,分选机构 is a component of the 锂电池分选机 that sorts batteries,['efb5708268afc67a61b9f35e5fd9b376'],1a625c51e7ad497b86041757d1cde642,765,5,1,6
+多轴组装控制,精密组装机,1.0,精密组装机 uses the 多轴组装控制 process for assembling small and precise components,['5b6f25a5160dd3e31cedbf0e27231ae3'],df91c0e5657a4bafa849c8a3079ca582,766,1,4,5
+精密组装机,某医疗设备厂,1.0,某医疗设备厂 uses the 精密组装机 for assembling small and precise components in the medical device industry,['5b6f25a5160dd3e31cedbf0e27231ae3'],091a9788b29443509feda24aa5f5c241,767,4,1,5
+手持激光焊,激光设备行业,1.0,手持激光焊 is a product used within the 激光设备 industry for welding applications,['29588231a566f2e3de9f1e8a62b56266'],6f750deaedcb4612b419c3d8dd7e5cb2,768,6,3,9
+手持激光焊,直流有刷旋转电机,1.0,直流有刷旋转电机 is a component used in the 手持激光焊 for its compact size and suitability for the welding process,['29588231a566f2e3de9f1e8a62b56266'],d5ea3f061e9c419fb1c07b680bfb287a,769,6,1,7
+手持激光焊,光电池模拟量编码器,1.0,光电池模拟量编码器 is a component used in the 手持激光焊 for its compact design and compatibility with the welding process,['29588231a566f2e3de9f1e8a62b56266'],1f4fd98283df43c69d5537c002b98f58,770,6,1,7
+手持激光焊,振镜领域专用控制器,1.0,振镜领域专用控制器 is a component used in the 手持激光焊 for precise control during the welding process,['29588231a566f2e3de9f1e8a62b56266'],f3bb299bf6454785a8a406dce9776789,771,6,1,7
+手持激光焊,XY2-100协议,1.0,XY2-100协议 is a protocol used in the 手持激光焊 for industry-specific communication and operation,['29588231a566f2e3de9f1e8a62b56266'],218d3d5a4a544df99caed612e48add5b,772,6,1,7
+激光设备行业,激光切割设备,1.0,激光切割设备 is a product used within the 激光设备 industry for cutting materials,['a920920e8e149592d00031f362d614af'],02393af06d3649549b3e9290b4e46c0a,773,3,5,8
+激光设备行业,激光扫描仪,1.0,激光扫描仪 is a product within the 激光设备 industry,['1004c3ef61d917fa05a207f01ed74560'],ffa9208f15744978a4ea45c1cff18a86,774,3,3,6
+晶圆外延生长设备,生长头多轴运动控制,1.0,晶圆外延生长设备 utilizes 生长头多轴运动控制 to achieve high precision and uniformity in the growth of epitaxial layers,['6d1ff4138a2fdf278463ac4bbbad8361'],23ea2a1d78984eb38721adeadee662e1,775,3,1,4
+点到点运动，视觉拍照,电子烟视觉检测设备,1.0,点到点运动，视觉拍照 is a function performed by the 电子烟视觉检测设备,['e31264be9300c6a30aa920ff0272a9cf'],0d0a729e30634e1fb198609ce10c69bf,776,1,5,6
+电子烟视觉检测设备,"半导体设备, 消费类",1.0,"电子烟视觉检测设备 is used in the 半导体设备, 消费类 industry",['e31264be9300c6a30aa920ff0272a9cf'],896e7d03cad7450e8044fcb0fd9f6e92,777,5,1,6
+电子烟视觉检测设备,直线定位平台,1.0,直线定位平台 is a component of the 电子烟视觉检测设备,['e31264be9300c6a30aa920ff0272a9cf'],a777a0c3a34b4990899f2e1e1f1c2074,778,5,1,6
+电子烟视觉检测设备,DD马达,1.0,DD马达 is a component of the 电子烟视觉检测设备,['e31264be9300c6a30aa920ff0272a9cf'],6cd46299702049bcbd39407fa97f0dc0,779,5,1,6
+电子烟视觉检测设备,视觉,1.0,视觉 is a component or technology used in the 电子烟视觉检测设备,['e31264be9300c6a30aa920ff0272a9cf'],7af01185ebd648e49bf9a57481e0dc7c,780,5,1,6
+自动化检重机,食品,1.0,自动化检重机 is used in the 食品 industry for quality control by checking the weight of products,['e77a55ec71b2605da11f93be730a1d44'],d6aad3495b4d4c7ab2a03c44600584ba,781,8,6,14
+自动化检重机,称重传感器,1.0,"称重传感器 is a component of the 自动化检重机, measuring weight for accurate product checking",['e77a55ec71b2605da11f93be730a1d44'],482d5ecf4ce949e9a5d81f1b368769ee,782,8,1,9
+食品,自动化食品加工设备,1.0,自动化食品加工设备 is used in the 食品 industry for processing food items,['d677c45b0e6b17b157c972d420c84d31'],64f7a02f89bd4a37844c482f00d00643,783,6,7,13
+食品,灌装生产线,1.0,灌装生产线 is used in the 食品 industry for precise filling of food products,['966a905cf094e3cf44c91ebc9ebc1904'],26609be86d614d85ae97deeae4a4be1e,784,6,6,12
+食品,自动化灌装线,1.0,自动化灌装线 is used in the 食品 industry for precise filling operations,['8757d4df4f6d7215159f27cbefe87143'],5dffe69693734eaeb360de4582d489b0,785,6,7,13
+食品,灌装机,1.0,灌装机 is used in the 食品 industry for filling containers,['8757d4df4f6d7215159f27cbefe87143'],e4fe96090a7641c68d0b1995d1f238b4,786,6,2,8
+检测工位,细胞检测仪,1.0,细胞检测仪 is used at the 检测工位 for cell detection in the pharmaceutical equipment industry,['a3a1e7579ad252d4c58c6193b5504bfe'],3fa1055cd26840678d546570e8b423d9,787,11,1,12
+检测工位,摆臂电机,1.0,摆臂电机 is used at the 检测工位 to move the detection camera,['a20f67b391030e5cac0afe988906825f'],9802dae4757b42269e93c66b5214a396,788,11,2,13
+检测工位,检测相机,1.0,检测相机 is used at the 检测工位 to inspect the contents of the 药瓶,['a20f67b391030e5cac0afe988906825f'],c39e66acec274a5980ce275709a847ba,789,11,2,13
+检测工位,转塔,1.0,"转塔 is part of the 检测工位, rotating to move the 药瓶 for inspection",['a20f67b391030e5cac0afe988906825f'],667794d1397a40bb904d406205960864,790,11,2,13
+检测工位,药瓶,1.0,药瓶 are inspected at the 检测工位 for impurities,['a20f67b391030e5cac0afe988906825f'],891f50162c0140e4b9c0e4ba33f69a1b,791,11,1,12
+检测工位,灯检机,1.0,灯检机 is the machine used at the 检测工位 for inspecting 药瓶,['a20f67b391030e5cac0afe988906825f'],922773e5841a475d89d5904fe7a324f8,792,11,2,13
+步进运动,相机,1.0,步进运动 is used to control the movement of the 相机 for precise detection in the pharmaceutical equipment industry,['a3a1e7579ad252d4c58c6193b5504bfe'],0338bebae19c41c196ee6c09ccba36e3,793,1,1,2
+生化反应器控制,温度控制系统,1.0,"温度控制系统 is a component of the 生化反应器控制 system, used for maintaining precise temperature levels",['40b1d0a5efd1684b5a5bb486a1b454db'],0b407647077c4288b2324f06ac355985,794,6,1,7
+生化反应器控制,搅拌系统,1.0,"搅拌系统 is a component of the 生化反应器控制 system, used for ensuring proper mixing of reactants",['40b1d0a5efd1684b5a5bb486a1b454db'],4e9254fd4b234106843cf8ff91fd3b6f,795,6,1,7
+生化反应器控制,反应器,1.0,"反应器 is the vessel controlled by the 生化反应器控制系统, where biochemical reactions occur",['40b1d0a5efd1684b5a5bb486a1b454db'],e6a7f4ccd6f54136b784572db0d5cb88,796,6,1,7
+生化反应器控制,某医药公司,1.0,某医药公司 uses 生化反应器控制 in their biochemical laboratories for new drug research and development,['40b1d0a5efd1684b5a5bb486a1b454db'],ccf54360ef954353b71c1c8175cd7f4e,797,6,1,7
+精密光学检测设备,某光学厂商,1.0,某光学厂商 uses the 精密光学检测设备 for lens quality inspection,['0e85b783058feb121a0f62c97031f9ca'],bd1c72f46b81427892b1f415fecce77e,798,3,1,4
+插针检测,PCB插针检测设备,1.0,插针检测 is performed using the PCB插针检测设备,['036a33f7bae7440b1b9f73f0fff55122'],148e7caecdf740e58ee09a9ff549d19c,799,3,3,6
+插针检测,旋转伺服电机+丝杆+旋转编码器+驱动器,1.0,旋转伺服电机+丝杆+旋转编码器+驱动器 are components used in the 插针检测 process,['036a33f7bae7440b1b9f73f0fff55122'],df78f3e3415a4d47b6dffdd3890f3eee,800,3,1,4
+插针检测,直线电机+直线编码器+驱动器,1.0,直线电机+直线编码器+驱动器 are alternative components used in the 插针检测 process,['036a33f7bae7440b1b9f73f0fff55122'],003abb3c5743482aa63022cf20cf5ccc,801,3,1,4
+PCB插针检测设备,翱翔,1.0,翱翔 may involve the use of the PCB插针检测设备,['036a33f7bae7440b1b9f73f0fff55122'],4788433078b843079ccd9a64e5430169,802,3,2,5
+手臂旋转部位,晶圆搬运,1.0,"手臂旋转部位 is part of the process of 晶圆搬运, involving the handling of wafers",['44704166a30f1b067418bdeced9c4aab'],cbecfdbc04c9405aa139566d727d3a33,803,1,9,10
+晶圆搬运,中科芯微,1.0,中科芯微 has used or is associated with the application of 晶圆搬运,['44704166a30f1b067418bdeced9c4aab'],f514a867efb948868009b435fecbe372,804,9,1,10
+晶圆搬运,富创精密,1.0,富创精密 has used or is associated with the application of 晶圆搬运,['44704166a30f1b067418bdeced9c4aab'],6e4c8a7f1da147f5b38103c51c999502,805,9,1,10
+晶圆搬运,新松客户,1.0,新松客户 are associated with the application of 晶圆搬运,['44704166a30f1b067418bdeced9c4aab'],ac0e52b6b3ae4cc485f9eef2f2dea7e7,806,9,1,10
+晶圆搬运,力矩电机,1.0,力矩电机 is a component used in the 晶圆搬运 process,['44704166a30f1b067418bdeced9c4aab'],b150af2f3df24f17a7fd836ba663680a,807,9,1,10
+晶圆搬运,Z轴,1.0,Z轴 is a component used in the 晶圆搬运 process,['44704166a30f1b067418bdeced9c4aab'],f9740be4adc946149b5941f355d45c74,808,9,2,11
+晶圆搬运,ECAT或CANOPEN控制器,1.0,ECAT或CANopen控制器 is a component used in the 晶圆搬运 process,['44704166a30f1b067418bdeced9c4aab'],c6afe51b28f94c3ba21640387edd2ee8,809,9,1,10
+Z轴,编码器协议,1.0,"Z轴 uses a specific 编码器协议 for data transmission, which is different from the protocols used by other axes",['0987d36a491c685a7886b2fd0588769b'],040b86f496dc4930a895f2c21cb0731c,810,2,1,3
+外骨骼机器人,2轴，无框力矩电机+编码器+DC伺服驱动,1.0,外骨骼机器人 requires 2轴，无框力矩电机+编码器+dc伺服驱动 as components to function,['f17a93e1949af035be1e4824206f385b'],e13ed464574f483c9f1db5f569e91445,811,4,1,5
+外骨骼机器人,布法罗,1.0,布法罗 is a case study that relates to the application of the 外骨骼机器人,['f17a93e1949af035be1e4824206f385b'],e1131985dc53451fa7543912b2e7db07,812,4,1,5
+外骨骼机器人,机器人关节控制,1.0,机器人关节控制 is a function performed by the 外骨骼机器人 to control joint rotation,['3ab4ffccaf8256da93b5b8b2d90c943f'],d6c00e0a975e4adc979afd25d4037d4d,813,4,4,8
+康复机器人,关节和运动控制,1.0,"关节和运动控制 is a function of the 康复机器人, ensuring the precision and safety of the rehabilitation process",['ae75fa3b40e2d99d51b0839ec4faef35'],9cac1113be2148ce8abaa957620f9d59,814,5,1,6
+康复机器人,某康复中心,1.0,某康复中心 uses 康复机器人 for patient rehabilitation training,['ae75fa3b40e2d99d51b0839ec4faef35'],c277297e3e7b417892e986c8767f58ad,815,5,1,6
+无人配送车辆,驾驶和路径规划控制,1.0,驾驶和路径规划控制 is a function of the无人配送车辆 that ensures efficient and safe delivery,['241d0a881a404f7179b8abcb48712c01'],744f492f46d841c0b0fee5f4a9b40b6c,816,4,1,5
+风速测量控制,激光测风,1.0,激光测风 is the application used for the action of wind speed measurement and control,['5d4207d4245f8e80d82d635747760370'],d59386dbfa0349b49f7b904e288b21ad,817,2,5,7
+激光测风,激光器,1.0,激光器 is a component of the laser测风device that emits laser beams,['5d4207d4245f8e80d82d635747760370'],1005971b7e764bffa0a4610ad403976b,818,5,1,6
+CNC加工中心刀塔换刀系统,换刀设备,1.0,"换刀设备 is a part of the CNC加工中心刀塔换刀系统, used for changing tools",['5ba07e67aad936b5e8fdced90ee7e0f5'],1eaf3527e2804c75bbd9e3ccac9d760e,819,6,1,7
+焊接轨迹控制,激光焊接设备,1.0,激光焊接设备 uses 焊接轨迹控制 to achieve high precision in welding,['9b1c76a2ddd60176752001b3b9c147cb'],301ab7b5f81d40788e46dacb09579b50,820,1,6,7
+激光焊接设备,某汽车零部件厂,1.0,某汽车零部件厂 uses 激光焊接设备 for welding automotive parts,['9b1c76a2ddd60176752001b3b9c147cb'],d6f25f03a08b41b4a2eaa9df3db9dceb,821,6,1,7
+激光切割设备,某造船厂,1.0,某造船厂 uses 激光切割设备 for automated cutting of steel plates in their shipbuilding process,['a920920e8e149592d00031f362d614af'],6529cf63872440a98aeab73beee3762a,822,5,1,6
+多轴装配控制,手机组装生产线,1.0,多轴装配控制 is used in the 手机组装生产线 for precise assembly of mobile phone components,['cd1096eef266dc55fcc79a78604e195f'],65faae6c13f5444b8d71b4b2be38eba3,823,1,5,6
+手机组装生产线,装配机械手,1.0,装配机械手 is used in the 手机组装生产线 for precise assembly operations,['cd1096eef266dc55fcc79a78604e195f'],9187af05545a4c8d92e38c2b46254092,824,5,4,9
+手机组装生产线,传送工具,1.0,传送工具 are used in the 手机组装生产线 for conveying components and products,['cd1096eef266dc55fcc79a78604e195f'],f12578d1ff7b46f5ae84c7672fac8deb,825,5,1,6
+装配机械手,太阳能电池板装配设备,1.0,装配机械手 is a part of the 太阳能电池板装配设备 used for assembly,['5dd431defb92ab5537c35d879d857152'],6b5c42bba0ec48c1a5de177a7f1b9bfc,826,4,5,9
+分选机,10-20轴直流旋转电机+编码器,1.0,10-20轴直流旋转电机+编码器 is used in the 分选机 for high-speed Z-axis motion with force control,['1f738b4b390bb6d06b5afd780d7d1cd1'],444ab529d10c47f19ef33e931489b8b8,827,3,1,4
+多站点协同装配控制,流水线自动化装配,1.0,多站点协同装配控制 is a process that utilizes流水线自动化装配 technology for high-precision and high-speed assembly operations,['3304ccd1a407776fdfe70ecfd3572d71'],0ffea4c3c86849ab828036b67b58acdc,828,1,1,2
+自动化化妆品生产设备,化妆品生产线,1.0,"自动化化妆品生产设备 is a part of the cosmetics production line, used for precise control of raw material mixing and movement",['75d656d482f083d807ff14652a2871f6'],65b488142164407a81b496b4820ef556,829,1,7,8
+化妆品生产线,混合器,1.0,"混合器 is a component of the cosmetics production line, used for mixing raw materials",['75d656d482f083d807ff14652a2871f6'],b3b006f8629b44df81a266c1e4d81d3f,830,7,2,9
+混合器,自动化制药设备,1.0,"混合器 is an integral part of 自动化制药设备, used for the precise mixing of raw materials",['794fefdb523287e635a5dce19320814a'],2a48f66b6a424b9ebf38562836fe1c82,831,2,8,10
+灌装输送线,输送带系统,1.0,"输送带系统 is a part of the 灌装输送线, responsible for transporting containers",['edef8a2bd56d008322049355406edcf4'],54e486668fa94feda285f377fb05d14d,832,5,1,6
+灌装输送线,食品行业,1.0,灌装输送线 is used in the 食品行业 for transporting containers to the filling station,['edef8a2bd56d008322049355406edcf4'],d7c4899260084560905ac54dba81f0e6,833,5,1,6
+灌装输送线,某化妆品厂,1.0,"某化妆品厂 uses a similar technology, the 灌装输送线, for automation in their production lines",['edef8a2bd56d008322049355406edcf4'],880db899ce864932843fe230e3d364ad,834,5,1,6
+太阳能逆变器制造设备,生产设备,1.0,生产设备 includes the 太阳能逆变器制造设备 and other components necessary for the production of solar inverters.,['937c32a23dadd297f434106e4a601a61'],59463c48d2fb48308cd38ee8dd869f59,835,4,1,5
+太阳能逆变器制造设备,某电力设备厂,1.0,某电力设备厂 uses the 太阳能逆变器制造设备 in their automation production line for solar inverters.,['937c32a23dadd297f434106e4a601a61'],ff69f1aae7404c38b8bde6abc5a79b57,836,4,1,5
+振镜旋转控制,激光振镜,1.0,振镜旋转控制 is a technique used in the operation of the 激光振镜,['27cc8dca2eaecc56df40ff1259b58cee'],8db22f709edb4ae98f0fef060ccd24b8,837,6,3,9
+振镜旋转控制,直流无刷电机,1.0,直流无刷电机 is a component used in the 振镜旋转控制 process,['27cc8dca2eaecc56df40ff1259b58cee'],0e412e834e62475a9fe1920438f7b75b,838,6,1,7
+振镜旋转控制,棱镜,1.0,棱镜 is a component used in the 振镜旋转控制 process,['27cc8dca2eaecc56df40ff1259b58cee'],2e3f6dbac98742ddb213037ae77f0a82,839,6,1,7
+振镜旋转控制,脉冲控制卡,1.0,脉冲控制卡 is a component used in the 振镜旋转控制 process,['27cc8dca2eaecc56df40ff1259b58cee'],59ced15f5a1d485ebf0eac7fa85c1cdf,840,6,1,7
+振镜旋转控制,PWM调解,1.0,PWM调解 is a technique used in the 振镜旋转控制 process to adjust the speed,['27cc8dca2eaecc56df40ff1259b58cee'],7cef69e2a71c4379b0816844799fc71e,841,6,1,7
+激光振镜,大族思特,1.0,大族思特 has implemented a similar scene or solution using the 激光振镜,['27cc8dca2eaecc56df40ff1259b58cee'],0f565c275f8148d885ae53c315ddc568,842,3,1,4
+多轴焊接控制,机器人焊接工作站,1.0,多轴焊接控制 is a technique used in the operation of the 机器人焊接工作站 to ensure precise control and high-quality welding,['4b028e742c5bb99151ce8d6869dd59e1'],29c05af68cc541b79fdf499eac42b9c6,843,1,4,5
+机器人焊接工作站,焊接机器人,1.0,"焊接机器人 is a component of the 机器人焊接工作站, used for performing welding tasks",['4b028e742c5bb99151ce8d6869dd59e1'],8d5d7b8fb7d14d0ba46ce7f0be6de661,844,4,1,5
+激光打标设备,某手机配件厂,1.0,某手机配件厂 uses the 激光打标设备 for marking product serial numbers,['ed18651c3085e19592c04bfcd0b52dac'],607a66de21cf42e497c23013327b751f,845,5,1,6
+全自动洗车机,清洗臂,1.0,清洗臂 is a part of the 全自动洗车机 that moves to clean different parts of the car,['767b420b9f192c70035d7fb4ac624eb3'],f4f85b6086384211a25248f614bfb786,846,5,1,6
+全自动洗车机,喷水系统,1.0,喷水系统 is a component of the 全自动洗车机 that sprays water to clean the car,['767b420b9f192c70035d7fb4ac624eb3'],c1a4bcd4e7874e699f06bc795e291150,847,5,1,6
+全自动洗车机,某汽车美容店,1.0,某汽车美容店 uses the 全自动洗车机 for car washing services,['767b420b9f192c70035d7fb4ac624eb3'],ca585d891433495aa70a3a01b252e50c,848,5,1,6
+模组组装控制,手机相机模组组装设备,1.0,模组组装控制是手机相机模组组装设备中的一个关键过程，用于将镜头、传感器等组件精确装配到一起,['2bcae705653a8c2dfee33dc9aec75026'],f26b5e1c52e445998b6a63738d203b38,849,1,6,7
+手机相机模组组装设备,装配头,1.0,装配头是手机相机模组组装设备中的一个组件，用于精确装配镜头、传感器等组件,['2bcae705653a8c2dfee33dc9aec75026'],0945030309e14518a16df16fbb25c76f,850,6,1,7
+某手机制造厂,自动化装配生产线,1.0,某手机制造厂使用自动化装配生产线进行相机模组的自动化装配,['2bcae705653a8c2dfee33dc9aec75026'],35939cc34a734b5f867f8d75df419f37,851,1,2,3
+自动化装配生产线,某太阳能设备公司,1.0,某太阳能设备公司 uses the 自动化装配生产线 for the assembly of photovoltaic panels,['5dd431defb92ab5537c35d879d857152'],807561f61906451b880e04ac6a33687f,852,2,1,3
+锂电池测试设备,测试探针,1.0,"测试探针 is a component of the 锂电池测试设备, used for interacting with lithium batteries during testing",['52193089f44e2d4de3eae704535af318'],0538e2dc04174140a43bc0359fed2d23,853,5,1,6
+锂电池测试设备,动力装置,1.0,"动力装置 is a component of the 锂电池测试设备, providing power for its operation",['52193089f44e2d4de3eae704535af318'],6e87d210775b45e4a09e518492329bce,854,5,1,6
+车载雷达,方位角度调整机构,1.0,方位角度调整机构 is used to adjust the orientation and angle of the 车载雷达,['5dbdf06fa4c2f0172e062f438941881b'],bde6223f81884473a1acc3b75dd056aa,855,4,1,5
+车载雷达,某电动车厂,1.0,某电动车厂 uses 车载雷达 in their autonomous driving systems,['5dbdf06fa4c2f0172e062f438941881b'],7beb3a2ecfd5419b950a20a155e06169,856,4,1,5
+多轴喷洗控制,喷洗设备,1.0,多轴喷洗控制 is a function performed by the 喷洗设备 to clean various large-scale equipment or facilities,['5d67b02ec3d25e19d4c5df9075d68aad'],961dda09b0df497a974c38c28eb90686,857,1,2,3
+VIVO音量按键检测设备,软着陆,1.0,VIVO音量按键检测设备 performs the action of soft landing during testing,['f07aee97ec45456415a9098726dd2e7a'],1fb946075dd54b218b8dfad20647d33e,858,7,1,8
+VIVO音量按键检测设备,音圈,1.0,音圈 is a component of the VIVO音量按键检测设备,['f07aee97ec45456415a9098726dd2e7a'],bf90efb1858e49b19987cbd280d0e911,859,7,1,8
+VIVO音量按键检测设备,驱动,1.0,驱动 is a component of the VIVO音量按键检测设备,['f07aee97ec45456415a9098726dd2e7a'],f9949e43ea004014abec1b59f2155b5a,860,7,1,8
+VIVO音量按键检测设备,力传感器,1.0,力传感器 is a component of the VIVO音量按键检测设备,['f07aee97ec45456415a9098726dd2e7a'],3d89c7fe0b6448e0a0d27bceccc09f09,861,7,1,8
+VIVO音量按键检测设备,力控精度,1.0,力控精度 is a critical design point for the VIVO音量按键检测设备,['f07aee97ec45456415a9098726dd2e7a'],185f98d04d9f484ab3d626fd459a23a2,862,7,1,8
+螺丝锁紧和扭松,锁螺丝机,1.0,锁螺丝机 is used to perform the action of螺丝锁紧和扭松 in the 3C设备 industry,['f38bbac969d88a67d68b93ceb4957404'],688e9b443bc44782855aea4afd8a9d16,863,1,2,3
+晶体绑定和对位控制,固晶机,1.0,固晶机 is used for the process of 晶体绑定和对位控制 in the semiconductor industry,['7b0d50ca36fedb4fb7b68e4eec73b368'],cd56c4963a0e49d7bab0e25f0e068779,864,1,5,6
+某LED厂商,芯片封装生产线,1.0,某LED厂商 uses the 芯片封装生产线 for the production of LED products,['7b0d50ca36fedb4fb7b68e4eec73b368'],c4d4216677af42f5a29a0f4dcb442220,865,1,1,2
+智能清舱农机,农业机械,1.0,智能清舱农机 is a specific type of agricultural machinery,['4418484e1f856e36e079b84bd1272840'],d99684f88f2d43eaacd62ba9082b64a5,866,5,1,6
+极片叠放控制,叠片机,1.0,叠片机 is used to perform the action of 极片叠放控制 in the lithium battery manufacturing process,['a82bda15276dce27bef66a10a15a3fb1'],9ca07c62b7e146298882e33f3c6cb653,867,1,3,4
+叠片机,"3个直流伺服驱动, 直线电机, 控制器, 直线编码器",1.0,These components are essential for the 叠片机 to achieve high-precision stacking control and quick response,['a82bda15276dce27bef66a10a15a3fb1'],eef3aeb29aba43da93b433a816e77203,868,3,1,4
+某电池公司,新能源汽车电池生产线,1.0,某电池 company uses the 新能源汽车电池生产线 for manufacturing batteries for new energy vehicles,['a82bda15276dce27bef66a10a15a3fb1'],1c2a05515b9f49e1966a4ceb4bb0a3a5,869,1,1,2
+激光扫描仪,某测绘公司,1.0,某测绘公司 uses the 激光扫描仪 for mapping and surveying applications,['1004c3ef61d917fa05a207f01ed74560'],86db00646d264b0a922c6b639dc9d16b,870,3,1,4
+自动化玻璃清洗设备,玻璃清洗设备,1.0,自动化玻璃清洗设备 is a specific type of 玻璃清洗设备 that incorporates automation for enhanced performance,['69ddcc4f6ff5df8aa797fee7694ff710'],7892ab98e1b0475c97a798aa8b2d7f6c,871,6,1,7
+自动化玻璃清洗设备,精准运动,1.0,精准运动 is a critical requirement for 自动化玻璃清洗设备 to ensure the accuracy of the cleaning process,['69ddcc4f6ff5df8aa797fee7694ff710'],9732636cdd50433bb146a241cd72dbc5,872,6,1,7
+自动化玻璃清洗设备,均匀清洗,1.0,"均匀清洗 is a key outcome of 自动化玻璃清洗设备, ensuring consistent cleaning quality",['69ddcc4f6ff5df8aa797fee7694ff710'],a5a8a63d5baf4946b7d7d1696f0e4e0e,873,6,1,7
+自动化玻璃清洗设备,高效性,1.0,"高效性 is a characteristic of 自动化玻璃清洗设备, indicating its ability to perform cleaning tasks with minimal waste of time and resources",['69ddcc4f6ff5df8aa797fee7694ff710'],a69a82dd8773426096c58ddc56832770,874,6,1,7
+自动化玻璃清洗设备,玻璃制造厂清洗线,1.0,玻璃制造厂清洗线 utilizes 自动化玻璃清洗设备 for efficient and precise cleaning of glass surfaces,['69ddcc4f6ff5df8aa797fee7694ff710'],72a7215e3e4a4b0db851351dfe5afd37,875,6,1,7
+按摩机器人,昊志,1.0,昊志 may have provided case studies or solutions related to the development or application of massage robots,['cd97ce82b07072c24ffdddbbf2a468a4'],5f8224530d424618acb32b74a3afe2c9,876,3,1,4
+自动化食品加工设备,食品加工机,1.0,自动化食品加工设备 is a type of 食品加工机 that incorporates advanced technology for precise control,['d677c45b0e6b17b157c972d420c84d31'],99d4510732d843299514461aebd5f176,877,7,1,8
+激光摆振控制,工业、民用手持激光焊,1.0,激光摆振控制 is a technique used in the process of 工业、民用手持激光焊 to ensure smooth welding trajectories,['79aa04e481a4012b9038dab21db76ad6'],1730cbfab07747508d5b5ea421b97953,878,5,2,7
+激光摆振控制,控制1-2轴小型振镜电机,1.0,控制1-2轴小型振镜电机 is a component in the 激光摆振控制 system,['79aa04e481a4012b9038dab21db76ad6'],7dd3aadc8f424988a72f8ba3ccf17155,879,5,1,6
+激光摆振控制,激光振镜仪,1.0,"激光摆振控制 is performed using the 激光振镜仪, which is a specialized equipment for precise laser control",['11e6b3ae933f56d04dc0bf25295f1a04'],a2e7cbaf38c24564b2abe61680cacd72,880,5,2,7
+激光摆振控制,大族,1.0,"大族 has experience or knowledge in providing solutions for the 激光摆振控制 scene, indicating a connection through industry expertise",['11e6b3ae933f56d04dc0bf25295f1a04'],162f1ccf8dfc46cea4d54a36ed9ec823,881,5,1,6
+工业、民用手持激光焊,"制造业, 电动工具",1.0,"工业、民用手持激光焊 is an application within the 制造业, 电动工具 industry sectors",['79aa04e481a4012b9038dab21db76ad6'],17127080df794121830177e93631aa3b,882,2,1,3
+无人机测绘,激光雷达,1.0,激光雷达 is used in 无人机测绘 for mapping complex terrains from the air,['d19c9b8b5aac469b4044d1b504efb201'],374a8f81e6304b6d90b44cdceb90ecb4,883,3,1,4
+无人机测绘,测绘行业,1.0,无人机测绘 is an application within the 测绘行业 for surveying and mapping,['d19c9b8b5aac469b4044d1b504efb201'],8c6aafd2a5da496385bea2c69be03a5a,884,3,3,6
+无人机测绘,南方卫星,1.0,南方卫星 may have provided similar solutions or services in the context of 无人机测绘,['d19c9b8b5aac469b4044d1b504efb201'],06b9da0d4d9b4d6bb762bd2eeca7028a,885,3,1,4
+测绘行业,三维全栈仪,1.0,三维全栈仪 is used in the surveying industry for terrain mapping,['795a6efb4c07565e2cea3077eac4130a'],a5f6de474fb24ec9af7403231c616831,886,3,8,11
+测绘行业,地形测绘,1.0,地形测绘 is a key activity within the surveying industry,['795a6efb4c07565e2cea3077eac4130a'],a0ef87eb823b400594300f5c47e5c9c3,887,3,2,5
+两轴，PITCH轴 0-180°运动，YAW轴360°运动,1运动控制卡+2旋转伺服+2旋转编码器+2直流伺服驱动器,1.0,These electronic components and control systems are used to control the mechanical components (pitch and yaw axes) in the 无人机测绘 process,['d19c9b8b5aac469b4044d1b504efb201'],ed076834490640acbb5d837aaac9fed5,888,1,1,2
+机器人关节控制,旋转力矩电机,1.0,旋转力矩电机 is a component used in 机器人关节控制 to provide torque for joint rotation,['3ab4ffccaf8256da93b5b8b2d90c943f'],f935684600f34a27906def1902627ff2,889,4,1,5
+机器人关节控制,CANOPEN控制卡,1.0,CANopen控制卡 is used in 机器人关节控制 for communication and control in the robotic system,['3ab4ffccaf8256da93b5b8b2d90c943f'],72fc2f604fc644e39f7d70e25094e347,890,4,1,5
+半导体制造中的晶圆搬运和定位系统,晶圆自动化搬运机器人,1.0,晶圆自动化搬运机器人 is used in the 半导体制造中的晶圆搬运和定位系统 for precise handling and positioning of wafers,['539698a25cb179675acbe49815b3afbc'],3ddb886b220c4bb2ab3d68f7f29ce5c5,891,1,4,5
+晶圆自动化搬运机器人,高性能工控机,1.0,高性能工控机 is part of the control system for the 晶圆自动化搬运机器人,['539698a25cb179675acbe49815b3afbc'],2f482bb08d564072a5ff4f2509dfdda6,892,4,1,5
+晶圆自动化搬运机器人,多轴机械臂,1.0,多轴机械臂 is a component of the 晶圆自动化搬运机器人 for handling wafers,['539698a25cb179675acbe49815b3afbc'],fc86507186da4c6c94fe3b788d77c471,893,4,1,5
+自动化制药设备,制药机,1.0,自动化制药设备 is a type of 制药机 that incorporates advanced technology for precise control and automation in the pharmaceutical production process,['794fefdb523287e635a5dce19320814a'],c235c2c649484c83967e2a42523028bb,894,8,1,9
+灌装生产线,灌装头,1.0,"灌装头 is a part of the 灌装生产线, directly involved in the filling operation",['966a905cf094e3cf44c91ebc9ebc1904'],7e9d748907ea4b74925a32999a2b40d9,895,6,1,7
+灌装生产线,某饮料厂,1.0,某饮料厂 uses the 灌装生产线 for automation in its beverage production process,['966a905cf094e3cf44c91ebc9ebc1904'],eefaef8a5c7149d18d304f39bf41f280,896,6,1,7
+仿生泳姿控制,水下机器人,1.0,水下机器人 uses 仿生泳姿控制 to achieve efficient and precise underwater movement,['bec622312c7d50d15196290b6635711e'],327114716cea49a79d33ba609158cd87,897,1,4,5
+水下机器人,关节机构,1.0,"关节机构 is a part of 水下机器人, enabling its flexibility and movement",['bec622312c7d50d15196290b6635711e'],b45920e405af45f787ab167f54cfd2e9,898,4,1,5
+刀具磨削机,某工具制造厂,1.0,某工具制造厂 uses the 刀具磨削机 for high-precision tool grinding,['c73034d6a6f91e79c6bd21fffa416202'],00db8f6e99254c99be6c6f5c14a79500,899,5,1,6
+转台定位使天线对准信号发射器,车载雷达转台,1.0,转台定位使天线对准信号发射器 is an action performed using the 车载雷达转台,['d788500a87babbf7fc609e78e060493d'],aadd82f0e70c4fc49b1bdee3f60c1890,900,1,4,5
+车载雷达转台,CANOPEN控制器,1.0,CANopen控制器 is a control component of the 车载雷达转台 for managing communication and operation,['d788500a87babbf7fc609e78e060493d'],9528d92ccc10454793c4df59e24586db,901,4,1,5
+新能源汽车充换电,汽车保养,1.0,新能源汽车充换电 is a specific action within the industry of 汽车保养,['b82f227e2c7b3ab4e25187539ace1216'],80618f4e809e4af1bcdb59342c375377,902,2,2,4
+汽车保养,充电桩、换电站设备,1.0,"充电桩、换电站设备 are part of the 汽车保养 industry, specifically for electric vehicle charging and battery swapping",['b82f227e2c7b3ab4e25187539ace1216'],32d785e275be458fb7178ad2021ecdfc,903,2,1,3
+全栈仪,三维全栈仪,1.0,全栈仪 is a more general term for the specific equipment 三维全栈仪 used in terrain mapping,['795a6efb4c07565e2cea3077eac4130a'],0757f97d1fbf49748169ba696a364e4c,904,1,8,9
+三维全栈仪,地形测绘,1.0,三维全栈仪 is used for the process of terrain mapping,['795a6efb4c07565e2cea3077eac4130a'],ca9a355bf38b452cbde62dba747ec65f,905,8,2,10
+三维全栈仪,两轴,1.0,三维全栈仪 uses two axes in its setup for terrain mapping,['795a6efb4c07565e2cea3077eac4130a'],ba297c67512447e4b86f0cbc39fbc301,906,8,5,13
+三维全栈仪,控制精度要高,1.0,三维全栈仪 has a design requirement for high control accuracy,['795a6efb4c07565e2cea3077eac4130a'],00a9c8745b404b659c76a694dba9851c,907,8,1,9
+三维全栈仪,速度不快，速动波动要小,1.0,三维全栈仪 has a design requirement for slow speed with minimal speed fluctuation,['795a6efb4c07565e2cea3077eac4130a'],eb338f2214414f0f9fa396f06ca12860,908,8,1,9
+三维全栈仪,抗扰动性要强,1.0,三维全栈仪 has a design requirement for strong disturbance resistance,['795a6efb4c07565e2cea3077eac4130a'],d119680bac3744e58d2ed3273b1208b6,909,8,1,9
+三维全栈仪,有零速阻尼的功能要求,1.0,三维全栈仪 has a design requirement for zero-speed damping functionality,['795a6efb4c07565e2cea3077eac4130a'],d60eefaddf1e4b1db125d8f9ac49bacb,910,8,1,9
+装配机构的多轴控制,太阳能电池板装配设备,1.0,装配机构的多轴控制 is used in the operation of the 太阳能电池板装配设备 for precise assembly,['5dd431defb92ab5537c35d879d857152'],6058343c0824402e9843c92b2991f778,911,1,5,6
+太阳能电池板装配设备,移动平台,1.0,移动平台 is a part of the 太阳能电池板装配设备 used for moving components,['5dd431defb92ab5537c35d879d857152'],383a003edc5a4f2387c7dd7865a984c9,912,5,2,7
+自动化灌装线,灌装机,1.0,灌装机 is a key component of the 自动化灌装线 for filling operations,['8757d4df4f6d7215159f27cbefe87143'],6bf9623c44824e48b7451bdfa1b47816,913,7,2,9
+面粉设备,磨辊,1.0,磨辊 is a component of the 面粉设备 that requires precise control for high-quality flour production,['2b27d987660b3fbe33f43bfab4ac6564'],cc62f333666e427eb1c66ec3f12a7a55,914,5,1,6
+面粉设备,筛分装置,1.0,筛分装置 is a component of the 面粉设备 that requires precise control for high-quality flour production,['2b27d987660b3fbe33f43bfab4ac6564'],c6d99481f5f545278ca8a73650b66e87,915,5,1,6
+某粮油厂,全自动面粉生产线,1.0,某粮油厂 uses the 全自动面粉生产线 for automated flour production,['2b27d987660b3fbe33f43bfab4ac6564'],5a0887b99d8b4bd89286962cd6f07037,916,1,1,2
+自动化纺织机,纺织行业,1.0,自动化纺织机 is used in the 纺织行业 for precise yarn control and to improve fabric quality and production efficiency,['193f87cf7e266aa933fcf9c3aab58025'],75174e7af26f434c9154b182087b58dc,917,3,1,4
+自动化纺织机,驱动电机、皮带、编码器、工业控制器、伺服驱动器,1.0,The 自动化纺织机 requires 驱动电机、皮带、编码器、工业控制器、伺服驱动器 to function properly,['193f87cf7e266aa933fcf9c3aab58025'],0c43dd117fe6495991d4b4d8c2f5d70e,918,3,1,4
+自动化印刷设备,印刷行业,1.0,自动化印刷设备 is used in the printing industry for high-quality printing tasks,['51f5fa0deebff5b32f74d90b957de319'],65e5d27c4f8a4dfa8ad92f227964b9cf,919,7,2,9
+自动化印刷设备,印刷头,1.0,印刷头 is a component of the automation printing equipment that applies ink,['51f5fa0deebff5b32f74d90b957de319'],63c4595187884af29aa46d03319acded,920,7,3,10
+印刷行业,丝网印设备,1.0,丝网印设备 is used in the 印刷行业 for screen printing on various materials,['ce7b5cb4e3fb4fd9a08453d18554c799'],b32482039edd4d50bc43514570500345,921,2,5,7
+印刷头,弧面丝印设备,1.0,印刷头 is a component of the arc surface printing equipment that applies ink,['19c5a3d15d92b939549523842bf010df'],f3e6e2c82bab4430a33987a19e3d1835,922,3,4,7
+印刷头,丝网印设备,1.0,印刷头 is a part of the 丝网印设备 that applies ink to the substrate,['ce7b5cb4e3fb4fd9a08453d18554c799'],6768cc24da5d4a2492ff936dd4b35661,923,3,5,8
+锂电制造生产线,升降台FTS系统,1.0,"升降台FTS系统 is a part of the 锂电制造生产线, used for manufacturing lithium batteries with magnetic levitation technology",['d89a41b98c4286f63b72a41c3ebea08d'],223e1e3e7c4f4282b086e940f8c935c2,924,3,12,15
+锂电制造生产线,艾美珈-金源精密,1.0,"艾美珈-金源精密 has implemented a similar scene or solution in the lithium battery manufacturing industry, related to the 锂电制造生产线",['d89a41b98c4286f63b72a41c3ebea08d'],f5bb365c9a814b909df0351498d79bb5,925,3,1,4
+某包装公司,弧面容器的丝网印刷生产线,1.0,某包装公司 uses the arc surface container screen printing production line for printing on curved containers,['19c5a3d15d92b939549523842bf010df'],ab4ad26863b44497a1e48aa7c17a096c,926,2,1,3
+某包装公司,自动丝网印刷生产线,1.0,某包装公司 uses the 自动丝网印刷生产线 for high-end packaging box printing,['ce7b5cb4e3fb4fd9a08453d18554c799'],145bc384290c49228a231ac124ce88a8,927,2,1,3
+油墨推压动作,打印机,1.0,油墨推压动作 is an action performed by the 打印机 in the printing process,['a373101521db703547cde99638aa004b'],f64c99537adf489ea58940e417cb5924,928,3,1,4
+油墨推压动作,24V旋转电机，驱动器，控制器,1.0,24V旋转电机，驱动器，控制器 are components used to perform the 油墨推压动作,['a373101521db703547cde99638aa004b'],fe98ea566cf6486b85f8ed14aabb2618,929,3,1,4
+油墨推压动作,安全电压,1.0,安全电压 is a requirement for the 油墨推压动作 to ensure safety in the manufacturing process,['a373101521db703547cde99638aa004b'],6bfb83cb716745fcb591c8d2fb54f8f4,930,3,1,4
+丝网印设备,丝网,1.0,丝网 is a component of the 丝网印设备 that transfers ink onto the substrate,['ce7b5cb4e3fb4fd9a08453d18554c799'],9866640f891944c7bb0a08748aa8b91f,931,5,1,6
+擦玻璃升降机,升降机构,1.0,升降机构 enables擦玻璃升降机to move vertically,['c25c68e2662c5c32de1b502014590cf7'],b0d513adad104e14a89a767a66f30848,932,5,1,6
+擦玻璃升降机,高度调整与保持,1.0,高度调整与保持 is a function of擦玻璃升降机to maintain stability at different heights,['c25c68e2662c5c32de1b502014590cf7'],db37a25770a34437b472fa0038837868,933,5,1,6
+擦玻璃升降机,某建筑清洁公司,1.0,某建筑清洁公司 uses擦玻璃升降机for exterior building cleaning,['c25c68e2662c5c32de1b502014590cf7'],67746ba67d80491da102aab7704dfd30,934,5,1,6
+CT扫描仪的定位系统,上海步科自动化股份有限公司,1.0,上海步科自动化股份有限公司 may have provided the control system for the CT scan positioning system,['0121fa7828a456349a5d679825172e9b'],873a1ca522e6461090d5cdebc2c9ae98,935,9,3,12
+上海步科自动化股份有限公司,KINCO步科,1.0,Kinco步科 is a brand or division of 上海步科自动化股份有限公司,['0121fa7828a456349a5d679825172e9b'],d919ccd28e2248b5ab1dcdd7af8b00cf,936,3,2,5
+上海步科自动化股份有限公司,医疗CT/X光扫描及病床运动控制,1.0,上海步科自动化股份有限公司 may have provided the医疗CT/X光扫描及病床运动控制 solution,['3fb069ed8802e04fa8fc1cc2e2a916d5'],1883a3ca4d6a4bfd984e7053e2553e16,937,3,2,5
+KINCO步科,医疗CT/X光扫描及病床运动控制,1.0,Kinco步科 is associated with the medicalCT/X光扫描及病床运动控制 solution,['3fb069ed8802e04fa8fc1cc2e2a916d5'],2a0c93cf781a4020aceef7230b286bbf,938,2,2,4
+细胞检测设备,XYZ平台,1.0,"细胞检测设备 uses the xyz平台 for controlling the position of the camera in the x, y, and z axes",['d7a373e4186ea1ad9e54a33a5c7e2f1a'],06282cc8998f4b2ea43e0a9522383639,939,3,1,4
+细胞检测设备,棒状电机,1.0,细胞检测设备 uses 棒状电机 for the x and y axis control,['d7a373e4186ea1ad9e54a33a5c7e2f1a'],182efa2240c14212bb021746a18936bd,940,3,1,4
+多轴控制及焊接精度,管道焊接,1.0,多轴控制及焊接精度 is a critical requirement for achieving high-quality results in the pipe welding process,['2733b7b74727ba58db94c1283f095dbb'],727bc610ea9a4393bfa5de453b84340f,941,1,6,7
+管道焊接,焊接头,1.0,焊接头 is a component used in the pipe welding process to join materials together,['2733b7b74727ba58db94c1283f095dbb'],960c3b508a294332ba7c05ffd897db31,942,6,1,7
+管道焊接,管道支撑机构,1.0,"管道支撑机构 is used to support pipes during the pipe welding process, ensuring stability and alignment",['2733b7b74727ba58db94c1283f095dbb'],bd0c1d79ef1144a49f3ce09d4cdf099b,943,6,1,7
+管道焊接,某石油公司,1.0,"某石油公司 may have used the pipe welding process in their operations, indicating a connection between the company and the application",['2733b7b74727ba58db94c1283f095dbb'],b8ae79ed2d6d43f98e0808b5bea884dd,944,6,1,7
+XYZ轴精准雕刻控制,CNC小型雕刻机,1.0,CNC小型雕刻机 is used for XYZ轴精准雕刻控制 to achieve precise carving and engraving,['ff1f5521156a3aa41a97fbd693ec610f'],a03b33a4ee97467c808946679e240ddf,945,1,7,8
+CNC小型雕刻机,3个直线电机,1.0,3个直线电机 are components of the CNC小型雕刻机 that provide linear motion for the XYZ axes,['ff1f5521156a3aa41a97fbd693ec610f'],00b685bcb7a54c4493cd78da1f4752ab,946,7,1,8
+CNC小型雕刻机,某机械公司,1.0,某机械公司 uses CNC小型雕刻机 for the production of high-precision steel molds,['ff1f5521156a3aa41a97fbd693ec610f'],9a54e0361b684d24aefdc05fc340cf41,947,7,1,8
+半导体生产线,半导体晶圆搬运设备,1.0,半导体晶圆搬运设备 is used in the semiconductor production line for efficient wafer transfer,['5f8661df37baa3fb7886ac845c1b589a'],d423b97f085947bd89529bc1ed2c41a7,948,1,10,11
+半导体晶圆搬运设备,T1轴伺服系统,1.0,T1轴伺服 system is a part of the semiconductor wafer handling equipment for rotation and extension,['5f8661df37baa3fb7886ac845c1b589a'],6fd2b0d5156c424a89cb1c068cf1e076,949,10,1,11
+半导体晶圆搬运设备,T2轴伺服系统,1.0,T2轴伺服 system is a part of the semiconductor wafer handling equipment for rotation and extension,['5f8661df37baa3fb7886ac845c1b589a'],a8c8dd8ddbc44363ac2102b9b8989c6d,950,10,1,11
+半导体晶圆搬运设备,T3轴伺服系统,1.0,T3轴伺服 system is a part of the semiconductor wafer handling equipment for rotation and extension,['5f8661df37baa3fb7886ac845c1b589a'],00cb0db6e46749f7af97701ad26e23be,951,10,1,11
+半导体晶圆搬运设备,Z轴伺服系统,1.0,Z轴伺服 system is a part of the semiconductor wafer handling equipment for lifting and lowering,['5f8661df37baa3fb7886ac845c1b589a'],4baa53e4336d4807964fa8d186b32bc5,952,10,1,11
+半导体晶圆搬运设备,DG3系列,1.0,DG3 series is used in the semiconductor wafer handling equipment for power and control separation,['5f8661df37baa3fb7886ac845c1b589a'],f325a83e0c854a7ba5d46663ddff1a29,953,10,1,11
+半导体晶圆搬运设备,高速探针功能,1.0,高速探针 function is a feature of the semiconductor wafer handling equipment for high-speed probing,['5f8661df37baa3fb7886ac845c1b589a'],c2b7e5d9761e423a81149a94537f6def,954,10,1,11
+半导体晶圆搬运设备,滤波器,1.0,滤波器 is used in the semiconductor wafer handling equipment to mitigate vibrations,['5f8661df37baa3fb7886ac845c1b589a'],3d1ccd312d3a4e7387e888aaa137c7c2,955,10,2,12
+半导体晶圆搬运设备,CANOPEN主站,1.0,CANopen主站 in the semiconductor wafer handling equipment has a synchronization cycle limitation,['5f8661df37baa3fb7886ac845c1b589a'],840966e7ac4a4b14ac912e75102d50b7,956,10,1,11
+半导体晶圆搬运设备,SSI协议,1.0,"SSI协议 is used for encoder communication in the semiconductor wafer handling equipment, except for the Z-axis",['5f8661df37baa3fb7886ac845c1b589a'],f0ede764bdb1437b8cfcc20ca9598712,957,10,1,11
+滤波器,机械机构,1.0,机械机构 may require the use of 滤波器 to mitigate vibrations caused by differences in mechanical structures,['0987d36a491c685a7886b2fd0588769b'],dd38d562c21f444190768c8a154280da,958,2,1,3
+件采集,中断实时采集,1.0,"件采集 and 中断实时采集 are related as they both describe methods of data collection, with 中断实时采集 being a specific type of 件采集",['0987d36a491c685a7886b2fd0588769b'],1e66c1cbb56b41269555d27e1505ec92,959,1,1,2
+客户CANOPEN主站,同步周期,1.0,"客户CANopen主站 has a direct impact on the 同步周期, as its limitations restrict the synchronization period to 16ms",['0987d36a491c685a7886b2fd0588769b'],a653bd47ad3d4009ab6a5b8e6ff18679,960,1,1,2
+自动化卷纸机,造纸,1.0,自动化卷纸机 is used in the 造纸 industry for the precise rolling of paper,['83e00c12ccf537178db6a3b06b5078f2'],37b7cf055e604ec6927a9f0b15b2698d,961,8,1,9
+自动化卷纸机,皮带,1.0,"皮带 is a component of the 自动化卷纸机, used for the transmission of power and motion",['83e00c12ccf537178db6a3b06b5078f2'],182e0f3d0abd4181820acdd2bf8e5eaf,962,8,1,9
+自动化卷纸机,某国际知名造纸企业,1.0,某国际知名造纸企业 has implemented the 自动化卷纸机 in their production process,['83e00c12ccf537178db6a3b06b5078f2'],6fd6398a9bfd496f9a0505d9f3190362,963,8,1,9
+摄影小车,前进机构,1.0,前进机构 is a part of摄影小车 that enables its forward motion,['7b88e7691653f636b158b91247c42615'],2192d6436ca840a1bce77dbf9fd354af,964,5,1,6
+摄影小车,转向机构,1.0,转向机构 is a part of摄影小车 that enables its steering,['7b88e7691653f636b158b91247c42615'],ef5e0bbdb3774a22900cf45e9b8863ad,965,5,1,6
+升降台FTS系统,RFID系统,1.0,"RFID系统 is a component of the 升降台FTS系统, used for identification and tracking in the magnetic levitation system",['d89a41b98c4286f63b72a41c3ebea08d'],307de250d35e43a8b122c4232fa8fb7c,966,12,1,13
+高压注射器设备,注射机构,1.0,"注射机构 is a component of the 高压注射器设备, responsible for the injection action",['efb3ae073af3ae2b901a79c1e2c49d39'],0e2f68c8ff734b279b7aad333bcf2fda,967,3,1,4
+包装计量控制,计量包装机,1.0,计量包装机 is used in the process of 包装计量控制 for precise measurement and packaging of materials,['940d8d3c2c5834885c79cf828c1137cb'],172b0d0fa0794494a3c50b135c1f2cd6,968,1,6,7
+计量包装机,计量装置,1.0,计量装置 is a component of the 计量包装机 used for precise measurement of materials,['940d8d3c2c5834885c79cf828c1137cb'],96f016e343b34ac894b0b7153f474ab0,969,6,1,7
+计量包装机,包装头,1.0,包装头 is a component of the 计量包装机 responsible for the packaging action,['940d8d3c2c5834885c79cf828c1137cb'],d356499ae9a345b6bbfb33b5fa01f47b,970,6,1,7
+计量包装机,某食品厂,1.0,某食品厂 uses the 计量包装机 in its automated food packaging production line,['940d8d3c2c5834885c79cf828c1137cb'],d7ebead985b34576821f30d83a416cd2,971,6,1,7
+芯片封装焊接控制,IC封装设备,1.0,芯片封装焊接控制 is a process that takes place within the IC封装设备 for chip packaging,['e5a2a05750db1a3e1151f75abdaed149'],02c1447586fc46dfa65b793e0105a878,972,5,1,6
+芯片封装焊接控制,直线滑台,1.0,直线滑台 is a component used in the芯片封装焊接控制 process for high-precision displacement control,['e5a2a05750db1a3e1151f75abdaed149'],1b1560bb4b0447e5860f8ba351af112e,973,5,1,6
+芯片封装焊接控制,某半导体厂商封装生产线,1.0,某半导体厂商封装生产线 uses the芯片封装焊接控制 process for chip packaging,['e5a2a05750db1a3e1151f75abdaed149'],23b929895979486cba3bf6a13f4ce655,974,5,1,6
+行李翻转,机场行李输送线,1.0,行李翻转 is an action that occurs as part of the operation of the 机场行李输送线,['04fc8c8af2f683271e982faea72b6a93'],f1ebe367253a4a4088b363a6cc4601a1,975,1,6,7
+机场行李输送线,直流伺服电机,1.0,直流伺服电机 is a component used in the 机场行李输送线 for the operation of the luggage flipping mechanism,['04fc8c8af2f683271e982faea72b6a93'],cf575adc3eb140f9aec33757ec040eb8,976,6,1,7
+机场行李输送线,行李翻转机构,1.0,行李翻转机构 is a part of the 机场行李输送线 that facilitates the flipping of luggage,['04fc8c8af2f683271e982faea72b6a93'],4e581bc7d4424c2fb0023e5b11687e02,977,6,1,7
+机场行李输送线,行李托盘,1.0,行李托盘 is the equipment on which luggage is placed for transportation on the 机场行李输送线,['04fc8c8af2f683271e982faea72b6a93'],ae9f8a02ac0f43d4ba67ccce412989d6,978,6,1,7
+机场行李输送线,项目名称：CN-E-23-C-CDJC,1.0,"项目名称：CN-E-23-C-CDJC is a case where our company has implemented a solution for the 机场行李输送线, indicating a past project related to this system",['04fc8c8af2f683271e982faea72b6a93'],b972541545604529a30cabc262d83dae,979,6,1,7
+自动化光学检测设备,光学检测机,1.0,自动化光学检测设备 is a type of 光学检测机 used for optical inspection in the manufacturing process,['78292823ba9a23ddd49ea39f21675fb2'],ec3f73ffbb9742e090b65893d040434b,980,3,1,4
+自动化光学检测设备,某电子制造企业,1.0,某电子制造企业 uses the 自动化光学检测设备 for optical inspection in their manufacturing process,['78292823ba9a23ddd49ea39f21675fb2'],20be7b3222174d31839fac6a278f8b61,981,3,1,4
+自动化贴标机,贴标机,1.0,自动化贴标机 is a type of贴标机 that uses advanced technology for label application,['d740381af8ef46f554299a093537dd69'],35688e258b0e4cc78c8b92ef8a13d3e3,982,7,2,9
+自动化贴标机,卷纸机,1.0,"卷纸机 is a component of the自动化贴标机, handling the label material",['d740381af8ef46f554299a093537dd69'],3a9503f2d69343c396c9b1d842d1aa74,983,7,1,8

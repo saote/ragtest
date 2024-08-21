@@ -1,0 +1,57 @@
+Question,Comprehensiveness,Diversity,Empowerment,Directness
+- How does Graph RAG enhance the capabilities of Large Language Models (LLMs) in reasoning about complex information?,0,0,0,0
+- What are the unique capabilities of Graph RAG in handling global sensemaking questions compared to a naive RAG baseline?,1,1,1,1
+- In what ways does Graph RAG use a self-generated graph index to improve retrieval and analysis of information?,0,0,0,0
+- How does Graph RAG demonstrate scalability advantages over traditional source text summarization?,1,1,1,1
+- What is the relationship between Graph RAG and community summaries in the context of self-memory for generation-augmented retrieval?,Tie,Tie,1,Tie
+- How does Graph RAG's federated retrieval-generation strategy enable distributed and collaborative retrieval and generation?,Tie,Tie,Tie,Tie
+- What are the similarities between Graph RAG and multi-document summarization techniques in handling multiple documents or data sources?,Tie,Tie,Tie,Tie
+- How does Graph RAG compare to multi-hop question answering techniques in addressing complex questions?,0,0,0,0
+"- What is the process involved in the Graph RAG indexing pipeline, and how does it facilitate data indexing tasks?",1,1,1,1
+- How does the Indexer in Graph RAG process and prepare data for efficient search and retrieval?,0,0,0,1
+- What is the role of the CLI (Command Line Interface) in executing tasks using the poetry tool in Graph RAG?,0,0,0,0
+"- How does the Language Learning Model (LLM) contribute to the functions of summarization, entity resolution, and claim extraction in Graph RAG?",0,0,0,0
+- What is the significance of Question Generation in enhancing data exploration and conversation flow in the Query Engine?,Tie,0,0,Tie
+- How does the Graph Index play a pivotal role in the Graph RAG approach for efficient querying and analysis of relationships between entities?,1,Tie,1,1
+"- What are the limitations of the current evaluation approach for Graph RAG, and what future work is suggested to address these limitations?",0,0,0,Tie
+- How does the decision to invest in building a graph index depend on the value obtained from other aspects of the graph index in Graph RAG?,Tie,Tie,1,Tie
+- What is the relationship between Graph RAG and source texts in terms of summarization and question answering effectiveness?,0,0,0,1
+"- How are community summaries derived from source texts, and what is their purpose in providing a concise representation of the original content?",Tie,1,1,Tie
+- What is the role of the .env file in storing environment variables referenced in the settings.yaml file for Graph RAG?,1,Tie,1,1
+- How does the settings.yaml file store configuration settings necessary for the operation of Graph RAG?,0,0,0,0
+- What is the significance of Global Search in the Graph RAG process for reasoning about holistic questions concerning the entire corpus?,0,0,0,1
+- How does Graph RAG employ the global search method to process user queries using LLM-generated community reports as context data?,0,0,0,Tie
+- What is the role of the prompts/ directory in storing default prompts that can be modified or new ones generated through the Auto Prompt Tuning command in Graph RAG?,0,Tie,0,1
+- How does Graph RAG's performance compare to Baseline RAG in managing intricate data and reasoning about private datasets?,1,1,1,1
+- What is the role of GPT-4 Turbo in generating knowledge graphs from text data in Graph RAG?,0,1,0,0
+- How does the Microsoft Research Blog Post provide information about Graph RAG and its applications?,1,1,1,1
+- What resources are available in the GitHub Repository for developers who want to access and contribute to the Graph RAG project?,0,0,0,0
+- What research papers and documentation related to Graph RAG can be found in the GraphRAG Arxiv repository?,1,1,1,1
+- How does the Solution Accelerator package provide a user-friendly end-to-end experience with Azure resources for quickstarting the Graph RAG system?,Tie,Tie,0,Tie
+- What is the purpose of the Get Started Guide in familiarizing users with the features and functionalities of Graph RAG?,0,0,0,Tie
+- How does the Query package facilitate user interaction with indexed data and conducting searches within the knowledge graph in Graph RAG?,0,0,0,0
+- What is the role of the Solution Accelerator package in enhancing the user experience by providing advanced RAG capabilities in Graph RAG?,1,1,1,1
+"- How does Graph RAG outshine Baseline RAG in question-and-answer efficiency and reasoning skills, especially in connecting disjointed information fragments?",0,0,0,0
+- What is the significance of the Leiden technique in hierarchical clustering of the graph for Graph RAG's visualization and analysis of entities and their communities?,1,1,1,1
+"- How does Graph RAG slice up the input corpus into TextUnits, and what is the role of these TextUnits in the process of entity and relationship extraction?",1,Tie,1,1
+- How does Graph RAG utilize the LLM-generated knowledge graph to organize data into semantic clusters and summarize themes for responding to user queries?,1,1,1,1
+- What are the steps involved in the Graph RAG process for extracting a knowledge graph from raw text and building a community hierarchy?,1,0,1,1
+- How does Graph RAG's global search method use community summaries to provide materials for the LLM context window when answering a question?,Tie,1,1,Tie
+- What is the importance of fine-tuning prompts in Graph RAG for achieving the best possible results with specific data sets?,0,0,0,Tie
+- How does the init command in Graph RAG create necessary configuration files and default prompts for initializing the workspace?,0,0,0,1
+- What are the options available when using the python -m graphrag.index command for initializing the directory with the necessary configuration files?,1,1,1,1
+"- What are the files created by the init command in the specified directory, and what is their significance in the Graph RAG system?",0,0,0,0
+- How does the Prompt Tuning command in Graph RAG adapt prompts to specific data for better results in executing an Index Run?,0,0,0,0
+"- What are the prerequisites for running the automatic template generation in Graph RAG, and what is the significance of this process?",0,Tie,0,1
+"- How does the question generation function in Graph RAG work, and what is the methodology for generating the next set of candidate questions?",0,0,0,0
+"- What are the limitations of the current evaluation approach for Graph RAG, and what future work is suggested to address these limitations?",1,1,1,1
+"- How does the trade-off of building a graph index in Graph RAG depend on factors such as compute budget, expected number of lifetime queries, and value obtained from other aspects of the graph index?",Tie,0,0,Tie
+"- What are the possibilities for refinement and adaptation of the graph index, rich text annotations, and hierarchical community structure in Graph RAG?",0,0,0,0
+"- How does the use of graphs in connection with LLMs and RAG contribute to knowledge graph creation, completion, and extraction of causal graphs from source texts?",Tie,0,0,Tie
+"- What are the directions already established in the use of graphs with LLMs and RAG, and how do they relate to advanced RAG approaches where the index is a knowledge graph?",0,0,0,0
+- How does Graph RAG lead to substantial improvements over a naive RAG baseline for both the comprehensiveness and diversity of generated answers for a class of global sensemaking questions?,1,1,1,1
+- What is the role of community summaries in the graph-based index used for answering global queries in Graph RAG?,0,0,0,1
+"- How are community summaries generated for leaf-level and higher-level communities in Graph RAG, and what is their significance in the process of answering global queries?",Tie,Tie,Tie,Tie
+- How does the global search method in Graph RAG use community summaries to summarize themes when responding to a user query?,1,1,1,1
+"- What are the scalability advantages of Graph RAG compared to source text summarization, and how does it offer a highly efficient method for iterative question answering?",Tie,Tie,Tie,Tie
+"- How does Graph RAG's performance compare to other global methods in terms of comprehensiveness and diversity, and what is the significance of these metrics in the context of answering global queries?",1,1,0,0

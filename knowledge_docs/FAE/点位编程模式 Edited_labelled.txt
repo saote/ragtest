@@ -1,0 +1,119 @@
+点位编程模式 Edited
+功能简介
+字典说明
+| 参数名称             | 字典名称                            | 主索引 | 子索引 | 数据类型  | 参数范围                 | 读写权限 | 单位                              | 字典指令值含义                                                                                                                                                                                                                                                                                                                                                               |
+| -------------------- | ----------------------------------- | ------ | ------ | --------- | ------------------------ | -------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 运行模式指令         | Operation Mode Command              | 0x6060 | 0x00   | INTEGER8  | -                        | RW       | -                                 | 0x01：位置模式 0x03：速度模式 0x04：力矩模式 0x06：回零模式 0x0B：力控模式 0x3C：往复运动模式 0x16：模拟量控速度模式 0x17：模拟量控力矩模式 0x1F：脉冲控位置模式 0x3D：参考信号模式 0x2A：PWM 控速模式 0x3E：多段运行模式 0xFF：电气辨识 0xFE：方向辨识 0xFC：极对数辨识 0xFB：Z 相辨识 0xFD：霍尔辨识 0xFA：电角度辨识 0xF9：机械辨识 0xF7：机械特性辨识 0xF8：转矩脉动辨识 |
+| 当前运行模式         | Operation Mode Actual               | 0x6061 | 0x00   | INTEGER8  | -                        | RO       | -                                 | 0x01：位置模式 0x03：速度模式 0x04：力矩模式 0x06：回零模式 0x0B：力控模式 0x3C：往复运动模式 0x16：模拟量控速度模式 0x17：模拟量控力矩模式 0x1F：脉冲控位置模式 0x3D：参考信号模式 0x2A：PWM 控速模式 0x3E：多段运行模式 0xFF：电气辨识 0xFE：方向辨识 0xFC：极对数辨识 0xFB：Z 相辨识 0xFD：霍尔辨识 0xFA：电角度辨识 0xF9：机械辨识 0xF7：机械特性辨识 0xF8：转矩脉动辨识 |
+| 位置模式选项码       | Positioning Option Code             | 0x60F2 | 0x00   | UNS16     | -                        | RW       | -                                 | 0：相对位置目标值。1：相对位置规划置。2：相对位置当前值默认为相对位置当前值。                                                                                                                                                                                                                                                                                                |
+| 控制字               | DS402 Controlword                   | 0x6040 | 0x00   | UNS16     | -                        | RW       | -                                 |                                                                                                                                                                                                                                                                                                                                                                              |
+| 状态字               | DS402 Statusword                    | 0x6041 | 0x00   | UNS16     | -                        | RW       | -                                 |                                                                                                                                                                                                                                                                                                                                                                              |
+| 应用速度限制         | Application Speed Limit             | 0x607F | 0x00   | UNS32     | 0 ~ 4294967295           | RW       | VelUU（单位转换，用户单位）       |                                                                                                                                                                                                                                                                                                                                                                              |
+| 目标轮廓速度         | Profile Velocity                    | 0x6081 | 0x00   | UNS32     | 0 ~ 4294967295           | RW       | VelUU（速度单位转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 轮廓加速度           | Profile Acceleration                | 0x6083 | 0x00   | UNS32     | 0 ~ 4294967295           | RW       | AccUU（加速度单位转换，用户单位） |                                                                                                                                                                                                                                                                                                                                                                              |
+| 轮廓减速度           | Profile Deceleration                | 0x6084 | 0x00   | UNS32     | 0 ~ 4294967295           | RW       | AccUU（加速度单位转换，用户单位） |                                                                                                                                                                                                                                                                                                                                                                              |
+| 应用加速度限制       | Application Acceleration Limit      | 0x60C5 | 0x00   | UNS32     | 0 ~ 4294967295           | RW       | AccUU（加速度单位转换，用户单位） |                                                                                                                                                                                                                                                                                                                                                                              |
+| 应用减速度限制       | Application Deceleration Limit      | 0x60C6 | 0x00   | UNS32     | 0 ~ 4294967295           | RW       | AccUU（加速度单位转换，用户单位） |                                                                                                                                                                                                                                                                                                                                                                              |
+| 位置目标值           | Position Target Value               | 0x607A | 0x00   | INTEGER32 | -2147483648 ~ 2147483647 | RW       | PosCU（位置坐标转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 位置指令值           | Position Demand Value               | 0x6062 | 0x00   | INTEGER32 | -2147483648 ~ 2147483647 | RO       | PosCU（位置坐标转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 平滑滤波类型         | Motion Profile Type                 | 0x6086 | 0x00   | INTEGER16 | -32768~32767             | RW       | -                                 | 0：无滤波。1：TD 滤波。2：滑动均值滤波                                                                                                                                                                                                                                                                                                                                       |
+| 平滑系数             | Smoothing Factor                    | 0x3534 | 0x00   | UNS32     | 0 ~ 4294967295           | RW       | -                                 |                                                                                                                                                                                                                                                                                                                                                                              |
+| 平滑系数单位指数     | Smoothing Factor Index              | 0x364B | 0x00   | INTEGER8  | -3~3                     | RW       | -                                 | TD 滤波时，平滑系数指数范围-3~3；滑动均值滤波时，平滑系数指数为-1。                                                                                                                                                                                                                                                                                                          |
+| 位置到达检测窗口     | Position Target Reached Window      | 0x6067 | 0x00   | UNS32     | 0 ~ 4294967295           | RW       | PosUU（位置单位转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 位置到达检测窗口时间 | Position Target Reached Window Time | 0x6068 | 0x00   | UNS16     | 0~65535                  | RW       | ms                                |                                                                                                                                                                                                                                                                                                                                                                              |
+| 电机端位置当前值     | Motor Position Actual Value         | 0x3572 | 0x00   | INTEGER32 | -2147483648 ~ 2147483647 | RO       | PosCU（位置坐标转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 负载端位置当前值     | Load Position Actual Value          | 0x6064 | 0x00   | INTEGER32 | -2147483648 ~ 2147483647 | RO       | PosCU（位置坐标转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 电机端位置误差       | Motor Position Error Value          | 0x3573 | 0x00   | INTEGER32 | -2147483648 ~ 2147483647 | RO       | PosCU（位置坐标转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 负载端位置误差       | Load Position Error Value           | 0x60F4 | 0x00   | INTEGER32 | -2147483648 ~ 2147483647 | RO       | PosCU（位置坐标转换，用户单位）   |                                                                                                                                                                                                                                                                                                                                                                              |
+| 电机运行状态         | Motor Operation Status              | 0x3005 | 0x00   | UNS8      | 0~255                    | RO       | -                                 | 0：电机失能 1：电机使能                                                                                                                                                                                                                                                                                                                                                      |
+| 点位编程停留时间     | Point Program Dwell Time            | 0x3623 | 0x00   | UNS32     | 0-4294967295             | RW       | ms                                |                                                                                                                                                                                                                                                                                                                                                                              |
+| 缓存往复开关         | Buff Repetitive Enable              | 0x3546 | 0x00   | UNS8      | 0~1                      | RW       | -                                 | 0：关闭 1：打开                                                                                                                                                                                                                                                                                                                                                              |
+| 目标位置缓存         | Target Position Buff                | 0x3547 | 0x00   | INTEGER32 | -2147483648 ~ 2147483647 | RW       | -                                 |                                                                                                                                                                                                                                                                                                                                                                              |
+| 目标位置缓存个数     | Target Position Buff Size           | 0x3548 | 0x00   | UNS32     | 1~129                    | RW       | -                                 |                                                                                                                                                                                                                                                                                                                                                                              |
+状态字解析
+通用定义（各个模式都通用）：
+| bit15 | bit14 | bit13 | bit12 | bit11 | bit10 | bit9 | bit8 | bit7 | bit6 | bit5 | bit4 | bit3 | bit2 | bit1 | bit0 |
+| ----- | ----- | ----- | ----- | ----- | ----- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| 0     | 0     | 0     | 0     | 0     | 0     | 1    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    |
+| ms    | ms    | oms   | oms   | ila   | tr    | rm   | ms   | w    | sod  | qs   | ve   | f    | oe   | so   | rtso |
+ms = manufacturer-specific（厂家自定义）
+oms = operation mode specific（模式定义）
+ila = internal limit active（如果 bit11 置 1，则表明触发内部位置限制）
+tr = target reached（如果 bit10 置 1，则表明目标到达）
+rm = remote （远程控制。如果 bit9 置 1，则表示 CANopen 远程控制模式）
+w = warning（如果 bit7 置 1，则表明警告）
+sod = switch on disabled（如果 bit6 置 1，则表明伺服未接通 PWM）
+qs = quick stop（如果 bit5 置 0，则表明急停）
+ve = voltage enabled（如果 bit4 置 1，则表明驱动器已接通电源）
+f = fault（如果 bit3 置 1，则表明处于错误状态）
+oe = operation enabled（如果 bit2 置 1，则表明伺服运行）
+so = switched on（如果 bit1 置 1，则表明伺服已接通 PWM）
+rtso = ready to switch on（如果 bit0 置 1，则表明伺服未准备好）
+状态字 bit0-bit3，bit5，bit6 定义
+| Value(binary)指令值 | State状态      |
+| --------------------------- | ---------------------- |
+| xxxx xxxx x0xx 0000         | Not ready to switch on |
+| xxxx xxxx x1xx 0000         | Switch on disabled     |
+| xxxx xxxx x01x 0001         | Ready to switch on     |
+| xxxx xxxx x01x 0011         | Switched on            |
+| xxxx xxxx x01x 0111         | Operation enabled      |
+| xxxx xxxx x00x 0111         | Quick stop active      |
+| xxxx xxxx x0xx 1111         | Fault reaction active  |
+| xxxx xxxx x0xx 1000         | Fault                  |
+状态字 Bit10、Bit12、Bit13 定义：
+| Bit | Value | Definition含义                                                                              |
+| ------- | --------- | --------------------------------------------------------------------------------------------------- |
+| 10      | 0         | Halt (Bit 8 in controlword) = 0: Target position not reached 控制字 bit8 = 0 时，表示目标位置未到达 |
+|         |           | Halt (Bit 8 in controlword) = 1: Axis decelerates 控制字 bit8 = 1 时，表示轴减速中                  |
+|         | 1         | Halt (Bit 8 in controlword) = 0: Target position reached 控制字 bit8 = 0 时，表示目标位置已到达     |
+|         |           | Halt (Bit 8 in controlword) = 1: Velocity of axis is 0 控制字 bit8 = 1 时，表示轴速度为 0           |
+| 12      | 0         | Previous setpoint already processed, waiting for new setpoint                                       |
+|         | 1         | Previous setpoint still in process, setpoint overwriting shall be accepted                          |
+| 13      | 0         | No following error                                                                                  |
+|         | 1         | Following error                                                                                     |
+模式下控制字使用
+模式动作对应的控制字：
+| 动作    | 驱动器状态                         | 对应控制字 |
+| ----------- | -------------------------------------- | -------------- |
+| 失能        | Switch on disabled->Ready to switch on | 0x06           |
+| 失能-> 使能 | Switch on disabled->Operation  enabled | 0x0F           |
+|             | Ready to switch on->Operation  enabled |                |
+| 使能-> 启动 | Operation enabled->Operation enabled   | 绝对位置：0x3F |
+|             |                                        | 相对位置：0x7F |
+| 使能-> 暂停 | Operation enabled->Operation enabled   | 0x010F         |
+| 使能-> 失能 | Operation enabled->Ready to switch on  | 0x06           |
+|             | Operation enabled->Switch on disabled  | 0x05           |
+| 暂停-> 继续 | Operation enabled->Operation enabled   | 绝对位置：0x3F |
+|             |                                        | 相对位置：0x7F |
+| 暂停-> 失能 | Operation enabled->Ready to switch on  | 0x06           |
+|             | Operation enabled->Switch on disabled  | 0x05           |
+| 故障-> 失能 | Fault->Switch on diabled               | 0x86           |
+模式设置流程
+
+以上媒体的描述: 这是一张流程图，描述了一个系统的操作流程。流程图中包含多个步骤和决策点，具体内容如下：
+
+检测驱动器当前状态
+查询状态字 (0x6041-0x00)
+决策点：Ready to switch on?
+如果否，发送控制字节 0x06 (0x6040-0x00 = 0x06)
+如果是，继续下一步
+使能电机
+发送控制字节使能 (0x6040-0x00 = 0x0F)
+查询电机状态 (0x3005-0x00)
+决策点：电机是否已经使能
+如果否，返回使能电机步骤
+如果是，继续下一步
+决策点：绝对位置或相对位置
+如果是相对位置，发送控制字节相对 (0x6040-0x00 = 0x7F)
+如果是绝对位置，发送控制字节绝对 (0x6040-0x00 = 0x3F)
+决策点：运行过程中是否有错？
+如果是，读取控制字
+将控制字第8位清0并发送 (0x6040-0x00 = 0x0F)
+读取控制字
+取消使能停
+
+
+如果否，继续运行
+发送新的目标位置
+
+这个流程图主要描述了一个电机控制系统的操作步骤，包括状态检测、使能电机、位置控制和错误处理等。

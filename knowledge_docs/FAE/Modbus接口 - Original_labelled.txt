@@ -1,0 +1,123 @@
+Modbus 接口 - Original
+Flex-Modbus（UF-48VxxAMDN）
+J1 & J2-Modbus
+接口定义
+
+以上媒体的描述: 图片中有两个插头的示意图。左边的是一个网络插头（RJ45插头），右边的是一个网络插座（RJ45插座）。每个插头和插座上都有一个箭头指向一个特定的引脚位置，并标注为“1pin位置”。
+
+以上媒体的描述: 图片中有两个以太网端口。左边的端口标记为“J1: Modbus In”，右边的端口标记为“J2: Modbus Out”。这些端口通常用于Modbus通信协议，左边的端口用于输入，右边的端口用于输出。
+Modbus 主站线性拓扑结构
+J3-终端电阻的使用
+UF2-G48xxNDD-x General 常规型（CANopen or Modbus）
+J1 & J2-CANopen / Modbus
+接口定义
+
+以上媒体的描述: 图片中是一个连接器插座，标注了“Pin1”引脚的位置。这个插座有多个引脚，用于电气连接。
+
+以上媒体的描述: 图片显示了一个电路板的部分，其中有两个标记的连接器。左边的连接器标记为“J1: CANopen / Modbus In”，右边的连接器标记为“J2: CANopen / Modbus Out”。这些连接器用于CANopen或Modbus通信协议的输入和输出。
+CANopen 主站线性拓扑结构
+Modbus 主站线性拓扑结构
+J7 & J3-终端电阻的使用
+DS1-G48xxM-x  General 常规型（CANopen or Modbus）
+J1 & J2-CANopen / Modbus
+接口定义
+
+以上媒体的描述: 图片中显示的是一个电子连接器的插座，通常用于电路板或设备之间的连接。插座上方标有“Pin1”，指示第一个引脚的位置。插座内部有多个金属引脚，用于电气连接。
+
+以上媒体的描述: 图片中显示了一个电路板的一部分，上面有两个标记为J1和J2的接口。J1接口标注为“CANopen / Modbus In”，表示这是一个用于CANopen或Modbus协议的输入接口。J2接口标注为“CANopen / Modbus Out”，表示这是一个用于CANopen或Modbus协议的输出接口。
+CANopen 主站线性拓扑结构
+Modbus 主站线性拓扑结构
+J7 & J3-终端电阻的使用
+DS1-G48xxN-x  General 常规型（CANopen or Modbus）
+J1 & J2-CANopen / Modbus
+接口定义
+
+以上媒体的描述: 图片中有两个插头的示意图。左边的是一个网络插头（RJ45插头），右边的是一个网络插座（RJ45插座）。每个插头和插座上都有一个箭头指向一个特定的引脚位置，并标注为“1pin位置”。
+
+以上媒体的描述: 图片中显示的是一个电路板的一部分，包含两个以太网端口和一个小型连接器。两个以太网端口分别标记为“J1: CANopen / Modbus In”和“J2: CANopen / Modbus Out”，表示它们用于CANopen或Modbus通信协议的输入和输出。
+CANopen 主站线性拓扑结构
+Modbus 主站线性拓扑结构
+J7 & J3-终端电阻的使用
+DG1-G48xxx-x General 常规型（CANopen or Modbus or Pulse）
+J2 & J6-CANopen / Modbus
+接口定义
+
+以上媒体的描述: 图片中是一个连接器的插座，通常用于电子设备中。插座上方标有“Pin1”，指示第一个引脚的位置。插座内部有多个金属引脚，用于与相应的插头连接。
+
+以上媒体的描述: 图片显示了一块电路板的局部，标注了两个接口：
+
+J6: CANopen / Modbus Out
+J2: CANopen / Modbus In
+
+这些接口用于CANopen和Modbus通信协议的输入和输出。
+CANopen 主站线性拓扑结构
+Modbus 主站线性拓扑结构
+J1 & J5-终端电阻的使用
+DG2-G48xxNDD-x General 常规型（CANopen or Modbus）
+J1 & J2-CANopen / Modbus
+接口定义
+
+以上媒体的描述: 图片中是一个电子连接器的插座，标注了“Pin1”以指示第一个引脚的位置。这个插座有多个引脚，用于电气连接。
+
+以上媒体的描述: 图片中显示了一块电路板，上面有两个接口。左边的接口标记为“J1: CANopen / Modbus In”，右边的接口标记为“J2: CANopen / Modbus Out”。这些接口用于CANopen和Modbus通信协议的输入和输出。
+CANopen 主站线性拓扑结构
+Modbus 主站线性拓扑结构
+J7 & J3-终端电阻的使用
+DG2-G48xxxDA-x General 常规型（CANopen or Modbus or Pulse）
+J2 & J6-CANopen / Modbus
+接口定义
+
+以上媒体的描述: 图片中是一个电子连接器的插座，标注了“Pin1”以指示第一个引脚的位置。这个插座有多个引脚，用于电气连接。
+
+以上媒体的描述: 图片中显示了一块电路板的部分，标注了两个接口。左边的接口标记为“J6: CANopen / Modbus Out”，右边的接口标记为“J2: CANopen / Modbus In”。这些接口用于CANopen和Modbus通信协议的输入和输出。
+CANopen 主站线性拓扑结构
+Modbus 主站线性拓扑结构
+J1 & J5-终端电阻的使用
+DP2-G48xxNDD-x General 常规型（CANopen or Modbus）
+J1 & J2-CANopen / Modbus
+接口定义
+
+以上媒体的描述: 图片中显示的是一个电子连接器的插座，通常用于电路板上的连接。插座上方标有“Pin1”，指示第一个引脚的位置。这个插座有多个引脚，用于电气连接。
+
+以上媒体的描述: 图片中显示了一块电路板，上面有两个接口。左边的接口标记为“J1: CANopen / Modbus In”，右边的接口标记为“J2: CANopen / Modbus Out”。这些接口用于CANopen和Modbus通信协议的输入和输出。
+CANopen 主站线性拓扑结构
+Modbus 主站线性拓扑结构
+J7 & J3-终端电阻的使用
+DN1-G60xxN  General 常规型(CANopen & Modbus & Pulse)
+J5 & J10-CANopen / Modbus
+接口定义
+
+以上媒体的描述: 这张图片显示了一个6针的连接器插座。插座的每个针脚都用数字标记，从1到6。插座的右侧有一个黑色的三角形箭头，可能用于指示方向或连接器的正确插入方式。
+
+以上媒体的描述: 图片中显示了一个电路板的一部分，标注了两个连接器。左边的连接器标注为“J10: CANopen / Modbus Out”，右边的连接器标注为“J5: CANopen / Modbus In”。这些连接器用于CANopen和Modbus通信协议的输入和输出。
+CANopen 主站线性拓扑结构
+Modbus 主站线性拓扑结构
+SW1 & SW2-终端电阻的使用
+DM1-G60xxW 双轴 General 常规型（CANopen & Modbus & Pulse）
+J5 & J10-CANopen / Modbus
+接口定义
+
+以上媒体的描述: 这张图片显示了一个6针的连接器插座，每个针脚都标有数字，从1到6。这个插座通常用于电子设备的连接。
+
+以上媒体的描述: 图片中显示了两个接口，分别标记为 "J5: CANopen / Modbus In" 和 "J10: CANopen / Modbus Out"。这些接口用于CANopen和Modbus通信协议，其中J5用于输入，J10用于输出。旁边还有两个指示灯，分别标记为 "RUN" 和 "ERR"。
+接线示例
+CANopen 主站线性拓扑结构
+Modbus 主站线性拓扑结构
+SW1 & SW2-终端电阻的使用
+DM1-G60xxQ 四轴 General 常规型（CANopen & Modbus & Pulse）
+J5 & J10-CANopen / Modbus
+接口定义
+
+以上媒体的描述: 这张图片显示了一个6针的连接器插座，每个针脚都用数字标记了，从1到6。这个插座通常用于电子设备的连接。
+
+以上媒体的描述: 图片中显示了两个接口，分别标记为 "J5: CANopen / Modbus In" 和 "J10: CANopen / Modbus Out"。这些接口用于CANopen和Modbus通信协议，其中J5用于输入，J10用于输出。
+接线示例
+CANopen 主站线性拓扑结构
+Modbus 主站线性拓扑结构
+SW1 & SW2-终端电阻的使用
+Dservo-脉冲型
+J1 & J2-Modbus
+接口定义
+
+以上媒体的描述: 图片中有两个插头的示意图。左边的是一个网络插头（RJ45插头），右边的是一个网络插座（RJ45插座）。每个插头和插座上都有一个箭头指向一个特定的引脚位置，并标注为“1pin位置”。
+Modbus 主站线性拓扑结构

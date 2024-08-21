@@ -1,0 +1,4 @@
+source,target,weight,description,text_unit_ids,id,human_readable_id,source_degree,target_degree,rank
+LI MING,ZHANG LI,1.0,Li Ming and Zhang Li are friends living in Clear Water Bay,['7c8dc1a40d072f7c374c43daf145cdc9'],3671ea0dd4e84c1a9b02c5ab2c8f4bac,0,2,2,4
+LI MING,WANG HAO,1.0,Li Ming and Wang Hao are friends living in Clear Water Bay,['7c8dc1a40d072f7c374c43daf145cdc9'],19a7f254a5d64566ab5cc15472df02de,1,2,2,4
+ZHANG LI,WANG HAO,1.0,Zhang Li and Wang Hao are friends living in Clear Water Bay,['7c8dc1a40d072f7c374c43daf145cdc9'],e7ffaee9d31d4d3c96e04f911d0a8f9e,2,2,2,4

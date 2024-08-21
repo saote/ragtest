@@ -1,0 +1,51 @@
+Question,Comprehensiveness,Diversity,Empowerment,Directness
+What are the basic assumptions of simple linear regression?,1,Tie,1,1
+How can you determine the fit of a linear model through residual plots?,1,1,1,1
+Why is it important to consider multicollinearity in multiple regression analysis?,0,0,0,1
+"What role does logarithmic transformation play in data analysis, and how does it affect model interpretation?",0,0,0,0
+What are the differences between the least squares method and maximum likelihood estimation?,1,1,1,1
+Describe the hat matrix and its role in influence analysis.,Tie,Tie,Tie,Tie
+What role do categorical predictors play in a model?,1,1,1,1
+How would you explain the difference between polynomial regression and simple linear regression?,Tie,Tie,Tie,Tie
+When should a Generalized Linear Model (GLM) be used instead of a standard linear model?,1,1,1,1
+What is the fundamental principle of least squares estimation?,1,1,1,1
+What are the differences between confidence intervals and prediction intervals?,1,Tie,1,1
+How do you test for non-linear relationships in statistical models?,1,1,1,1
+"What are influence points, and how do they affect the robustness of a statistical model?",1,1,1,1
+Briefly describe serial correlation errors and their impact on the model.,0,0,0,1
+"What is heteroscedasticity, and how does it affect regression analysis?",0,0,0,1
+When and how should interactions be used in regression models?,Tie,1,1,0
+Why perform a logarithmic transformation on data rather than other types of transformations?,Tie,Tie,1,1
+How is ANOVA used to test for differences among groups in a model?,0,Tie,0,1
+How does sequential ANOVA differ from traditional ANOVA?,0,Tie,0,0
+What are the criteria for AIC and BIC in model selection?,0,0,0,0
+How would you explain the advantages of generalized least squares estimators?,0,0,0,1
+Describe how the T-statistic is used to assess the significance of individual predictors.,0,0,0,0
+Under what circumstances would weighted regression analysis be chosen?,1,1,1,1
+What lessons can be learned about statistical analysis from Anscombe's quartet?,1,1,1,1
+Describe the basic structure and application of linear models.,0,0,0,0
+"What are nested linear models, and how are they applied in data analysis?",0,0,0,0
+What are some common methods used in model diagnostics?,0,0,0,1
+Describe the maximum likelihood estimation of a parameter vector in linear models.,0,0,0,0
+"What are residuals, and what role do they play in model assessment?",Tie,Tie,0,Tie
+What strategies are effective in handling outliers in statistical models?,Tie,1,0,Tie
+Describe the main differences between GLM and traditional linear models.,0,0,0,0
+When should polynomial regression be used in regression analysis?,0,0,0,1
+"What are the main criteria for model selection, and how do they influence decisions?",0,0,0,0
+How do you test the assumptions of a statistical model?,0,0,0,0
+Describe how to assess and improve the predictive power of a model.,Tie,Tie,0,Tie
+Summarize the strategies and best practices in statistical modeling.,1,1,1,1
+Describe a method for assessing the importance of model variables.,1,1,1,1
+How can you determine if a statistical model is overfitting the data?,Tie,1,1,1
+Describe the use of the F-statistic in model comparison.,0,Tie,0,1
+How would you implement simple linear regression in R?,1,Tie,1,1
+Describe how including brand as a predictor variable in a model can be executed and its effects.,0,Tie,0,0
+"What are good practices in statistical modeling, and how can they be implemented?",0,0,0,0
+Explain the significance of using Anscombe's quartet in statistical modeling.,1,1,1,1
+How can the quality of a model be evaluated?,Tie,Tie,1,Tie
+Describe the different applications of non-linear models versus linear models in data analysis.,1,1,1,1
+What is hypothesis testing in generalized linear models?,0,0,0,1
+Describe the application and advantages of maximum likelihood estimation in models.,Tie,Tie,Tie,Tie
+Explain the importance of model selection and variable selection in building statistical models.,Tie,0,0,Tie
+Describe how to use statistical methods to evaluate and improve predictive models.,0,0,0,0
+How can you understand and apply summary statistics of a model?,0,0,0,0

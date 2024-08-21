@@ -1,0 +1,202 @@
+Query Engine 🔎
+The Query Engine is the retrieval module of the Graph RAG Library. It is one of the two main components of the Graph RAG library, the other being the Indexing Pipeline (see Indexing Pipeline). It is responsible for the following tasks:
+
+Local Search
+Global Search
+Question Generation
+Local Search
+Local search method generates answers by combining relevant data from the AI-extracted knowledge-graph with text chunks of the raw documents. This method is suitable for questions that require an understanding of specific entities mentioned in the documents (e.g. What are the healing properties of chamomile?).
+
+For more details about how Local Search works please refer to the Local Search documentation.
+
+Global Search
+Global search method generates answers by searching over all AI-generated community reports in a map-reduce fashion. This is a resource-intensive method, but often gives good responses for questions that require an understanding of the dataset as a whole (e.g. What are the most significant values of the herbs mentioned in this notebook?).
+
+More about this can be checked at the Global Search documentation.
+
+Question Generation
+This functionality takes a list of user queries and generates the next candidate questions. This is useful for generating follow-up questions in a conversation or for generating a list of questions for the investigator to dive deeper into the dataset.
+
+Information about how question generation works can be found at the Question Generation documentation page.
+
+Local Search 🔎
+Entity-based Reasoning
+The local search method combines structured data from the knowledge graph with unstructured data from the input documents to augment the LLM context with relevant entity information at query time. It is well-suited for answering questions that require an understanding of specific entities mentioned in the input documents (e.g., “What are the healing properties of chamomile?”).
+
+Methodology
+Entity
+Description
+Embedding
+Entity-Text
+Unit Mapping
+Ranking +
+Filtering
+Entity-Report
+Mapping
+Ranking +
+Filtering
+Entity-Entity
+Relationships
+Ranking +
+Filtering
+Entity-Entity
+Relationships
+Ranking +
+Filtering
+Entity-Covariate
+Mappings
+Ranking +
+Filtering
+User Query
+.1
+Conversation
+History
+Extracted Entities
+.2
+Candidate
+Text Units
+Prioritized
+Text Units
+.3
+Candidate
+Community Reports
+Prioritized
+Community Reports
+Candidate
+Entities
+Prioritized
+Entities
+Candidate
+Relationships
+Prioritized
+Relationships
+Candidate
+Covariates
+Prioritized
+Covariates
+Conversation History
+Response
+Local Search Dataflow
+Given a user query and, optionally, the conversation history, the local search method identifies a set of entities from the knowledge graph that are semantically-related to the user input. These entities serve as access points into the knowledge graph, enabling the extraction of further relevant details such as connected entities, relationships, entity covariates, and community reports. Additionally, it also extracts relevant text chunks from the raw input documents that are associated with the identified entities. These candidate data sources are then prioritized and filtered to fit within a single context window of pre-defined size, which is used to generate a response to the user query.
+
+Configuration
+Below are the key parameters of the LocalSearch class:
+
+llm: OpenAI model object to be used for response generation
+context_builder: context builder object to be used for preparing context data from collections of knowledge model objects
+system_prompt: prompt template used to generate the search response. Default template can be found at system_prompt
+response_type: free-form text describing the desired response type and format (e.g., Multiple Paragraphs, Multi-Page Report)
+llm_params: a dictionary of additional parameters (e.g., temperature, max_tokens) to be passed to the LLM call
+context_builder_params: a dictionary of additional parameters to be passed to the context_builder object when building context for the search prompt
+callbacks: optional callback functions, can be used to provide custom event handlers for LLM's completion streaming events
+How to Use
+An example of a local search scenario can be found in the following notebook.
+
+Question Generation ❔
+Entity-based Question Generation
+The question generation method combines structured data from the knowledge graph with unstructured data from the input documents to generate candidate questions related to specific entities.
+
+Methodology
+Given a list of prior user questions, the question generation method uses the same context-building approach employed in local search to extract and prioritize relevant structured and unstructured data, including entities, relationships, covariates, community reports and raw text chunks. These data records are then fitted into a single LLM prompt to generate candidate follow-up questions that represent the most important or urgent information content or themes in the data.
+
+Configuration
+Below are the key parameters of the Question Generation class:
+
+llm: OpenAI model object to be used for response generation
+context_builder: context builder object to be used for preparing context data from collections of knowledge model objects, using the same context builder class as in local search
+system_prompt: prompt template used to generate candidate questions. Default template can be found at system_prompt
+llm_params: a dictionary of additional parameters (e.g., temperature, max_tokens) to be passed to the LLM call
+context_builder_params: a dictionary of additional parameters to be passed to the context_builder object when building context for the question generation prompt
+callbacks: optional callback functions, can be used to provide custom event handlers for LLM's completion streaming events
+How to Use
+An example of the question generation function can be found in the following notebook.
+
+Global Search 🔎
+Whole Dataset Reasoning
+Baseline RAG struggles with queries that require aggregation of information across the dataset to compose an answer. Queries such as “What are the top 5 themes in the data?” perform terribly because baseline RAG relies on a vector search of semantically similar text content within the dataset. There is nothing in the query to direct it to the correct information.
+
+However, with GraphRAG we can answer such questions, because the structure of the LLM-generated knowledge graph tells us about the structure (and thus themes) of the dataset as a whole. This allows the private dataset to be organized into meaningful semantic clusters that are pre-summarized. Using our global search method, the LLM uses these clusters to summarize these themes when responding to a user query.
+
+Methodology
+Ranking +
+Filtering
+Shuffled Community
+Report Batch 1
+Shuffled Community
+Report Batch 2
+Shuffled Community
+Report Batch N
+RIR
+{1..N}
+Rated Intermediate
+Response N
+Rated Intermediate
+Response 1
+Rated Intermediate
+Response 2
+User Query
+.1
+Conversation History
+.2
+Aggregated Intermediate
+Responses
+Response
+Global Search Dataflow
+Given a user query and, optionally, the conversation history, the global search method uses a collection of LLM-generated community reports from a specified level of the graph's community hierarchy as context data to generate response in a map-reduce manner. At the map step, community reports are segmented into text chunks of pre-defined size. Each text chunk is then used to produce an intermediate response containing a list of point, each of which is accompanied by a numerical rating indicating the importance of the point. At the reduce step, a filtered set of the most important points from the intermediate responses are aggregated and used as the context to generate the final response.
+
+The quality of the global search’s response can be heavily influenced by the level of the community hierarchy chosen for sourcing community reports. Lower hierarchy levels, with their detailed reports, tend to yield more thorough responses, but may also increase the time and LLM resources needed to generate the final response due to the volume of reports.
+
+Configuration
+Below are the key parameters of the GlobalSearch class:
+
+llm: OpenAI model object to be used for response generation
+context_builder: context builder object to be used for preparing context data from community reports
+map_system_prompt: prompt template used in the map stage. Default template can be found at map_system_prompt
+reduce_system_prompt: prompt template used in the reduce stage, default template can be found at reduce_system_prompt
+response_type: free-form text describing the desired response type and format (e.g., Multiple Paragraphs, Multi-Page Report)
+allow_general_knowledge: setting this to True will include additional instructions to the reduce_system_prompt to prompt the LLM to incorporate relevant real-world knowledge outside of the dataset. Note that this may increase hallucinations, but can be useful for certain scenarios. Default is False *general_knowledge_inclusion_prompt: instruction to add to the reduce_system_prompt if allow_general_knowledge is enabled. Default instruction can be found at general_knowledge_instruction
+max_data_tokens: token budget for the context data
+map_llm_params: a dictionary of additional parameters (e.g., temperature, max_tokens) to be passed to the LLM call at the map stage
+reduce_llm_params: a dictionary of additional parameters (e.g., temperature, max_tokens) to passed to the LLM call at the reduce stage
+context_builder_params: a dictionary of additional parameters to be passed to the context_builder object when building context window for the map stage.
+concurrent_coroutines: controls the degree of parallelism in the map stage.
+callbacks: optional callback functions, can be used to provide custom event handlers for LLM's completion streaming events
+How to Use
+An example of a global search scenario can be found in the following notebook.
+
+Query CLI
+The GraphRAG query CLI allows for no-code usage of the GraphRAG Query engine.
+
+python -m graphrag.query --data <path-to-data> --community_level <comunit-level> --response_type <response-type> --method <"local"|"global"> <query>
+
+CLI Arguments
+--data <path-to-data> - Folder containing the .parquet output files from running the Indexer.
+--community_level <community-level> - Community level in the Leiden community hierarchy from which we will load the community reports higher value means we use reports on smaller communities. Default: 2
+--response_type <response-type> - Free form text describing the response type and format, can be anything, e.g. Multiple Paragraphs, Single Paragraph, Single Sentence, List of 3-7 Points, Single Page, Multi-Page Report. Default: Multiple Paragraphs.
+--method <"local"|"global"> - Method to use to answer the query, one of local or global. For more information check Overview
+Env Variables
+Required environment variables to execute:
+
+GRAPHRAG_API_KEY - API Key for executing the model, will fallback to OPENAI_API_KEY if one is not provided.
+GRAPHRAG_LLM_MODEL - Model to use for Chat Completions.
+GRAPHRAG_EMBEDDING_MODEL - Model to use for Embeddings.
+You can further customize the execution by providing these environment variables:
+
+GRAPHRAG_LLM_API_BASE - The API Base URL. Default: None
+GRAPHRAG_LLM_TYPE - The LLM operation type. Either openai_chat or azure_openai_chat. Default: openai_chat
+GRAPHRAG_LLM_MAX_RETRIES - The maximum number of retries to attempt when a request fails. Default: 20
+GRAPHRAG_EMBEDDING_API_BASE - The API Base URL. Default: None
+GRAPHRAG_EMBEDDING_TYPE - The embedding client to use. Either openai_embedding or azure_openai_embedding. Default: openai_embedding
+GRAPHRAG_EMBEDDING_MAX_RETRIES - The maximum number of retries to attempt when a request fails. Default: 20
+GRAPHRAG_LOCAL_SEARCH_TEXT_UNIT_PROP - Proportion of context window dedicated to related text units. Default: 0.5
+GRAPHRAG_LOCAL_SEARCH_COMMUNITY_PROP - Proportion of context window dedicated to community reports. Default: 0.1
+GRAPHRAG_LOCAL_SEARCH_CONVERSATION_HISTORY_MAX_TURNS - Maximum number of turns to include in the conversation history. Default: 5
+GRAPHRAG_LOCAL_SEARCH_TOP_K_ENTITIES - Number of related entities to retrieve from the entity description embedding store. Default: 10
+GRAPHRAG_LOCAL_SEARCH_TOP_K_RELATIONSHIPS - Control the number of out-of-network relationships to pull into the context window. Default: 10
+GRAPHRAG_LOCAL_SEARCH_MAX_TOKENS - Change this based on the token limit you have on your model (if you are using a model with 8k limit, a good setting could be 5000). Default: 12000
+GRAPHRAG_LOCAL_SEARCH_LLM_MAX_TOKENS - Change this based on the token limit you have on your model (if you are using a model with 8k limit, a good setting could be 1000=1500). Default: 2000
+GRAPHRAG_GLOBAL_SEARCH_MAX_TOKENS - Change this based on the token limit you have on your model (if you are using a model with 8k limit, a good setting could be 5000). Default: 12000
+GRAPHRAG_GLOBAL_SEARCH_DATA_MAX_TOKENS - Change this based on the token limit you have on your model (if you are using a model with 8k limit, a good setting could be 5000). Default: 12000
+GRAPHRAG_GLOBAL_SEARCH_MAP_MAX_TOKENS - Default: 500
+GRAPHRAG_GLOBAL_SEARCH_REDUCE_MAX_TOKENS - Change this based on the token limit you have on your model (if you are using a model with 8k limit, a good setting could be 1000-1500). Default: 2000
+GRAPHRAG_GLOBAL_SEARCH_CONCURRENCY - Default: 32

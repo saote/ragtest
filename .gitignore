@@ -1,0 +1,5 @@
+test/lancedb/
+.idea/
+_pycache_/
+cache/
+lancedb/

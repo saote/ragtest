@@ -1,0 +1,50 @@
+What are the basic assumptions of simple linear regression?
+How can you determine the fit of a linear model through residual plots?
+Why is it important to consider multicollinearity in multiple regression analysis?
+What role does logarithmic transformation play in data analysis, and how does it affect model interpretation?
+What are the differences between the least squares method and maximum likelihood estimation?
+Describe the hat matrix and its role in influence analysis.
+What role do categorical predictors play in a model?
+How would you explain the difference between polynomial regression and simple linear regression?
+When should a Generalized Linear Model (GLM) be used instead of a standard linear model?
+What is the fundamental principle of least squares estimation?
+What are the differences between confidence intervals and prediction intervals?
+How do you test for non-linear relationships in statistical models?
+What are influence points, and how do they affect the robustness of a statistical model?
+Briefly describe serial correlation errors and their impact on the model.
+What is heteroscedasticity, and how does it affect regression analysis?
+When and how should interactions be used in regression models?
+Why perform a logarithmic transformation on data rather than other types of transformations?
+How is ANOVA used to test for differences among groups in a model?
+How does sequential ANOVA differ from traditional ANOVA?
+What are the criteria for AIC and BIC in model selection?
+How would you explain the advantages of generalized least squares estimators?
+Describe how the T-statistic is used to assess the significance of individual predictors.
+Under what circumstances would weighted regression analysis be chosen?
+What lessons can be learned about statistical analysis from Anscombe's quartet?
+Describe the basic structure and application of linear models.
+What are nested linear models, and how are they applied in data analysis?
+What are some common methods used in model diagnostics?
+Describe the maximum likelihood estimation of a parameter vector in linear models.
+What are residuals, and what role do they play in model assessment?
+What strategies are effective in handling outliers in statistical models?
+Describe the main differences between GLM and traditional linear models.
+When should polynomial regression be used in regression analysis?
+What are the main criteria for model selection, and how do they influence decisions?
+How do you test the assumptions of a statistical model?
+Describe how to assess and improve the predictive power of a model.
+Summarize the strategies and best practices in statistical modeling.
+Describe a method for assessing the importance of model variables.
+How can you determine if a statistical model is overfitting the data?
+Describe the use of the F-statistic in model comparison.
+How would you implement simple linear regression in R?
+Describe how including brand as a predictor variable in a model can be executed and its effects.
+What are good practices in statistical modeling, and how can they be implemented?
+Explain the significance of using Anscombe's quartet in statistical modeling.
+How can the quality of a model be evaluated?
+Describe the different applications of non-linear models versus linear models in data analysis.
+What is hypothesis testing in generalized linear models?
+Describe the application and advantages of maximum likelihood estimation in models.
+Explain the importance of model selection and variable selection in building statistical models.
+Describe how to use statistical methods to evaluate and improve predictive models.
+How can you understand and apply summary statistics of a model?

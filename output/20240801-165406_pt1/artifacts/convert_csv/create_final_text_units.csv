@@ -1,0 +1,7 @@
+id,text,n_tokens,document_ids,entity_ids,relationship_ids
+7c8dc1a40d072f7c374c43daf145cdc9,"In a quiet little town called Clear Water Bay, three distinctively different friends live: Li Ming, Zhang Li, and Wang Hao.
+Li Ming, a compassionate high school teacher at OneTwoThree Elementary, is known for his patience and understanding, often serving as a confidante for his friends' troubles.
+Zhang Li is a lively community event organizer, always brimming with energy; her enthusiasm and creativity often inspire those around her.
+Wang Hao is a reserved librarian, whose extensive knowledge and wisdom earn him great respect among his peers.",109,['a938e674ba37759194ac7a0980cc9d7b'],"['b45241d70f0e43fca764df95b2b81f77' '4119fd06010c494caa07f439b333f4c5'
+ 'd3835bf3dda84ead99deadbeac5d0d7d' '077d2820ae1845bcbb1803379a3d1eae']","['3671ea0dd4e84c1a9b02c5ab2c8f4bac' '19a7f254a5d64566ab5cc15472df02de'
+ 'e7ffaee9d31d4d3c96e04f911d0a8f9e']"
