@@ -1,5 +1,6 @@
 test/lancedb/
 .idea/
 __pycache__/
+__pycache__/
 cache/
 lancedb/
