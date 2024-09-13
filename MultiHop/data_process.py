@@ -1,6 +1,8 @@
 import csv
 import json
 import pandas as pd
+import os
+import glob
 
 
 def json_to_txt(input_file: str):
@@ -27,6 +29,41 @@ def json_to_txt(input_file: str):
             # text_file.write(f"URL: {url}\n")
             text_file.write(f"Body: {body}\n")
             text_file.write("\n" + "=" * 80 + "\n\n")  # 添加分隔线和空行
+
+
+
+def remove_all_txt_files_in_dir(input_dir: str):
+    txt_files = glob.glob(os.path.join(input_dir, "*.txt"))
+    for file in txt_files:
+        os.remove(file)
+
+
+def json_to_txt_files(input_file: str, output_dir: str):
+    remove_all_txt_files_in_dir(output_dir)
+    with open(input_file, 'r', encoding='utf-8') as json_file:
+        data = json.load(json_file)
+
+    for i, item in enumerate(data[:]):
+        title = item.get('title', 'No Title Provided')
+        author = item.get('author', 'Unknown author')
+        source = item.get('source', 'No Source Provided')
+        published_at = item.get('published_at', 'No Publish Date Provided').split('T')[0]
+        category = item.get('category', 'No Category Provided')
+        url = item.get('url', 'No URL Provided')
+        body = item.get('body', 'No Content Provided').replace('\n', ' ')
+
+        output_file = output_dir + str(i) + '.txt'
+        with open(output_file, 'w', encoding='utf-8') as text_file:
+            # 将提取的数据写入到文本文件中
+            text_file.write(f"Title: {title}\n")
+            text_file.write(f"Author: {author}\n")
+            text_file.write(f"Source: {source}\n")
+            text_file.write(f"Published At: {published_at}\n")
+            text_file.write(f"Category: {category}\n")
+            # text_file.write(f"URL: {url}\n")
+            text_file.write(f"Body: {body}\n")
+
+        print('save file ' + str(i))
 
 
 def count_num_evidences(input_file):
@@ -69,12 +106,23 @@ def extract_question_csv(question_file: str,  output_file: str) -> None:
             ])
 
 
+def get_entity_info_multihop(text: str, entity_name: str)->str:
+    entity_chunks = text.split('\n')
+    entity_content = ''
+    for lines in entity_chunks:
+        if lines.startswith(entity_name + ':'):
+            entity_content = lines[len(entity_name) + 2:]
+    return entity_content
+
+
 if __name__ == '__main__':
-    DATA_FILE = './corpus.json'
+    INPUT_FILE = './corpus.json'
+
+    OUTPUT_DIR = '../input/'
     QUESTION_FILE = './MultiHopRAG.json'
     OUTPUT_CSV_FILE = '../test_results/multi_hop/questions.csv'
-    # json_to_txt(DATA_FILE)
+    json_to_txt_files(INPUT_FILE, OUTPUT_DIR)
     # count = count_num_evidences(QUESTION_FILE)
 
-    extract_question_csv(QUESTION_FILE, OUTPUT_CSV_FILE)
+    # extract_question_csv(QUESTION_FILE, OUTPUT_CSV_FILE)
 

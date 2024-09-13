@@ -7,7 +7,7 @@ Next, report all relationships among the identified entities.
 1. Identify all entities. For each identified entity, extract the following information:
 - entity_name: Name of the entity, capitalized
 - entity_type: Suggest several labels or categories for the entity. The categories should not be specific, but should be as general as possible.
-- entity_description: Comprehensive description of the entity's attributes and activities
+- entity_description: Comprehensive description of the entity's attributes and activities. Include the details of source and time in "[]" at the end of each referred information.
 Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>
 
 2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other.

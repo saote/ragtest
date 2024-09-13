@@ -3,7 +3,7 @@ import csv
 import json
 import pandas as pd
 from graphrag.query.llm.oai.chat_openai import ChatOpenAI
-from utils import read_questions, create_empty_csv_file
+from utils import read_questions, create_empty_csv_file, save_answer_data
 import graphrag
 import time
 import re
@@ -38,37 +38,6 @@ def save_dict_to_file(data_dict, filename):
         json.dump(data_dict, file, ensure_ascii=False, indent=4)
 
 
-def save_answers(answers, questions, filename):
-    df = pd.DataFrame({
-        'Question': questions,
-        'RAG Answer': answers
-    })
-    df.to_csv(filename, index=False, encoding='utf-8')
-
-
-def save_answer_data(question:str, answer:str, filename:str):
-    new_data = [{
-        'Question': question,
-        'Graph RAG answer': answer
-    }]
-
-    with open(filename, mode='r', newline='') as file:
-        reader = csv.DictReader(file)
-        # 将旧数据读取到列表中
-        existing_data = list(reader)
-        # 获取字段名（列名）
-        fieldnames = reader.fieldnames
-
-    # 将新行添加到数据列表中
-    existing_data.extend(new_data)
-
-    # 将更新后的数据写回到 CSV 文件中
-    with open(filename, mode='w', newline='') as file:
-        writer = csv.DictWriter(file, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(existing_data)
-
-
 def clean_response(response: str) -> str:
     pattern = r'\[Data:.*?\]'
     return re.sub(pattern, '', response)
@@ -81,7 +50,6 @@ def create_clean_response(filename: str) -> None:
 
 
 if __name__ == "__main__":
-    print(graphrag.__file__)
     # input field
     topic = 'multi_hop'
     question_file = './questions/multi_hop_questions.txt'
@@ -92,7 +60,6 @@ if __name__ == "__main__":
 
     # read questions
     questions = read_questions(question_file)
-    # questions = [i + "\n用中文回答。" for i in questions]
 
     # generate response
     cmd = [
@@ -103,10 +70,13 @@ if __name__ == "__main__":
     ]
 
     columns = ['Question', 'Graph RAG answer']
+
+    # create empty answer file
     if question_start_index == 0:
         create_empty_csv_file(result_file, columns)
 
     start_time = time.time()
+    # query each question
     for i, query in enumerate(questions[question_start_index:]):
         query_cmd = cmd + [query]
         print(f"\n\n{i}/{len(questions[question_start_index:])}\n### Q: " + query)
@@ -114,7 +84,7 @@ if __name__ == "__main__":
         answer = run_command(query_cmd)
 
         print('### A:' + answer + '\n')
-        save_answer_data(query, answer, result_file)
+        save_answer_data(data=[query, answer], column_names=columns, filename=result_file)
 
     # calculate the time
     end_time = time.time()
